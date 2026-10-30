@@ -302,7 +302,7 @@
     return /district_pending|地區待核|地區資料待核|服務地區待核/i.test(n);
   }
 
-  /** 由 districts（主）／舊 regions（暫代）計顯示文案與標籤 */
+  /** 卡片地區文案：只用 districts 嘅 18 區中文名（＋全港／跨區）；唔再用舊五區 regions */
   function buildDistrictDisplay(districtIds, regionIds, districtPending) {
     var specific = (districtIds || []).filter(function (id) {
       return id && id !== "territory_wide";
@@ -319,33 +319,22 @@
         };
       }
       var names = specific.map(function (id) {
-        return DISTRICT_LABEL[id] || labels.regions[id] || String(id);
+        return DISTRICT_LABEL[id] || String(id);
       }).filter(Boolean);
       /* 若混有 territory_wide，區名列表唔重複寫全港；仍屬有區限 */
+      var text = names.join("、") || "—";
+      if (hasTW && names.length) {
+        text = text + "、全港／跨區";
+      }
       return {
         kind: "limited",
-        text: names.join("、") || "—",
-        limitBadge: true,
+        text: text,
+        limitBadge: !!specific.length,
         pendingBadge: !!districtPending
       };
     }
 
-    /* 無 districts：舊五區暫代，唔當全港 */
-    if (regionIds && regionIds.length) {
-      var labs = [];
-      regionIds.forEach(function (id) {
-        if (id === "territory_wide") return; /* 無 districts 時唔把舊 TW 當已核全港 */
-        var lab = DISTRICT_LABEL[id] || labels.regions[id] || String(id);
-        if (lab && labs.indexOf(lab) === -1) labs.push(lab);
-      });
-      return {
-        kind: "legacy",
-        text: labs.length ? labs.join("、") : "地區資料待核",
-        limitBadge: false,
-        pendingBadge: true
-      };
-    }
-
+    /* 無 districts：唔顯示舊五區「港島及離島」等誤導文案 */
     return {
       kind: "unknown",
       text: "地區待核",
@@ -750,6 +739,12 @@
     return false;
   }
 
+  /**
+   * 服務地區篩選（唔等同居住區推薦）：
+   * - 選具體區：該區項目 ＋ 全港／跨區（territory_wide）；唔顯示其他區
+   * - 只選「全港／跨區」：只出 territory_wide
+   * 若 UI 仍見離島等其他區，檢查 localStorage `mh-public-dir-filters-v1` 是否多選咗 islands。
+   */
   function matchDistrictFilter(org) {
     var sel = state.filters.districts || [];
     if (!sel.length) return true;
@@ -759,15 +754,16 @@
     var orgD = org.districtIds || [];
     if (!orgD.length) return false;
 
-    var hasTW = orgHasTerritoryWide(org);
-    var nonTW = sel.filter(function (id) { return id !== "territory_wide"; });
-    /* 只選全港／跨區：只顯示明確 territory_wide */
-    if (!nonTW.length) return hasTW;
-    /* 選一或多區：該區 districts 命中 或 明確全港 */
-    if (hasTW) return true;
-    return nonTW.some(function (id) {
-      return orgD.indexOf(id) !== -1;
-    });
+    var wanted = sel.filter(function (id) { return id && id !== "territory_wide"; });
+    var wantTW = sel.indexOf("territory_wide") !== -1;
+
+    if (wanted.length) {
+      if (wanted.some(function (id) { return orgD.indexOf(id) !== -1; })) return true;
+      if (orgHasTerritoryWide(org)) return true; /* 該區＋全港 */
+      return false;
+    }
+    if (wantTW) return orgHasTerritoryWide(org);
+    return false;
   }
 
   function matchFilters(org) {
