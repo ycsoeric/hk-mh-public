@@ -3,8 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="香港精神健康與情緒支援求助熱線一覽——家庭喜匯公開資源頁。">
-  <title>求助熱線｜家庭喜匯</title>
+  <meta name="description" content="香港精神健康與情緒支援求助熱線一覽——公開求助資源頁。">
+  <title>求助熱線｜香港精神健康求助資源</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon-mark.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,20 +17,28 @@
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="index.html">
-        <span class="brand-name">家庭喜匯</span>
-        <span class="brand-sub">SJS Family Joy Connect</span>
+        <span class="brand-name">香港精神健康求助資源</span>
       </a>
-      <nav class="nav" aria-label="主要導覽">
-        <a href="index.html">首頁</a>
-        <a href="hotlines.html" aria-current="page">求助熱線</a>
-        <a href="about.html">關於我們</a>
-        <a href="disclaimer.html">免責聲明</a>
-      </nav>
+      <details class="nav-drawer">
+        <summary class="nav-toggle">
+          <span class="nav-toggle-label-closed">開啟選單</span>
+          <span class="nav-toggle-label-open">關閉選單</span>
+        </summary>
+        <nav class="nav" aria-label="主要導覽">
+          <a href="index.html">首頁</a>
+          <a href="hotlines.html" aria-current="page">求助熱線</a>
+          <a href="about.html">關於我們</a>
+          <a href="disclaimer.html">免責聲明</a>
+        </nav>
+      </details>
     </div>
   </header>
 
   <main id="main">
     <section class="hero">
+      <p class="page-icon-wrap" aria-hidden="true">
+        <img class="page-icon" src="assets/icons/icon-hotlines.png" alt="" width="52" height="52" decoding="async">
+      </p>
       <h1>求助熱線</h1>
       <p class="lead">
         以下為公開求助熱線整理。號碼可能隨服務調整；如有疑問，請直接向相關機構查詢。
@@ -38,7 +50,7 @@
       若面對即時危險，請先致電 <strong><a href="tel:999">999</a></strong>。
     </aside>
 
-    <h2 class="section-title">緊急</h2>
+    <h2 class="section-title" id="cat-emergency"><img class="section-icon" src="assets/icons/icon-emergency.png" alt="" width="32" height="32" loading="lazy" decoding="async" aria-hidden="true"> 緊急</h2>
     <ul class="hotline-list">
       <li class="hotline urgent">
         <p class="hotline-name">緊急求助 <span class="badge">緊急</span></p>
@@ -47,66 +59,79 @@
       </li>
     </ul>
 
-    <h2 class="section-title">情緒與自殺預防</h2>
+    <h2 class="section-title" id="cat-emotion"><img class="section-icon" src="assets/icons/icon-emotion.png" alt="" width="32" height="32" loading="lazy" decoding="async" aria-hidden="true"> 情緒與自殺預防</h2>
     <ul class="hotline-list">
       <li class="hotline">
         <p class="hotline-name">情緒通</p>
         <p class="hotline-num"><a href="tel:18111">18111</a></p>
-        <p class="hotline-note">WhatsApp：<a href="https://wa.me/85218111">18111</a></p>
+        <p class="hotline-note">24 小時；亦可 WhatsApp：<a href="https://wa.me/85218111">18111</a></p>
       </li>
       <li class="hotline">
         <p class="hotline-name">生命熱線</p>
         <p class="hotline-num"><a href="tel:23820000">2382 0000</a></p>
+        <p class="hotline-note">24 小時預防自殺熱線</p>
       </li>
       <li class="hotline">
-        <p class="hotline-name">撒瑪利亞防止自殺會</p>
+        <p class="hotline-name">香港撒瑪利亞防止自殺會</p>
         <p class="hotline-num"><a href="tel:23892222">2389 2222</a></p>
+        <p class="hotline-note">24 小時情緒支援熱線（與「撒瑪利亞會」為不同機構）</p>
       </li>
       <li class="hotline">
         <p class="hotline-name">撒瑪利亞會</p>
         <p class="hotline-num"><a href="tel:28960000">2896 0000</a></p>
+        <p class="hotline-note">24 小時；多語言情緒支援</p>
       </li>
       <li class="hotline">
-        <p class="hotline-name">向晴熱線</p>
+        <p class="hotline-name">向晴熱線（明愛向晴軒）</p>
         <p class="hotline-num"><a href="tel:18288">18288</a></p>
+        <p class="hotline-note">24 小時；專業社工接聽</p>
       </li>
     </ul>
 
-    <h2 class="section-title">精神健康</h2>
+    <h2 class="section-title" id="cat-mh"><img class="section-icon" src="assets/icons/icon-mental-health.png" alt="" width="32" height="32" loading="lazy" decoding="async" aria-hidden="true"> 精神健康</h2>
     <ul class="hotline-list">
       <li class="hotline">
         <p class="hotline-name">醫管局精神健康專線</p>
         <p class="hotline-num"><a href="tel:24667350">2466 7350</a></p>
+        <p class="hotline-note">24 小時</p>
       </li>
       <li class="hotline">
         <p class="hotline-name">思覺失調服務熱線</p>
         <p class="hotline-num"><a href="tel:29283283">2928 3283</a></p>
+        <p class="hotline-note">醫管局思覺失調服務計劃查詢／轉介</p>
       </li>
     </ul>
 
-    <h2 class="section-title">照顧者支援</h2>
+    <h2 class="section-title" id="cat-carer"><img class="section-icon" src="assets/icons/icon-caregiver.png" alt="" width="32" height="32" loading="lazy" decoding="async" aria-hidden="true"> 照顧者支援</h2>
     <ul class="hotline-list">
       <li class="hotline">
         <p class="hotline-name">照顧者支援專線</p>
         <p class="hotline-num"><a href="tel:182183">182183</a></p>
-        <p class="hotline-note">摯安 Zone WhatsApp：<a href="https://wa.me/85253222183">5322 2183</a></p>
+        <p class="hotline-note">24 小時；專業社工</p>
+      </li>
+      <li class="hotline">
+        <p class="hotline-name">摯安 Zone（照顧者支援）</p>
+        <p class="hotline-num"><a href="https://wa.me/85253222183">WhatsApp 5322 2183</a></p>
+        <p class="hotline-note">聽力／語言障礙人士文字支援</p>
       </li>
     </ul>
 
-    <h2 class="section-title">家庭、社署與青少年</h2>
+    <h2 class="section-title" id="cat-family"><img class="section-icon" src="assets/icons/icon-family.png" alt="" width="32" height="32" loading="lazy" decoding="async" aria-hidden="true"> 家庭、社署與青少年</h2>
     <ul class="hotline-list">
       <li class="hotline">
         <p class="hotline-name">社會福利署熱線</p>
         <p class="hotline-num"><a href="tel:23432255">2343 2255</a></p>
+        <p class="hotline-note">話音系統 24 小時；社工：周一至五 09:00–17:00、周六 09:00–12:00；其餘時間可轉東華三院熱線／外展或留言</p>
       </li>
       <li class="hotline">
         <p class="hotline-name">芷若園</p>
         <p class="hotline-num"><a href="tel:18281">18281</a></p>
+        <p class="hotline-note">24 小時危機介入及支援熱線</p>
       </li>
       <li class="hotline">
         <p class="hotline-name">協青社</p>
         <p class="hotline-num"><a href="tel:90881023">9088 1023</a></p>
-        <p class="hotline-note">WhatsApp 服務時段：晚上 21:00 至早上 06:00</p>
+        <p class="hotline-note">電話熱線：24 小時；WhatsApp：21:00–06:00（同一號碼）</p>
       </li>
     </ul>
 
@@ -124,8 +149,9 @@
         <a href="about.html">關於我們</a>
         <a href="disclaimer.html">免責聲明</a>
       </nav>
+      <p class="footer-meta">資源覆核：<time datetime="2026-10-30">2026-10-30</time></p>
       <p class="footer-copy">
-        © 聖雅各福群會家庭喜匯 · 本站只提供公開求助資源，不載個案資料。
+        © 香港精神健康求助資源 · 本站只提供公開求助資源，不載個案資料。
       </p>
     </div>
   </footer>

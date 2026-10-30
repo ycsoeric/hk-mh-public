@@ -1,0 +1,113 @@
+{
+  "last_checked": "2026-10-30",
+  "timezone": "Asia/Hong_Kong",
+  "disclaimer": "公開求助資源整理；號碼可能調整，請向機構查證。不含個案資料。即時危險請致電 999。",
+  "items": [
+    {
+      "category": "緊急",
+      "name": "緊急求助",
+      "phone": "999",
+      "hours_note": "即時危險或不安全情況",
+      "source_url": "https://www.police.gov.hk/",
+      "last_checked": "2026-10-30"
+    },
+    {
+      "category": "情緒與自殺預防",
+      "name": "情緒通",
+      "phone": "18111",
+      "whatsapp": "18111",
+      "hours_note": "24小時；亦可 WhatsApp",
+      "source_url": "https://www.info.gov.hk/gia/general/202511/04/P2025110400342.htm",
+      "last_checked": "2026-10-30"
+    },
+    {
+      "category": "情緒與自殺預防",
+      "name": "生命熱線",
+      "phone": "23820000",
+      "hours_note": "24小時預防自殺熱線",
+      "source_url": "https://www.sps.org.hk/",
+      "last_checked": "2026-10-30"
+    },
+    {
+      "category": "情緒與自殺預防",
+      "name": "香港撒瑪利亞防止自殺會",
+      "phone": "23892222",
+      "hours_note": "24小時情緒支援熱線",
+      "source_url": "https://sbhk.org.hk/?page_id=36231",
+      "last_checked": "2026-10-30"
+    },
+    {
+      "category": "情緒與自殺預防",
+      "name": "撒瑪利亞會",
+      "phone": "28960000",
+      "hours_note": "24小時；多語言情緒支援",
+      "source_url": "https://campaign.samaritans.org.hk/contact",
+      "last_checked": "2026-10-30"
+    },
+    {
+      "category": "情緒與自殺預防",
+      "name": "向晴熱線（明愛向晴軒）",
+      "phone": "18288",
+      "hours_note": "24小時；專業社工接聽",
+      "source_url": "https://www.fcec.caritas.org.hk/18288",
+      "last_checked": "2026-10-30"
+    },
+    {
+      "category": "精神健康",
+      "name": "醫管局精神健康專線",
+      "phone": "24667350",
+      "hours_note": "24小時",
+      "source_url": "https://www.ha.org.hk/haho/ho/cc/Mental_Health_Direct_ENG.html",
+      "last_checked": "2026-10-30"
+    },
+    {
+      "category": "精神健康",
+      "name": "思覺失調服務熱線（醫管局）",
+      "phone": "29283283",
+      "hours_note": "思覺失調評估／轉介查詢",
+      "source_url": "https://www3.ha.org.hk/easy/chi/help.html",
+      "last_checked": "2026-10-30"
+    },
+    {
+      "category": "照顧者支援",
+      "name": "照顧者支援專線",
+      "phone": "182183",
+      "hours_note": "24小時；專業社工",
+      "source_url": "https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/scpd/dhcs/",
+      "last_checked": "2026-10-30"
+    },
+    {
+      "category": "照顧者支援",
+      "name": "摯安 Zone（照顧者支援）",
+      "whatsapp": "53222183",
+      "hours_note": "聽力／語言障礙人士 WhatsApp 文字支援",
+      "source_url": "https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/scpd/dhcs/",
+      "last_checked": "2026-10-30"
+    },
+    {
+      "category": "家庭、社署與青少年",
+      "name": "社會福利署熱線",
+      "phone": "23432255",
+      "hours_note": "話音系統24小時；社工：一至五09:00–17:00、六09:00–12:00；其餘可轉東華三院熱線／外展或留言",
+      "source_url": "https://www.swd.gov.hk/tc/department/",
+      "last_checked": "2026-10-30"
+    },
+    {
+      "category": "家庭、社署與青少年",
+      "name": "芷若園",
+      "phone": "18281",
+      "hours_note": "24小時危機介入及支援熱線",
+      "source_url": "https://www.swd.gov.hk/tc/pubsvc/family/cat_familyandc/crisisintervention/",
+      "last_checked": "2026-10-30"
+    },
+    {
+      "category": "家庭、社署與青少年",
+      "name": "協青社",
+      "phone": "90881023",
+      "whatsapp": "90881023",
+      "hours_note": "電話24小時；WhatsApp 僅21:00–06:00",
+      "source_url": "https://www.yo.org.hk/zh/services-outreaching-team.html",
+      "last_checked": "2026-10-30"
+    }
+  ]
+}
