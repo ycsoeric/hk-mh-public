@@ -1,0 +1,389 @@
+/* Family Joy Connect — HK MH public resources
+   Warm calm palette · accessible contrast · mobile-first */
+
+:root {
+  --bg: #faf7f2;
+  --bg-card: #ffffff;
+  --bg-soft: #f3eee6;
+  --ink: #2c2419;
+  --ink-muted: #5c5348;
+  --accent: #8b5e3c;
+  --accent-soft: #c4a484;
+  --accent-hover: #6e4a30;
+  --link: #5a6b4a;
+  --link-hover: #3f4d34;
+  --border: #e5ddd0;
+  --focus: #2c6e49;
+  --urgent-bg: #f8f0e8;
+  --urgent-border: #c9895a;
+  --radius: 12px;
+  --shadow: 0 2px 12px rgba(44, 36, 25, 0.06);
+  --font: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Heiti TC",
+    system-ui, -apple-system, sans-serif;
+  --max: 720px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--link);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--ink);
+  color: #fff;
+  padding: 0.75rem 1rem;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  left: 0.5rem;
+  top: 0.5rem;
+}
+
+.site-header {
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.header-inner {
+  max-width: calc(var(--max) + 4rem);
+  margin: 0 auto;
+  padding: 0.85rem 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.5rem;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.brand:hover {
+  color: var(--accent);
+}
+
+.brand-name {
+  font-weight: 700;
+  font-size: 1.125rem;
+  letter-spacing: 0.02em;
+}
+
+.brand-sub {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  font-weight: 400;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+}
+
+.nav a {
+  color: var(--ink-muted);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.25rem 0;
+  border-bottom: 2px solid transparent;
+}
+
+.nav a:hover,
+.nav a[aria-current="page"] {
+  color: var(--accent);
+  border-bottom-color: var(--accent-soft);
+}
+
+main {
+  max-width: calc(var(--max) + 4rem);
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+.hero {
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-size: clamp(1.6rem, 4vw, 2rem);
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0 0 0.75rem;
+  color: var(--ink);
+}
+
+.lead {
+  font-size: 1.1rem;
+  color: var(--ink-muted);
+  margin: 0 0 1.25rem;
+  max-width: 38em;
+}
+
+.note {
+  background: var(--bg-soft);
+  border-left: 4px solid var(--accent-soft);
+  padding: 0.9rem 1.1rem;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  color: var(--ink-muted);
+  font-size: 0.95rem;
+  margin: 1.25rem 0;
+}
+
+.card-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+@media (min-width: 560px) {
+  .card-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.35rem;
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+a.card:hover {
+  border-color: var(--accent-soft);
+  box-shadow: 0 4px 16px rgba(44, 36, 25, 0.1);
+  color: inherit;
+}
+
+.card h2 {
+  font-size: 1.15rem;
+  margin: 0 0 0.4rem;
+  color: var(--accent);
+}
+
+.card p {
+  margin: 0;
+  color: var(--ink-muted);
+  font-size: 0.95rem;
+}
+
+.section-title {
+  font-size: 1.35rem;
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.hotline-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.hotline {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.25rem;
+  box-shadow: var(--shadow);
+}
+
+.hotline.urgent {
+  background: var(--urgent-bg);
+  border-color: var(--urgent-border);
+}
+
+.hotline-name {
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin: 0 0 0.35rem;
+}
+
+.hotline-num {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin: 0.2rem 0;
+}
+
+.hotline-num a {
+  color: var(--accent);
+  text-decoration: none;
+  font-variant-numeric: tabular-nums;
+}
+
+.hotline-num a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+.hotline-note {
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+  margin: 0.35rem 0 0;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+
+.prose {
+  max-width: 38em;
+}
+
+.prose h1 {
+  font-size: 1.75rem;
+  margin: 0 0 1rem;
+}
+
+.prose h2 {
+  font-size: 1.2rem;
+  margin: 1.75rem 0 0.6rem;
+  color: var(--accent);
+}
+
+.prose p,
+.prose li {
+  color: var(--ink);
+}
+
+.prose ul {
+  padding-left: 1.25rem;
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  background: var(--bg-soft);
+  padding: 1.75rem 1.25rem;
+  margin-top: auto;
+}
+
+.footer-inner {
+  max-width: calc(var(--max) + 4rem);
+  margin: 0 auto;
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+}
+
+.footer-inner a {
+  color: var(--ink-muted);
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-copy {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.25rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--accent-hover);
+  color: #fff;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--accent);
+  border-color: var(--accent-soft);
+}
+
+.btn-secondary:hover {
+  background: var(--bg-soft);
+  color: var(--accent-hover);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .card {
+    transition: none;
+  }
+}
