@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T21:52:08+08:00",
+  "generated_at": "2026-10-30T23:05:00+08:00",
   "timezone": "Asia/Hong_Kong",
   "schema_version": 1,
   "platform_role": "本目錄只供瀏覽與自行聯絡公開服務；平台不作接案、跟進或個案管理。請直接聯絡所列機構／熱線，並以官方最新資料為準。",
@@ -132,7 +132,40 @@
     "status": {
       "ongoing": 114,
       "unverified": 2
-    }
+    },
+    "by_district": {
+      "territory_wide": 44,
+      "central_western": 3,
+      "southern": 8,
+      "islands": 3,
+      "eastern": 8,
+      "wan_chai": 2,
+      "wong_tai_sin": 3,
+      "kwun_tong": 7,
+      "sai_kung": 4,
+      "kowloon_city": 2,
+      "yau_tsim_mong": 2,
+      "sham_shui_po": 4,
+      "tsuen_wan": 1,
+      "kwai_tsing": 6,
+      "sha_tin": 7,
+      "tai_po": 2,
+      "north": 3,
+      "yuen_long": 4,
+      "tuen_mun": 7
+    },
+    "eligibility_tags": {
+      "elderly": 3,
+      "pwd": 85,
+      "carer": 40,
+      "youth": 5,
+      "student": 4,
+      "child": 3,
+      "dhc_member": 1
+    },
+    "districts_territory_wide": 44,
+    "districts_specific": 72,
+    "districts_pending_note": 2
   },
   "items": [
     {
@@ -182,7 +215,11 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "hotline-18111",
@@ -230,7 +267,11 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "hotline-sps",
@@ -256,7 +297,7 @@
       "languages_note": "",
       "fee_note": "熱線公開為免費",
       "source_url": "https://www.sps.org.hk/",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "",
       "audience_self": [
         "any"
@@ -281,7 +322,13 @@
       "funding": "unknown",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "elderly"
+      ]
     },
     {
       "id": "hotline-sbhk",
@@ -329,7 +376,11 @@
       "funding": "unknown",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "hotline-samaritans",
@@ -377,7 +428,11 @@
       "funding": "unknown",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "hotline-18288",
@@ -433,7 +488,11 @@
       "funding": "unknown",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "hotline-ha-mhd",
@@ -459,7 +518,7 @@
       "languages_note": "",
       "fee_note": "公開查詢熱線；治療收費見醫管局",
       "source_url": "https://www.ha.org.hk/haho/ho/cc/Mental_Health_Direct_ENG.html",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "",
       "audience_self": [
         "any"
@@ -485,7 +544,14 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "hotline-ha-easy",
@@ -511,7 +577,7 @@
       "languages_note": "",
       "fee_note": "熱線查詢；門診收費見醫管局",
       "source_url": "https://www3.ha.org.hk/easy/chi/help.html",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "",
       "audience_self": [
         "any"
@@ -535,7 +601,14 @@
       "funding": "ha",
       "special_programme": true,
       "special_programme_name": "思覺失調服務（EASY）",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "youth"
+      ]
     },
     {
       "id": "hotline-carer-182183",
@@ -559,7 +632,7 @@
       "languages_note": "",
       "fee_note": "公開為免費專線",
       "source_url": "https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/scpd/dhcs/",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "",
       "audience_self": [
         "any"
@@ -586,7 +659,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "carer"
+      ]
     },
     {
       "id": "hotline-carer-whatsapp",
@@ -610,7 +689,7 @@
       "languages_note": "",
       "fee_note": "公開為免費文字支援",
       "source_url": "https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/scpd/dhcs/",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "",
       "audience_self": [
         "any"
@@ -636,7 +715,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "carer"
+      ]
     },
     {
       "id": "hotline-swd",
@@ -686,7 +771,11 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "hotline-18281",
@@ -734,7 +823,11 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "hotline-yo",
@@ -759,7 +852,7 @@
       "languages_note": "",
       "fee_note": "公開熱線",
       "source_url": "https://www.yo.org.hk/zh/services-outreaching-team.html",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "",
       "audience_self": [
         "youth"
@@ -784,7 +877,14 @@
       "funding": "unknown",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "student",
+        "youth"
+      ]
     },
     {
       "id": "iccmw-sunrise-fuhong",
@@ -815,7 +915,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -846,7 +946,15 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "香港華富邨華美樓地下 404-412 室（中西南區）"
+      "address_public": "香港華富邨華美樓地下 404-412 室（中西南區）",
+      "districts": [
+        "central_western",
+        "southern"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-lok-hong-twghs",
@@ -877,7 +985,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -908,7 +1016,15 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "港島；另有黃竹坑分址（見社署名單）"
+      "address_public": "港島；另有黃竹坑分址（見社署名單）",
+      "districts": [
+        "central_western",
+        "southern"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-wellness-islands-nlpra",
@@ -939,7 +1055,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -970,7 +1086,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "大嶼山東涌逸東(一)邨祿逸樓地下"
+      "address_public": "大嶼山東涌逸東(一)邨祿逸樓地下",
+      "districts": [
+        "islands"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-wellness-islands-sjs",
@@ -1001,7 +1124,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -1032,7 +1155,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "東涌逸東商場服務點（見社署名單）"
+      "address_public": "東涌逸東商場服務點（見社署名單）",
+      "districts": [
+        "islands"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-bokss-eastern",
@@ -1063,7 +1193,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -1094,7 +1224,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "筲箕灣利嘉中心（見社署名單）"
+      "address_public": "筲箕灣利嘉中心（見社署名單）",
+      "districts": [
+        "eastern"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-aloha-eastern",
@@ -1125,7 +1262,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -1156,7 +1293,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "柴灣環翠邨澤翠樓（見社署名單）"
+      "address_public": "柴灣環翠邨澤翠樓（見社署名單）",
+      "districts": [
+        "eastern"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-bokss-wanchai",
@@ -1187,7 +1331,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -1218,7 +1362,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "灣仔愛群道 36 號 8 樓"
+      "address_public": "灣仔愛群道 36 號 8 樓",
+      "districts": [
+        "wan_chai"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-aloha-wts",
@@ -1249,7 +1400,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -1280,7 +1431,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "慈雲山慈樂邨；另有黃大仙上邨分址"
+      "address_public": "慈雲山慈樂邨；另有黃大仙上邨分址",
+      "districts": [
+        "wong_tai_sin"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-amity-kt-central",
@@ -1311,7 +1469,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -1342,7 +1500,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "觀塘福塘道啟能綜合康復服務大樓；另有分址"
+      "address_public": "觀塘福塘道啟能綜合康復服務大樓；另有分址",
+      "districts": [
+        "kwun_tong"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-cfsc-tko-south",
@@ -1373,7 +1538,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -1404,7 +1569,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "將軍澳(南)翠嶺峰（見社署名單）"
+      "address_public": "將軍澳(南)翠嶺峰（見社署名單）",
+      "districts": [
+        "sai_kung"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-stewards-syner-bright",
@@ -1435,7 +1607,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -1466,7 +1638,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "西貢及將軍澳(北)翠林邨（見社署名單）"
+      "address_public": "西貢及將軍澳(北)翠林邨（見社署名單）",
+      "districts": [
+        "sai_kung"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-srcphk-vitality",
@@ -1497,7 +1676,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -1528,7 +1707,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "九龍城／紅磡服務點（九龍城歸九龍東）"
+      "address_public": "九龍城／紅磡服務點（九龍城歸九龍東）",
+      "districts": [
+        "kowloon_city"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-wellness-ytm",
@@ -1559,7 +1745,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -1590,7 +1776,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "旺角長旺道（見社署名單）"
+      "address_public": "旺角長旺道（見社署名單）",
+      "districts": [
+        "yau_tsim_mong"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-wellness-ssp",
@@ -1621,7 +1814,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -1652,7 +1845,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "南昌街新生會大樓"
+      "address_public": "南昌街新生會大樓",
+      "districts": [
+        "sham_shui_po"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-caritas-tsuen-wan",
@@ -1683,7 +1883,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -1714,7 +1914,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "荃灣新領域廣場（見社署名單）"
+      "address_public": "荃灣新領域廣場（見社署名單）",
+      "districts": [
+        "tsuen_wan"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-bokss-kwai-tsing",
@@ -1745,7 +1952,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -1776,7 +1983,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "青衣長亨邨（見社署名單）"
+      "address_public": "青衣長亨邨（見社署名單）",
+      "districts": [
+        "kwai_tsing"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-wellness-kwai-chung",
@@ -1807,7 +2021,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -1838,7 +2052,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "葵涌大窩口邨（見社署名單）"
+      "address_public": "葵涌大窩口邨（見社署名單）",
+      "districts": [
+        "kwai_tsing"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-stewards-take-your-way",
@@ -1869,7 +2090,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -1900,7 +2121,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "沙田沙角邨；另有馬鞍山分址"
+      "address_public": "沙田沙角邨；另有馬鞍山分址",
+      "districts": [
+        "sha_tin"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-wellness-shatin",
@@ -1931,7 +2159,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -1962,7 +2190,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "沙田美林邨（見社署名單）"
+      "address_public": "沙田美林邨（見社署名單）",
+      "districts": [
+        "sha_tin"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-amity-taipo",
@@ -1993,7 +2228,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -2024,7 +2259,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "大埔廣福邨"
+      "address_public": "大埔廣福邨",
+      "districts": [
+        "tai_po"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-caritas-north",
@@ -2055,7 +2297,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -2086,7 +2328,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "上水北區社區健康中心大樓"
+      "address_public": "上水北區社區健康中心大樓",
+      "districts": [
+        "north"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-srcphk-placidity",
@@ -2117,7 +2366,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -2148,7 +2397,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "天水圍家庭醫學綜合中心（見社署名單）"
+      "address_public": "天水圍家庭醫學綜合中心（見社署名單）",
+      "districts": [
+        "yuen_long"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-wellness-tsw",
@@ -2179,7 +2435,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -2210,7 +2466,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "天水圍天澤邨（見社署名單）"
+      "address_public": "天水圍天澤邨（見社署名單）",
+      "districts": [
+        "yuen_long"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-wellness-tuen-mun",
@@ -2241,7 +2504,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -2272,7 +2535,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "屯門湖景／安定分址（見社署名單）"
+      "address_public": "屯門湖景／安定分址（見社署名單）",
+      "districts": [
+        "tuen_mun"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "iccmw-skh-tuen-mun",
@@ -2303,7 +2573,7 @@
       "languages_note": "",
       "fee_note": "社署公開：免費",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
       "audience_self": [
         "youth",
@@ -2334,7 +2604,14 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "屯門良景邨（見社署名單）"
+      "address_public": "屯門良景邨（見社署名單）",
+      "districts": [
+        "tuen_mun"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "ha-psych-ndh-alice",
@@ -2361,7 +2638,7 @@
       "languages_note": "",
       "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
       "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
       "audience_self": [
         "child",
@@ -2394,7 +2671,13 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "新界大埔全安路11號"
+      "address_public": "新界大埔全安路11號",
+      "districts": [
+        "tai_po"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "ha-psych-caritas",
@@ -2419,7 +2702,7 @@
       "languages_note": "",
       "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
       "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
       "audience_self": [
         "adult"
@@ -2447,7 +2730,13 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "九龍深水埗永康街111號"
+      "address_public": "九龍深水埗永康街111號",
+      "districts": [
+        "sham_shui_po"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "ha-psych-kch-camhs",
@@ -2474,7 +2763,7 @@
       "languages_note": "",
       "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
       "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
       "audience_self": [
         "child",
@@ -2504,7 +2793,15 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "葵涌醫院兒童及青少年服務座"
+      "address_public": "葵涌醫院兒童及青少年服務座",
+      "districts": [
+        "kwai_tsing"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "child",
+        "youth"
+      ]
     },
     {
       "id": "ha-psych-dtrc",
@@ -2531,7 +2828,7 @@
       "languages_note": "",
       "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
       "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
       "audience_self": [
         "adult",
@@ -2562,7 +2859,13 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "香港高街一號"
+      "address_public": "香港高街一號",
+      "districts": [
+        "central_western"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "ha-psych-ekpc",
@@ -2587,7 +2890,7 @@
       "languages_note": "",
       "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
       "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
       "audience_self": [
         "adult"
@@ -2615,7 +2918,13 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "鑽石山斧山道東九龍分科診所"
+      "address_public": "鑽石山斧山道東九龍分科診所",
+      "districts": [
+        "wong_tai_sin"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "ha-psych-kh",
@@ -2642,7 +2951,7 @@
       "languages_note": "",
       "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
       "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
       "audience_self": [
         "child",
@@ -2675,7 +2984,13 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "九龍亞皆老街147A（九龍城歸九龍東）"
+      "address_public": "九龍亞皆老街147A（九龍城歸九龍東）",
+      "districts": [
+        "kowloon_city"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "ha-psych-kch-elderly",
@@ -2702,7 +3017,7 @@
       "languages_note": "",
       "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
       "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
       "audience_self": [
         "adult",
@@ -2733,7 +3048,15 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "葵涌醫院主座大樓"
+      "address_public": "葵涌醫院主座大樓",
+      "districts": [
+        "kwai_tsing"
+      ],
+      "eligibility_tags": [
+        "elderly",
+        "carer",
+        "pwd"
+      ]
     },
     {
       "id": "ha-psych-ndh",
@@ -2760,7 +3083,7 @@
       "languages_note": "",
       "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
       "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
       "audience_self": [
         "adult",
@@ -2791,7 +3114,13 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "上水保健路9號"
+      "address_public": "上水保健路9號",
+      "districts": [
+        "north"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "ha-psych-nloh",
@@ -2816,7 +3145,7 @@
       "languages_note": "",
       "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
       "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
       "audience_self": [
         "adult"
@@ -2844,7 +3173,13 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "東涌松仁路8號"
+      "address_public": "東涌松仁路8號",
+      "districts": [
+        "islands"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "ha-psych-pyneh",
@@ -2871,7 +3206,7 @@
       "languages_note": "",
       "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
       "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
       "audience_self": [
         "child",
@@ -2904,7 +3239,13 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "柴灣樂民道3號"
+      "address_public": "柴灣樂民道3號",
+      "districts": [
+        "eastern"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "ha-psych-pwh",
@@ -2931,7 +3272,7 @@
       "languages_note": "",
       "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
       "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
       "audience_self": [
         "child",
@@ -2964,7 +3305,13 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "沙田銀城街30-32號"
+      "address_public": "沙田銀城街30-32號",
+      "districts": [
+        "sha_tin"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "ha-psych-qmh",
@@ -2991,7 +3338,7 @@
       "languages_note": "",
       "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
       "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
       "audience_self": [
         "child",
@@ -3021,7 +3368,13 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "薄扶林道102號"
+      "address_public": "薄扶林道102號",
+      "districts": [
+        "southern"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "ha-psych-tkoh",
@@ -3048,7 +3401,7 @@
       "languages_note": "",
       "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
       "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
       "audience_self": [
         "adult",
@@ -3079,7 +3432,13 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "將軍澳坑口寶寧里"
+      "address_public": "將軍澳坑口寶寧里",
+      "districts": [
+        "sai_kung"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "ha-psych-tmh-camhs",
@@ -3106,7 +3465,7 @@
       "languages_note": "",
       "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
       "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
       "audience_self": [
         "child",
@@ -3136,7 +3495,15 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "屯門青松觀路23號"
+      "address_public": "屯門青松觀路23號",
+      "districts": [
+        "tuen_mun"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "child",
+        "youth"
+      ]
     },
     {
       "id": "ha-psych-tmhc",
@@ -3163,7 +3530,7 @@
       "languages_note": "",
       "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
       "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
       "audience_self": [
         "adult",
@@ -3195,7 +3562,13 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "屯門青松觀路13號"
+      "address_public": "屯門青松觀路13號",
+      "districts": [
+        "tuen_mun"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "ha-psych-uch",
@@ -3222,7 +3595,7 @@
       "languages_note": "",
       "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
       "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
       "audience_self": [
         "child",
@@ -3255,7 +3628,13 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "觀塘協和街130號"
+      "address_public": "觀塘協和街130號",
+      "districts": [
+        "kwun_tong"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "ha-psych-wkpc",
@@ -3280,7 +3659,7 @@
       "languages_note": "",
       "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
       "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
       "audience_self": [
         "adult"
@@ -3308,7 +3687,13 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "葵涌醫院主座大樓"
+      "address_public": "葵涌醫院主座大樓",
+      "districts": [
+        "kwai_tsing"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "ha-psych-yfs",
@@ -3335,7 +3720,7 @@
       "languages_note": "",
       "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
       "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
       "audience_self": [
         "adult",
@@ -3366,7 +3751,13 @@
       "funding": "ha",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "觀塘茶果嶺道79號"
+      "address_public": "觀塘茶果嶺道79號",
+      "districts": [
+        "kwun_tong"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "ngo-nlpra",
@@ -3395,7 +3786,7 @@
       "languages_note": "",
       "fee_note": "視乎個別服務；請查機構官網",
       "source_url": "https://www.nlpra.org.hk/",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "營辦多間 ICCMW、中途宿舍及輔助宿舍等（見社署名單）。",
       "audience_self": [
         "any"
@@ -3423,7 +3814,14 @@
       "funding": "unknown",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "ngo-richmond",
@@ -3451,7 +3849,7 @@
       "languages_note": "",
       "fee_note": "視乎個別服務；請查機構官網",
       "source_url": "https://www.richmond.org.hk/",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "",
       "audience_self": [
         "any"
@@ -3479,7 +3877,14 @@
       "funding": "unknown",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "北角總辦事處（見官網）"
+      "address_public": "北角總辦事處（見官網）",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "ngo-mhahk",
@@ -3507,7 +3912,7 @@
       "languages_note": "",
       "fee_note": "視乎個別服務；請查機構官網",
       "source_url": "https://www.mhahk.org.hk/",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "",
       "audience_self": [
         "any"
@@ -3535,7 +3940,14 @@
       "funding": "unknown",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "ngo-fuhong",
@@ -3562,7 +3974,7 @@
       "languages_note": "",
       "fee_note": "視乎個別服務；請查機構官網",
       "source_url": "https://www.fuhong.org/",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "",
       "audience_self": [
         "any"
@@ -3590,7 +4002,14 @@
       "funding": "unknown",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "ngo-bokss",
@@ -3617,7 +4036,7 @@
       "languages_note": "",
       "fee_note": "視乎個別服務；請查機構官網",
       "source_url": "https://www.bokss.org.hk/",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "",
       "audience_self": [
         "any"
@@ -3645,7 +4064,14 @@
       "funding": "unknown",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "ngo-cfsc",
@@ -3672,7 +4098,7 @@
       "languages_note": "",
       "fee_note": "視乎個別服務；請查機構官網",
       "source_url": "https://www.cfsc.org.hk/",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "",
       "audience_self": [
         "any"
@@ -3700,7 +4126,14 @@
       "funding": "unknown",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "ngo-sjs",
@@ -3727,7 +4160,7 @@
       "languages_note": "",
       "fee_note": "視乎個別服務；請查機構官網",
       "source_url": "https://www.sjs.org.hk/",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "",
       "audience_self": [
         "any"
@@ -3754,7 +4187,14 @@
       "funding": "unknown",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "ngo-rehabsociety",
@@ -3781,7 +4221,7 @@
       "languages_note": "",
       "fee_note": "視乎個別服務；請查機構官網",
       "source_url": "https://www.rehabsociety.org.hk/",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "復康及社區支援；精神健康相關服務見官網。",
       "audience_self": [
         "any"
@@ -3808,7 +4248,14 @@
       "funding": "unknown",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "ngo-twghs-mh",
@@ -3835,7 +4282,7 @@
       "languages_note": "",
       "fee_note": "視乎個別服務；請查機構官網",
       "source_url": "https://www.tungwah.org.hk/",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "",
       "audience_self": [
         "any"
@@ -3863,7 +4310,14 @@
       "funding": "unknown",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "pwd",
+        "carer"
+      ]
     },
     {
       "id": "dhc-portal",
@@ -3911,7 +4365,11 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "dhc-healthy-mind-pilot",
@@ -3938,7 +4396,7 @@
       "languages_note": "",
       "fee_note": "政府公布：評估及後續低密度心理治療不收費（指定試點會員）",
       "source_url": "https://www.dhc.gov.hk/tc/mental_health.html",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "試點：屯門地區康健中心、油尖旺地區康健站、東區地區康健站；高風險會轉介社區專業服務。請自行向所屬中心查詢。",
       "audience_self": [
         "adult"
@@ -3963,7 +4421,15 @@
       "funding": "gov_swd",
       "special_programme": true,
       "special_programme_name": "健康心靈先導計劃",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "tuen_mun",
+        "yau_tsim_mong",
+        "eastern"
+      ],
+      "eligibility_tags": [
+        "dhc_member"
+      ]
     },
     {
       "id": "primarycare-gov-portal",
@@ -4011,7 +4477,11 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "prog-joyage",
@@ -4037,8 +4507,8 @@
       "languages_note": "",
       "fee_note": "計劃公開服務詳情見官網",
       "source_url": "https://www.jcjoyage.hk/",
-      "checked_at": "2026-10-30",
-      "notes": "長者精神健康社區支援；部分地區康健中心有協作（見政府報道）。請自行聯絡計劃／地區夥伴。",
+      "checked_at": "2026-10-30T23:05:00+08:00",
+      "notes": "長者精神健康社區支援；部分地區康健中心有協作（見政府報道）。請自行聯絡計劃／地區夥伴。 公開來源確認自 2022 起覆蓋全港 18 區長者地區中心／ICCMW，故 districts=territory_wide（全港覆蓋，非來源不明）。",
       "audience_self": [
         "elderly"
       ],
@@ -4065,7 +4535,13 @@
       "funding": "jockey_club",
       "special_programme": true,
       "special_programme_name": "賽馬會樂齡同行計劃",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "elderly"
+      ]
     },
     {
       "id": "prog-hkjc-charities-portal",
@@ -4112,7 +4588,11 @@
       "funding": "jockey_club",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "residential-hwh-list",
@@ -4136,7 +4616,7 @@
       "languages_note": "",
       "fee_note": "社署公開：每月租金約 $1,220（以官網為準）；須經康復服務中央轉介系統",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "官方名冊入口（截至2026年5月 PDF）。申請須由社工經 CRSRehab 轉介。平台不處理申請。",
       "audience_self": [
         "youth",
@@ -4162,7 +4642,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "residential-lsch-list",
@@ -4186,7 +4672,7 @@
       "languages_note": "",
       "fee_note": "收費見社署／院舍公開說明；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_LSCH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "官方名冊（2026年5月）。平台只提供名冊導航。",
       "audience_self": [
         "adult",
@@ -4210,7 +4696,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "residential-shos-mh-list",
@@ -4234,7 +4726,7 @@
       "languages_note": "",
       "fee_note": "見社署名單／單位說明；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/SHOS_bilingual_102026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "官方雙語名單（截至2026年10月）中「精神復元人士輔助宿舍」部分。",
       "audience_self": [
         "any"
@@ -4257,7 +4749,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "hwh-wan-tsui",
@@ -4281,7 +4779,7 @@
       "languages_note": "",
       "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
       "audience_self": [
         "youth",
@@ -4307,7 +4805,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "柴灣環翠邨（見社署名單）"
+      "address_public": "柴灣環翠邨（見社署名單）",
+      "districts": [
+        "eastern"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "hwh-sidebyside-lunar",
@@ -4331,7 +4835,7 @@
       "languages_note": "",
       "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
       "audience_self": [
         "youth",
@@ -4357,7 +4861,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "筲箕灣（只收男性｜見社署名單）"
+      "address_public": "筲箕灣（只收男性｜見社署名單）",
+      "districts": [
+        "eastern"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "hwh-yuet-kwan",
@@ -4381,7 +4891,7 @@
       "languages_note": "",
       "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
       "audience_self": [
         "youth",
@@ -4407,7 +4917,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "香港仔漁光道（只收男性）"
+      "address_public": "香港仔漁光道（只收男性）",
+      "districts": [
+        "southern"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "hwh-yuet-hang",
@@ -4431,7 +4947,7 @@
       "languages_note": "",
       "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
       "audience_self": [
         "youth",
@@ -4457,7 +4973,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "香港仔漁光道（只收女性）"
+      "address_public": "香港仔漁光道（只收女性）",
+      "districts": [
+        "southern"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "hwh-lei-tung",
@@ -4481,7 +5003,7 @@
       "languages_note": "",
       "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
       "audience_self": [
         "youth",
@@ -4507,7 +5029,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "鴨脷洲利東邨（只收男性）"
+      "address_public": "鴨脷洲利東邨（只收男性）",
+      "districts": [
+        "southern"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "hwh-lok-kwan",
@@ -4531,7 +5059,7 @@
       "languages_note": "",
       "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
       "audience_self": [
         "youth",
@@ -4557,7 +5085,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "灣仔愛群道（只收女性）"
+      "address_public": "灣仔愛群道（只收女性）",
+      "districts": [
+        "wan_chai"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "hwh-dun-muk",
@@ -4581,7 +5115,7 @@
       "languages_note": "",
       "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
       "audience_self": [
         "youth",
@@ -4607,7 +5141,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "觀塘功樂道賽馬會大樓（只收男性）"
+      "address_public": "觀塘功樂道賽馬會大樓（只收男性）",
+      "districts": [
+        "kwun_tong"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "hwh-yan-yi",
@@ -4631,7 +5171,7 @@
       "languages_note": "",
       "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
       "audience_self": [
         "youth",
@@ -4657,7 +5197,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "觀塘功樂道賽馬會大樓（只收女性）"
+      "address_public": "觀塘功樂道賽馬會大樓（只收女性）",
+      "districts": [
+        "kwun_tong"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "hwh-yuk-kwan",
@@ -4681,7 +5227,7 @@
       "languages_note": "",
       "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
       "audience_self": [
         "youth",
@@ -4707,7 +5253,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "觀塘福塘道啟能大樓"
+      "address_public": "觀塘福塘道啟能大樓",
+      "districts": [
+        "kwun_tong"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "hwh-sheung-tak",
@@ -4731,7 +5283,7 @@
       "languages_note": "",
       "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
       "audience_self": [
         "youth",
@@ -4757,7 +5309,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "將軍澳尚德邨（只收男性）"
+      "address_public": "將軍澳尚德邨（只收男性）",
+      "districts": [
+        "sai_kung"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "hwh-choi-wan",
@@ -4781,7 +5339,7 @@
       "languages_note": "",
       "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
       "audience_self": [
         "youth",
@@ -4807,7 +5365,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "黃大仙彩雲邨"
+      "address_public": "黃大仙彩雲邨",
+      "districts": [
+        "wong_tai_sin"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "hwh-lee-cheng-uk",
@@ -4831,7 +5395,7 @@
       "languages_note": "",
       "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
       "audience_self": [
         "youth",
@@ -4857,7 +5421,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "深水埗李鄭屋邨（電話見社署2026年5月名單）"
+      "address_public": "深水埗李鄭屋邨（電話見社署2026年5月名單）",
+      "districts": [
+        "sham_shui_po"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "hwh-fanling-caritas",
@@ -4881,7 +5451,7 @@
       "languages_note": "",
       "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
       "audience_self": [
         "youth",
@@ -4907,7 +5477,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "北區（電話見社署名單）"
+      "address_public": "北區（電話見社署名單）",
+      "districts": [
+        "north"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "hwh-yiu-on",
@@ -4931,7 +5507,7 @@
       "languages_note": "",
       "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
       "audience_self": [
         "youth",
@@ -4957,7 +5533,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "馬鞍山耀安邨（電話見社署名單）"
+      "address_public": "馬鞍山耀安邨（電話見社署名單）",
+      "districts": [
+        "sha_tin"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "hwh-tin-yuet",
@@ -4981,7 +5563,7 @@
       "languages_note": "",
       "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
       "audience_self": [
         "youth",
@@ -5007,7 +5589,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "天水圍天悅邨（見社署名單）"
+      "address_public": "天水圍天悅邨（見社署名單）",
+      "districts": [
+        "yuen_long"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "hwh-shan-king",
@@ -5031,7 +5619,7 @@
       "languages_note": "",
       "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
       "audience_self": [
         "youth",
@@ -5057,7 +5645,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": "屯門山景邨（見社署名單）"
+      "address_public": "屯門山景邨（見社署名單）",
+      "districts": [
+        "tuen_mun"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "lsch-yeung-sing",
@@ -5072,7 +5666,7 @@
         "community_support"
       ],
       "regions": [
-        "territory_wide"
+        "hk_island_islands"
       ],
       "phone": "",
       "whatsapp": "",
@@ -5081,7 +5675,7 @@
       "languages_note": "",
       "fee_note": "見社署／院舍公開說明；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_LSCH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神復元人士長期護理院；詳情以社署2026年5月名單為準。",
       "audience_self": [
         "adult",
@@ -5105,7 +5699,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "香港黃竹坑黃竹坑徑2號黃竹坑老人服務綜合大樓（南區）",
+      "districts": [
+        "southern"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "lsch-nlpra-building",
@@ -5129,7 +5729,7 @@
       "languages_note": "",
       "fee_note": "見社署／院舍公開說明；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_LSCH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神復元人士長期護理院；詳情以社署2026年5月名單為準。",
       "audience_self": [
         "adult",
@@ -5153,7 +5753,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "sham_shui_po"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "lsch-caritas-lai-hong",
@@ -5168,7 +5774,7 @@
         "community_support"
       ],
       "regions": [
-        "territory_wide"
+        "nt_west"
       ],
       "phone": "",
       "whatsapp": "",
@@ -5177,7 +5783,7 @@
       "languages_note": "",
       "fee_note": "見社署／院舍公開說明；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_LSCH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神復元人士長期護理院；詳情以社署2026年5月名單為準。",
       "audience_self": [
         "adult",
@@ -5201,7 +5807,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "新界葵涌荔枝嶺路31號明愛賽馬會荔景社會服務中心（葵青）",
+      "districts": [
+        "kwai_tsing"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "lsch-tuen-mun",
@@ -5225,7 +5837,7 @@
       "languages_note": "",
       "fee_note": "見社署／院舍公開說明；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_LSCH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神復元人士長期護理院；詳情以社署2026年5月名單為準。",
       "audience_self": [
         "adult",
@@ -5249,7 +5861,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "tuen_mun"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "lsch-tsw-plk",
@@ -5273,7 +5891,7 @@
       "languages_note": "",
       "fee_note": "見社署／院舍公開說明；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_LSCH_TC_052026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神復元人士長期護理院；詳情以社署2026年5月名單為準。",
       "audience_self": [
         "adult",
@@ -5297,7 +5915,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "yuen_long"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "shos-on-yee",
@@ -5321,7 +5945,7 @@
       "languages_note": "",
       "fee_note": "見社署／單位公開說明；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/SHOS_bilingual_102026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神復元人士輔助宿舍（SHOS）。",
       "audience_self": [
         "adult"
@@ -5344,7 +5968,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "eastern"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "shos-on-yue",
@@ -5368,7 +5998,7 @@
       "languages_note": "",
       "fee_note": "見社署／單位公開說明；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/SHOS_bilingual_102026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神復元人士輔助宿舍（SHOS）。",
       "audience_self": [
         "adult"
@@ -5391,7 +6021,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "eastern"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "shos-lok-wah",
@@ -5415,7 +6051,7 @@
       "languages_note": "",
       "fee_note": "見社署／單位公開說明；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/SHOS_bilingual_102026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神復元人士輔助宿舍（SHOS）。",
       "audience_self": [
         "adult"
@@ -5438,7 +6074,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "kwun_tong"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "shos-tsun-kwan",
@@ -5462,7 +6104,7 @@
       "languages_note": "",
       "fee_note": "見社署／單位公開說明；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/SHOS_bilingual_102026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神復元人士輔助宿舍（SHOS）。",
       "audience_self": [
         "adult"
@@ -5485,7 +6127,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "sha_tin"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "shos-joyous",
@@ -5509,7 +6157,7 @@
       "languages_note": "",
       "fee_note": "見社署／單位公開說明；須經轉介",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/SHOS_bilingual_102026.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "精神復元人士輔助宿舍（SHOS）。",
       "audience_self": [
         "adult"
@@ -5532,7 +6180,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "sha_tin"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "school-edb-guidance",
@@ -5558,7 +6212,7 @@
       "languages_note": "",
       "fee_note": "校本服務為主",
       "source_url": "https://www.edb.gov.hk/tc/teacher/student-guidance-discipline-services/projects-services/sgs/index.html",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "已換教育局學生輔導服務現行入口（原 cro-services 404）。",
       "audience_self": [
         "child",
@@ -5586,7 +6240,15 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "student",
+        "youth",
+        "child"
+      ]
     },
     {
       "id": "uni-hku-cedars",
@@ -5601,7 +6263,7 @@
         "counselling"
       ],
       "regions": [
-        "territory_wide"
+        "hk_island_islands"
       ],
       "phone": "",
       "whatsapp": "",
@@ -5610,7 +6272,7 @@
       "languages_note": "",
       "fee_note": "大學學生服務；詳見官網",
       "source_url": "https://www.cedars.hku.hk/",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "大學輔導示例；僅供所屬學生。其他院校請查各校輔導中心。",
       "audience_self": [
         "youth",
@@ -5638,7 +6300,13 @@
       "funding": "unknown",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "香港薄扶林港大校園（南區｜僅所屬學生）",
+      "districts": [
+        "southern"
+      ],
+      "eligibility_tags": [
+        "student"
+      ]
     },
     {
       "id": "uni-cuhk-ucc",
@@ -5653,7 +6321,7 @@
         "counselling"
       ],
       "regions": [
-        "territory_wide"
+        "nt_east"
       ],
       "phone": "",
       "whatsapp": "",
@@ -5662,7 +6330,7 @@
       "languages_note": "",
       "fee_note": "大學學生服務；詳見官網",
       "source_url": "https://wacc.osa.cuhk.edu.hk/sc/",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "已換 WACC 現行網站（原 uco.cuhk.edu.hk TLS 失敗）。服務對象為中大註冊學生；公眾請用其他公開熱線／服務。",
       "audience_self": [
         "youth",
@@ -5689,7 +6357,13 @@
       "funding": "unknown",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "新界沙田中大校園（沙田區｜僅所屬學生）",
+      "districts": [
+        "sha_tin"
+      ],
+      "eligibility_tags": [
+        "student"
+      ]
     },
     {
       "id": "care-team-portal",
@@ -5714,8 +6388,8 @@
       "languages_note": "",
       "fee_note": "地區關懷網絡；非醫療診治",
       "source_url": "https://www.had.gov.hk/tc/public_services/district_services_community_care_teams/introduction.htm",
-      "checked_at": "2026-10-30",
-      "notes": "已換民政事務總署關愛隊現行簡介頁；聯絡途徑見小區關愛隊頁。只供資訊導航。",
+      "checked_at": "2026-10-30T23:05:00+08:00",
+      "notes": "已換民政事務總署關愛隊現行簡介頁；聯絡途徑見小區關愛隊頁。只供資訊導航。 地區待核：關愛隊按 18 區／小區運作，本條為全港入口；未逐隊建檔。",
       "audience_self": [
         "any"
       ],
@@ -5737,7 +6411,11 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "legco-members-portal",
@@ -5784,7 +6462,11 @@
       "funding": "none",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "patient-group-portal-gov",
@@ -5809,7 +6491,7 @@
       "languages_note": "",
       "fee_note": "未有／待核",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/339/tc/List_of_SHOs_under_12th_Batch_of_FSS_Chi_Rev.pdf",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "原 GovHK patientgroups.htm 404；改用社署第十二期自助組織名單 PDF 為清晰來源；GovHK 康復頁作入口。只供自行聯絡，平台唔接案。",
       "audience_self": [
         "any"
@@ -5832,7 +6514,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     },
     {
       "id": "carer-alliance-mh",
@@ -5857,7 +6545,7 @@
       "languages_note": "",
       "fee_note": "未有／待核",
       "source_url": "https://www.gov.hk/tc/residents/health/hosp/patientgroups.htm",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "第一期以 GovHK 病人組織一覽為準核實個別組織；此條為照顧者／同路人互助導航提示。",
       "audience_self": [
         "any"
@@ -5884,7 +6572,13 @@
       "funding": "unknown",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "carer"
+      ]
     },
     {
       "id": "pta-edb-portal",
@@ -5908,7 +6602,7 @@
       "languages_note": "",
       "fee_note": "未有／待核",
       "source_url": "https://www.edb.gov.hk/tc/student-parents/pta/index.html",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "僅列教育局家教會公開入口。個別家教會若有精神健康活動／講座，以該校／聯會公布為準。",
       "audience_self": [
         "any"
@@ -5932,7 +6626,13 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "carer"
+      ]
     },
     {
       "id": "swd-clinical-psychology",
@@ -5957,8 +6657,8 @@
       "languages_note": "",
       "fee_note": "須經社工轉介（社署公開說明）",
       "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_Clinical_Psychology_Units_and_Operating_Hours_20210727_(chi).pdf",
-      "checked_at": "2026-10-30",
-      "notes": "單位名單 PDF 年份較舊（2021）；請向社署／社工確認最新安排。",
+      "checked_at": "2026-10-30T23:05:00+08:00",
+      "notes": "單位名單 PDF 年份較舊（2021）；請向社署／社工確認最新安排。 地區待核：社署臨床心理服務課單位地址分佈多區，公開 PDF 未列明確服務範圍／只列單位地址；暫 territory_wide。",
       "audience_self": [
         "any"
       ],
@@ -5983,7 +6683,11 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "reg-mchk",
@@ -6035,7 +6739,11 @@
       "funding": "none",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "reg-cp-list",
@@ -6085,7 +6793,11 @@
       "funding": "none",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "reg-ot-board",
@@ -6136,7 +6848,11 @@
       "funding": "none",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "reg-pt-board",
@@ -6187,7 +6903,11 @@
       "funding": "none",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "reg-st-board",
@@ -6237,7 +6957,11 @@
       "funding": "none",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "reg-cmchk",
@@ -6287,7 +7011,11 @@
       "funding": "none",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "private-example-note",
@@ -6341,7 +7069,11 @@
       "funding": "none",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": []
     },
     {
       "id": "govhk-rehab-portal",
@@ -6365,7 +7097,7 @@
       "languages_note": "",
       "fee_note": "入口彙整",
       "source_url": "https://www.gov.hk/tc/residents/health/rehab/index.htm",
-      "checked_at": "2026-10-30",
+      "checked_at": "2026-10-30T23:05:00+08:00",
       "notes": "政府康復／精神復元／照顧者資訊總入口。",
       "audience_self": [
         "any"
@@ -6388,10 +7120,16 @@
       "funding": "gov_swd",
       "special_programme": false,
       "special_programme_name": "",
-      "address_public": ""
+      "address_public": "",
+      "districts": [
+        "territory_wide"
+      ],
+      "eligibility_tags": [
+        "pwd"
+      ]
     }
   ],
-  "coverage_note": "第一期靜態目錄：覆蓋公營熱線、醫管局精神科專科門診、社署 ICCMW 全數、主要 NGO 總部、地區康健／健康心靈先導、賽馬會相關入口、院舍官方名冊＋抽樣中途宿舍／長期護理院／輔助宿舍、學校／關愛隊／議員／家教會／病人組織／專業名冊等官方入口。本目錄只供瀏覽與自行聯絡公開服務；平台不作接案、跟進或個案管理。請直接聯絡所列機構／熱線，並以官方最新資料為準。 個人執業（精神科醫生、臨床心理、OT／PT／ST、中西醫）請查對應官方名冊，本目錄不掃全港私人診所。 第二關退修（2026-10-30）：已更新 8 條失效來源（patient-group／care-team／school-edb／legco／ot／pt／st／cuhk-wacc）。",
+  "coverage_note": "第一期靜態目錄：覆蓋公營熱線、醫管局精神科專科門診、社署 ICCMW 全數、主要 NGO 總部、地區康健／健康心靈先導、賽馬會相關入口、院舍官方名冊＋抽樣中途宿舍／長期護理院／輔助宿舍、學校／關愛隊／議員／家教會／病人組織／專業名冊等官方入口。本目錄只供瀏覽與自行聯絡公開服務；平台不作接案、跟進或個案管理。請直接聯絡所列機構／熱線，並以官方最新資料為準。 個人執業（精神科醫生、臨床心理、OT／PT／ST、中西醫）請查對應官方名冊，本目錄不掃全港私人診所。 第二關退修（2026-10-30）：已更新 8 條失效來源（patient-group／care-team／school-edb／legco／ot／pt／st／cuhk-wacc）。 地區欄覆核（2026-10-30）：新增 districts（香港18區＋territory_wide）供前端篩選；保留 regions（五區）相容。九龍城→kowloon_east。院舍／ICCMW／醫管局門診等按公開來源填區；熱線／名冊／NGO總部／政策入口標 territory_wide。 身份資格標籤（2026-10-30）：新增 eligibility_tags（公開來源可核之 student／carer／pwd／elderly／youth／child／dhc_member 等；taxonomy 見 eligibility_tags_labels；無來源不標 cssa／ethnic_minority／new_arrival）。 地區限制再核（2026-10-30）：抽查院舍／ICCMW／DHC／大學／JoyAge；區限單位維持 18 區；全港入口／熱線／名冊維持 territory_wide；swd-clinical-psychology、care-team-portal 標地區待核。",
   "gaps": [
     "中途宿舍／長期護理院／輔助宿舍：已附社署完整 PDF 入口，單位抽樣非整份名冊逐條全錄",
     "十八區地區康健中心／站：已列入口與健康心靈先導；未逐區建檔全部熱線",
@@ -6408,5 +7146,116 @@
     "核實臨床心理／輔導員最新官方名冊 URL 並加 1–2 個公開可查私營示例",
     "掃描 HKJC Charities 進行中精神健康項目清單",
     "按 GovHK 病人組織一覽篩選精神健康／照顧者相關組織"
-  ]
+  ],
+  "districts": [
+    {
+      "id": "central_western",
+      "label": "中西區"
+    },
+    {
+      "id": "wan_chai",
+      "label": "灣仔區"
+    },
+    {
+      "id": "eastern",
+      "label": "東區"
+    },
+    {
+      "id": "southern",
+      "label": "南區"
+    },
+    {
+      "id": "yau_tsim_mong",
+      "label": "油尖旺區"
+    },
+    {
+      "id": "sham_shui_po",
+      "label": "深水埗區"
+    },
+    {
+      "id": "kowloon_city",
+      "label": "九龍城區"
+    },
+    {
+      "id": "wong_tai_sin",
+      "label": "黃大仙區"
+    },
+    {
+      "id": "kwun_tong",
+      "label": "觀塘區"
+    },
+    {
+      "id": "tsuen_wan",
+      "label": "荃灣區"
+    },
+    {
+      "id": "tuen_mun",
+      "label": "屯門區"
+    },
+    {
+      "id": "yuen_long",
+      "label": "元朗區"
+    },
+    {
+      "id": "north",
+      "label": "北區"
+    },
+    {
+      "id": "tai_po",
+      "label": "大埔區"
+    },
+    {
+      "id": "sha_tin",
+      "label": "沙田區"
+    },
+    {
+      "id": "sai_kung",
+      "label": "西貢區"
+    },
+    {
+      "id": "kwai_tsing",
+      "label": "葵青區"
+    },
+    {
+      "id": "islands",
+      "label": "離島區"
+    },
+    {
+      "id": "territory_wide",
+      "label": "全港"
+    }
+  ],
+  "district_to_region": {
+    "central_western": "hk_island_islands",
+    "wan_chai": "hk_island_islands",
+    "eastern": "hk_island_islands",
+    "southern": "hk_island_islands",
+    "islands": "hk_island_islands",
+    "kowloon_city": "kowloon_east",
+    "wong_tai_sin": "kowloon_east",
+    "kwun_tong": "kowloon_east",
+    "yau_tsim_mong": "kowloon_west",
+    "sham_shui_po": "kowloon_west",
+    "sha_tin": "nt_east",
+    "tai_po": "nt_east",
+    "north": "nt_east",
+    "sai_kung": "nt_east",
+    "tsuen_wan": "nt_west",
+    "tuen_mun": "nt_west",
+    "yuen_long": "nt_west",
+    "kwai_tsing": "nt_west",
+    "territory_wide": "territory_wide"
+  },
+  "eligibility_tags_labels": {
+    "student": "學生",
+    "cssa": "綜援受助人",
+    "carer": "照顧者",
+    "pwd": "殘疾人士／精神病復元人士",
+    "ethnic_minority": "少數族裔",
+    "new_arrival": "新來港人士",
+    "elderly": "長者",
+    "youth": "青少年",
+    "child": "兒童",
+    "dhc_member": "地區康健中心／站會員"
+  }
 }

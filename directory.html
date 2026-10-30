@@ -104,6 +104,21 @@
           </div>
         </fieldset>
 
+        <fieldset class="id-fieldset">
+          <legend>居住地區（可選）</legend>
+          <div class="id-options id-options--districts" role="radiogroup" aria-label="居住地區" id="identity-residence">
+            <!-- filled by JS -->
+          </div>
+        </fieldset>
+
+        <fieldset class="id-fieldset">
+          <legend>身份標籤（可多選）</legend>
+          <p class="news-filter-hint" style="margin:0 0 0.55rem">粗略參考配對用；「其他／唔想講」可與其他標籤並存，表示唔想再細分。篩選唔會清走呢啲設定。</p>
+          <div class="id-options id-options--tags" id="identity-tags">
+            <!-- filled by JS -->
+          </div>
+        </fieldset>
+
         <div class="id-actions">
           <button type="button" class="btn btn-primary" id="btn-apply-identity">套用推薦</button>
           <button type="button" class="btn-ghost" id="btn-clear-identity">清除本機設定</button>
@@ -133,6 +148,10 @@
       <fieldset class="news-filter-fieldset">
         <legend>對象</legend>
         <div class="news-filter-chips" id="filter-audience"></div>
+      </fieldset>
+      <fieldset class="news-filter-fieldset">
+        <legend>服務地區</legend>
+        <div class="news-filter-chips news-filter-chips--districts" id="filter-districts"></div>
       </fieldset>
       <div class="news-filter-actions">
         <button type="button" class="btn-ghost" id="btn-clear-filters">清除篩選</button>
@@ -175,6 +194,61 @@
   var FILTERS_KEY = "mh-public-dir-filters-v1";
   var DATA_URL = "service-directory-v1.json?t=" + Date.now();
 
+  /* 香港 18 區（服務／居住）＋全港跨區（僅服務篩選） */
+  var HK_DISTRICTS = [
+    { id: "central_western", label: "中西區" },
+    { id: "wan_chai", label: "灣仔" },
+    { id: "eastern", label: "東區" },
+    { id: "southern", label: "南區" },
+    { id: "yau_tsim_mong", label: "油尖旺" },
+    { id: "sham_shui_po", label: "深水埗" },
+    { id: "kowloon_city", label: "九龍城" },
+    { id: "wong_tai_sin", label: "黃大仙" },
+    { id: "kwun_tong", label: "觀塘" },
+    { id: "tsuen_wan", label: "荃灣" },
+    { id: "tuen_mun", label: "屯門" },
+    { id: "yuen_long", label: "元朗" },
+    { id: "north", label: "北區" },
+    { id: "tai_po", label: "大埔" },
+    { id: "sha_tin", label: "沙田" },
+    { id: "sai_kung", label: "西貢" },
+    { id: "kwai_tsing", label: "葵青" },
+    { id: "islands", label: "離島" }
+  ];
+  var DISTRICT_LABEL = {};
+  HK_DISTRICTS.forEach(function (d) { DISTRICT_LABEL[d.id] = d.label; });
+  DISTRICT_LABEL.territory_wide = "全港／跨區";
+
+  /* 身份標籤（可多選）；prefer_not = 其他／唔想講，可與其他並存 */
+  var IDENTITY_TAGS = [
+    { id: "student", label: "學生" },
+    { id: "employed", label: "在職" },
+    { id: "unemployed", label: "待業" },
+    { id: "retired", label: "退休" },
+    { id: "carer", label: "照顧者" },
+    { id: "cssa", label: "綜援（CSSA）" },
+    { id: "disability", label: "殘疾人士／照顧殘疾" },
+    { id: "ethnic_minority", label: "少數族裔" },
+    { id: "new_arrival", label: "新來港" },
+    { id: "prefer_not", label: "其他／唔想講" }
+  ];
+  var IDENTITY_TAG_IDS = {};
+  IDENTITY_TAGS.forEach(function (t) { IDENTITY_TAG_IDS[t.id] = true; });
+
+  /* 身份 chip → JSON eligibility_tags（只認 tag；空陣列＝暫無對應、唔亂掃關鍵字） */
+  var IDENTITY_TO_ELIGIBILITY = {
+    student: ["student"],
+    carer: ["carer"],
+    cssa: ["cssa"],
+    disability: ["pwd"],
+    ethnic_minority: ["ethnic_minority"],
+    new_arrival: ["new_arrival"],
+    retired: ["elderly"],
+    employed: [],
+    unemployed: [],
+    prefer_not: []
+  };
+
   var labels = {
     fee_model: {},
     funding: {},
@@ -182,15 +256,23 @@
     regions: {},
     audience_self: {},
     audience_role: {},
-    gender_focus: {}
+    gender_focus: {},
+    eligibility_tags: {}
   };
 
   var orgs = [];
-  var filterOpts = { sector: [], fee: [], funding: [], audience: [] };
+  var filterOpts = { sector: [], fee: [], funding: [], audience: [], districts: [] };
 
   var state = {
-    identity: { ageBand: "", gender: "skip", roles: [], recommendOn: false },
-    filters: { sector: [], fee: [], funding: [], audience: [] }
+    identity: {
+      ageBand: "",
+      gender: "skip",
+      roles: [],
+      residenceRegion: "skip",
+      identityTags: [],
+      recommendOn: false
+    },
+    filters: { sector: [], fee: [], funding: [], audience: [], districts: [] }
   };
 
   function asArray(v) {
@@ -215,6 +297,63 @@
     }
   }
 
+  function notesSuggestDistrictPending(notes) {
+    var n = String(notes || "");
+    return /district_pending|地區待核|地區資料待核|服務地區待核/i.test(n);
+  }
+
+  /** 由 districts（主）／舊 regions（暫代）計顯示文案與標籤 */
+  function buildDistrictDisplay(districtIds, regionIds, districtPending) {
+    var specific = (districtIds || []).filter(function (id) {
+      return id && id !== "territory_wide";
+    });
+    var hasTW = (districtIds || []).indexOf("territory_wide") !== -1;
+
+    if (districtIds && districtIds.length) {
+      if (hasTW && !specific.length) {
+        return {
+          kind: "territory_wide",
+          text: "全港／跨區",
+          limitBadge: false,
+          pendingBadge: !!districtPending
+        };
+      }
+      var names = specific.map(function (id) {
+        return DISTRICT_LABEL[id] || labels.regions[id] || String(id);
+      }).filter(Boolean);
+      /* 若混有 territory_wide，區名列表唔重複寫全港；仍屬有區限 */
+      return {
+        kind: "limited",
+        text: names.join("、") || "—",
+        limitBadge: true,
+        pendingBadge: !!districtPending
+      };
+    }
+
+    /* 無 districts：舊五區暫代，唔當全港 */
+    if (regionIds && regionIds.length) {
+      var labs = [];
+      regionIds.forEach(function (id) {
+        if (id === "territory_wide") return; /* 無 districts 時唔把舊 TW 當已核全港 */
+        var lab = DISTRICT_LABEL[id] || labels.regions[id] || String(id);
+        if (lab && labs.indexOf(lab) === -1) labs.push(lab);
+      });
+      return {
+        kind: "legacy",
+        text: labs.length ? labs.join("、") : "地區資料待核",
+        limitBadge: false,
+        pendingBadge: true
+      };
+    }
+
+    return {
+      kind: "unknown",
+      text: "地區待核",
+      limitBadge: false,
+      pendingBadge: true
+    };
+  }
+
   function mapItem(raw) {
     var sourceUrl = (raw.source_url || "").trim();
     if (!sourceUrl) return null;
@@ -232,10 +371,10 @@
       return labels.funding[id] || String(id);
     });
 
-    var regionIds = asArray(raw.regions);
-    var regionLabels = regionIds.map(function (id) {
-      return labels.regions[id] || String(id);
-    });
+    var regionIds = asArray(raw.regions).map(String);
+    var districtIds = asArray(raw.districts).map(String);
+    var districtPending = raw.district_pending === true ||
+      notesSuggestDistrictPending(raw.notes);
 
     var audSelf = asArray(raw.audience_self);
     var audRole = asArray(raw.audience_role);
@@ -252,10 +391,17 @@
       if (a && audienceLabels.indexOf(a) === -1) audienceLabels.push(String(a));
     });
 
+    var categories = asArray(raw.category).map(String);
+    var lifeStageTags = asArray(raw.life_stage_tags).map(String);
+    var audiencesRaw = asArray(raw.audiences).map(String);
+    var eligibilityTags = asArray(raw.eligibility_tags).map(String);
+
     var summaryParts = [];
     if (raw.programme_name) summaryParts.push(raw.programme_name);
     if (raw.parent_org_zh) summaryParts.push(raw.parent_org_zh);
     if (raw.fee_note) summaryParts.push(raw.fee_note);
+
+    var districtDisplay = buildDistrictDisplay(districtIds, regionIds, districtPending);
 
     return {
       id: raw.id || sourceUrl,
@@ -270,8 +416,15 @@
       audience: audienceLabels,
       audienceSelfIds: audSelf.map(String),
       audienceRoleIds: audRole.map(String),
+      audiencesRaw: audiencesRaw,
       genderFocus: raw.gender_focus || "any",
-      regions: regionLabels,
+      regionIds: regionIds,
+      districtIds: districtIds,
+      districtPending: districtPending,
+      districtDisplay: districtDisplay,
+      categories: categories,
+      lifeStageTags: lifeStageTags,
+      eligibilityTags: eligibilityTags,
       contact: {
         phone: raw.phone || "",
         whatsapp: raw.whatsapp || "",
@@ -283,6 +436,8 @@
       notes: raw.notes || "",
       address_public: raw.address_public || "",
       programme_name: raw.programme_name || "",
+      special_programme: !!raw.special_programme,
+      special_programme_name: raw.special_programme_name || "",
       status: raw.status || "",
       source: {
         label: hostnameLabel(sourceUrl),
@@ -298,6 +453,7 @@
     labels.audience_self = data.audience_self_labels || {};
     labels.audience_role = data.audience_role_labels || {};
     labels.gender_focus = data.gender_focus_labels || {};
+    labels.eligibility_tags = data.eligibility_tags_labels || {};
 
     labels.sectors = {};
     (data.sectors || []).forEach(function (s) {
@@ -330,6 +486,10 @@
       return { id: k, label: audMap[k] };
     });
 
+    filterOpts.districts = HK_DISTRICTS.map(function (d) {
+      return { id: d.id, label: d.label };
+    }).concat([{ id: "territory_wide", label: "全港／跨區" }]);
+
     orgs = [];
     (data.items || []).forEach(function (raw) {
       var mapped = mapItem(raw);
@@ -347,6 +507,15 @@
         state.identity.gender = parsed.gender || "skip";
         state.identity.roles = Array.isArray(parsed.roles) ? parsed.roles : [];
         state.identity.recommendOn = !!parsed.recommendOn;
+        var res = parsed.residenceRegion || parsed.homeRegion || "skip";
+        if (res && res !== "skip" && !DISTRICT_LABEL[res]) res = "skip";
+        if (res === "territory_wide") res = "skip";
+        state.identity.residenceRegion = res || "skip";
+        var tags = parsed.identityTags || parsed.tags || [];
+        if (!Array.isArray(tags)) tags = [];
+        state.identity.identityTags = tags.filter(function (id) {
+          return !!IDENTITY_TAG_IDS[id];
+        });
       }
     } catch (e) { /* ignore corrupt */ }
   }
@@ -356,6 +525,8 @@
       ageBand: state.identity.ageBand,
       gender: state.identity.gender,
       roles: state.identity.roles,
+      residenceRegion: state.identity.residenceRegion || "skip",
+      identityTags: state.identity.identityTags || [],
       recommendOn: state.identity.recommendOn,
       savedAt: new Date().toISOString()
     }));
@@ -363,7 +534,14 @@
 
   function clearIdentityStorage() {
     localStorage.removeItem(IDENTITY_KEY);
-    state.identity = { ageBand: "", gender: "skip", roles: [], recommendOn: false };
+    state.identity = {
+      ageBand: "",
+      gender: "skip",
+      roles: [],
+      residenceRegion: "skip",
+      identityTags: [],
+      recommendOn: false
+    };
   }
 
   function loadFilters() {
@@ -375,6 +553,12 @@
         ["sector", "fee", "funding", "audience"].forEach(function (k) {
           if (Array.isArray(parsed[k])) state.filters[k] = parsed[k];
         });
+        var dist = parsed.districts || parsed.serviceRegions || parsed.regions;
+        if (Array.isArray(dist)) {
+          state.filters.districts = dist.filter(function (id) {
+            return id === "territory_wide" || !!DISTRICT_LABEL[id];
+          });
+        }
       }
     } catch (e) { /* ignore */ }
   }
@@ -417,22 +601,97 @@
     return out;
   }
 
+  /** 只認 districts[] 內嘅 territory_wide；舊 regions／空 districts 唔當全港 */
+  function orgHasTerritoryWide(org) {
+    return (org.districtIds || []).indexOf("territory_wide") !== -1;
+  }
+
+  function isDistrictPending(org) {
+    return !!org.districtPending ||
+      !org.districtIds || !org.districtIds.length ||
+      (org.districtDisplay && (org.districtDisplay.kind === "legacy" || org.districtDisplay.kind === "unknown"));
+  }
+
+  function orgMatchesResidence(org, residenceId) {
+    if (!residenceId || residenceId === "skip") return true;
+    /* 待核／無 districts：唔因居住區自動當地區相符 */
+    if (!org.districtIds || !org.districtIds.length) return false;
+    if (org.districtPending) return false;
+    if ((org.districtIds || []).indexOf(residenceId) !== -1) return true;
+    return orgHasTerritoryWide(org);
+  }
+
+  function orgSearchBlob(org) {
+    return [
+      org.name || "",
+      org.name_en || "",
+      org.programme_name || "",
+      org.special_programme_name || "",
+      org.notes || "",
+      org.summary || "",
+      (org.audience || []).join(" "),
+      (org.audiencesRaw || []).join(" "),
+      (org.lifeStageTags || []).join(" "),
+      (org.categories || []).join(" "),
+      (org.sector || []).join(" ")
+    ].join(" ").toLowerCase();
+  }
+
+  /**
+   * 身份標籤 × eligibility_tags 嚴格對照。回傳 { applies, hit }：
+   * - 無有效標籤（或只選 prefer_not）→ applies false
+   * - 所選標籤喺 JSON 暫無對應（employed／unemployed）→ 唔產生訊號
+   * - cssa／ethnic_minority／new_arrival 等只認 eligibility_tags，唔掃 notes
+   * - 任一選中身份對上 item.eligibility_tags → hit
+   */
+  function matchIdentityTags(org) {
+    var tags = (state.identity.identityTags || []).filter(function (id) {
+      return id && id !== "prefer_not";
+    });
+    if (!tags.length) return { applies: false, hit: true };
+
+    var elig = org.eligibilityTags || [];
+    var anySignal = false;
+    var hit = false;
+
+    tags.forEach(function (tag) {
+      var mapped = IDENTITY_TO_ELIGIBILITY[tag];
+      if (!mapped || !mapped.length) return; /* 暫無對應 tag → 唔 match、唔亂掃 */
+      anySignal = true;
+      if (mapped.some(function (eid) { return elig.indexOf(eid) !== -1; })) {
+        hit = true;
+      }
+    });
+
+    if (!anySignal) return { applies: false, hit: true };
+    return { applies: true, hit: hit };
+  }
+
   function isRecommended(org) {
     if (!state.identity.recommendOn) return false;
 
     var selfTargets = ageToSelfIds(state.identity.ageBand);
     var roleTargets = roleToAudienceRoles(state.identity.roles);
-    var hasSignal = selfTargets.length > 0 || roleTargets.length > 0 ||
+    var residence = state.identity.residenceRegion || "skip";
+    var hasResidence = residence && residence !== "skip";
+    var hasDemoSignal = selfTargets.length > 0 || roleTargets.length > 0 ||
       (state.identity.gender && state.identity.gender !== "skip");
+    var tagResult = matchIdentityTags(org);
+    var hasTagSignal = tagResult.applies;
 
-    if (!hasSignal) return false;
+    if (!hasDemoSignal && !hasResidence && !hasTagSignal) {
+      /* 只選「其他／唔想講」或未填 → 唔標推薦 */
+      var onlyPrefer = (state.identity.identityTags || []).length &&
+        (state.identity.identityTags || []).every(function (t) { return t === "prefer_not"; });
+      if (onlyPrefer || !(state.identity.identityTags || []).length) return false;
+      return false;
+    }
 
     var selfHit = false;
     if (selfTargets.length) {
       selfHit = (org.audienceSelfIds || []).some(function (id) {
         return selfTargets.indexOf(id) !== -1;
       });
-      /* 無年齡而只選角色時唔強求 selfHit */
       if (!state.identity.ageBand || state.identity.ageBand === "skip") {
         selfHit = true;
       }
@@ -461,18 +720,54 @@
       } else if (g === "other") {
         genderHit = focus === "lgbtq_friendly" || focus === "any";
       }
-      /* 唔因「唔想講」排除；亦唔因 gender any 排除 */
       if (focus === "any") genderHit = true;
     }
 
-    /* 粗對：至少年齡／對象有一邊合理，再兼性別（若有） */
-    if (selfTargets.length && roleTargets.length) {
-      return selfHit && roleHit && genderHit;
+    var baseRec = false;
+    if (hasDemoSignal) {
+      if (selfTargets.length && roleTargets.length) {
+        baseRec = selfHit && roleHit && genderHit;
+      } else if (selfTargets.length) {
+        baseRec = selfHit && genderHit;
+      } else if (roleTargets.length) {
+        baseRec = roleHit && genderHit;
+      } else {
+        baseRec = genderHit && (org.genderFocus === "women" || org.genderFocus === "men" ||
+          org.genderFocus === "lgbtq_friendly");
+      }
     }
-    if (selfTargets.length) return selfHit && genderHit;
-    if (roleTargets.length) return roleHit && genderHit;
-    return genderHit && (org.genderFocus === "women" || org.genderFocus === "men" ||
-      org.genderFocus === "lgbtq_friendly");
+
+    var regionRec = hasResidence ? orgMatchesResidence(org, residence) : true;
+    var tagRec = hasTagSignal ? tagResult.hit : true;
+
+    if (hasDemoSignal && hasResidence && hasTagSignal) return baseRec && regionRec && tagRec;
+    if (hasDemoSignal && hasResidence) return baseRec && regionRec;
+    if (hasDemoSignal && hasTagSignal) return baseRec && tagRec;
+    if (hasResidence && hasTagSignal) return regionRec && tagRec;
+    if (hasDemoSignal) return baseRec;
+    if (hasResidence) return regionRec;
+    if (hasTagSignal) return tagRec;
+    return false;
+  }
+
+  function matchDistrictFilter(org) {
+    var sel = state.filters.districts || [];
+    if (!sel.length) return true;
+
+    /* 有選區／全港時：隱藏待核；空 districts／僅舊五區唔當全港 */
+    if (org.districtPending) return false;
+    var orgD = org.districtIds || [];
+    if (!orgD.length) return false;
+
+    var hasTW = orgHasTerritoryWide(org);
+    var nonTW = sel.filter(function (id) { return id !== "territory_wide"; });
+    /* 只選全港／跨區：只顯示明確 territory_wide */
+    if (!nonTW.length) return hasTW;
+    /* 選一或多區：該區 districts 命中 或 明確全港 */
+    if (hasTW) return true;
+    return nonTW.some(function (id) {
+      return orgD.indexOf(id) !== -1;
+    });
   }
 
   function matchFilters(org) {
@@ -503,6 +798,7 @@
       });
       if (!okA) return false;
     }
+    if (!matchDistrictFilter(org)) return false;
     return true;
   }
 
@@ -527,13 +823,51 @@
             state.filters[key] = state.filters[key].filter(function (x) { return x !== id; });
           }
           saveFilters();
-          /* 刻意唔動 identity / localStorage identity key */
           renderList();
         });
         label.appendChild(input);
         label.appendChild(document.createTextNode(" " + lab));
         host.appendChild(label);
       });
+    });
+  }
+
+  function buildResidenceRadios() {
+    var host = document.getElementById("identity-residence");
+    if (!host) return;
+    host.innerHTML = "";
+    var opts = HK_DISTRICTS.concat([{ id: "skip", label: "唔想講" }]);
+    var current = state.identity.residenceRegion || "skip";
+    opts.forEach(function (opt) {
+      var label = document.createElement("label");
+      label.className = "id-chip";
+      var input = document.createElement("input");
+      input.type = "radio";
+      input.name = "residenceRegion";
+      input.value = opt.id;
+      input.checked = opt.id === current;
+      label.appendChild(input);
+      label.appendChild(document.createTextNode(" " + opt.label));
+      host.appendChild(label);
+    });
+  }
+
+  function buildIdentityTagChips() {
+    var host = document.getElementById("identity-tags");
+    if (!host) return;
+    host.innerHTML = "";
+    var current = state.identity.identityTags || [];
+    IDENTITY_TAGS.forEach(function (opt) {
+      var label = document.createElement("label");
+      label.className = "id-chip";
+      var input = document.createElement("input");
+      input.type = "checkbox";
+      input.name = "identityTag";
+      input.value = opt.id;
+      input.checked = current.indexOf(opt.id) !== -1;
+      label.appendChild(input);
+      label.appendChild(document.createTextNode(" " + opt.label));
+      host.appendChild(label);
     });
   }
 
@@ -547,6 +881,24 @@
     document.querySelectorAll('input[name="role"]').forEach(function (el) {
       el.checked = state.identity.roles.indexOf(el.value) !== -1;
     });
+    var res = state.identity.residenceRegion || "skip";
+    var resInputs = document.querySelectorAll('input[name="residenceRegion"]');
+    if (resInputs.length) {
+      resInputs.forEach(function (el) {
+        el.checked = el.value === res;
+      });
+    } else {
+      buildResidenceRadios();
+    }
+    var tagInputs = document.querySelectorAll('input[name="identityTag"]');
+    if (tagInputs.length) {
+      var tags = state.identity.identityTags || [];
+      tagInputs.forEach(function (el) {
+        el.checked = tags.indexOf(el.value) !== -1;
+      });
+    } else {
+      buildIdentityTagChips();
+    }
     var st = document.getElementById("identity-status");
     if (state.identity.recommendOn) {
       st.textContent = "已套用本機推薦（設定已保存在瀏覽器）。推薦只係粗略參考，唔等於專業評估。";
@@ -560,13 +912,20 @@
   function readIdentityForm() {
     var age = document.querySelector('input[name="ageBand"]:checked');
     var gender = document.querySelector('input[name="gender"]:checked');
+    var residence = document.querySelector('input[name="residenceRegion"]:checked');
     var roles = [];
     document.querySelectorAll('input[name="role"]:checked').forEach(function (el) {
       roles.push(el.value);
     });
+    var tags = [];
+    document.querySelectorAll('input[name="identityTag"]:checked').forEach(function (el) {
+      if (IDENTITY_TAG_IDS[el.value]) tags.push(el.value);
+    });
     state.identity.ageBand = age ? age.value : "";
     state.identity.gender = gender ? gender.value : "skip";
     state.identity.roles = roles;
+    state.identity.residenceRegion = residence ? residence.value : "skip";
+    state.identity.identityTags = tags;
   }
 
   function formatPhone(p) {
@@ -574,6 +933,20 @@
     var d = String(p).replace(/\D/g, "");
     if (d.length === 8) return d.slice(0, 4) + " " + d.slice(4);
     return p;
+  }
+
+  function renderDistrictFact(org) {
+    var dd = org.districtDisplay || buildDistrictDisplay(org.districtIds, org.regionIds, org.districtPending);
+    var html = escapeHtml(dd.text || "地區待核");
+    if (dd.limitBadge) {
+      html += ' <span class="district-limit-tag">有地區限制</span>';
+    }
+    if (dd.pendingBadge) {
+      html += ' <span class="district-pending-tag">' +
+        (dd.kind === "legacy" ? "地區資料待核" : "地區待核") +
+        "</span>";
+    }
+    return html;
   }
 
   function renderList() {
@@ -647,7 +1020,7 @@
       facts.innerHTML =
         "<li><span class=\"lab\">收費</span><span class=\"val\">" + escapeHtml(org.fee) + "</span></li>" +
         "<li><span class=\"lab\">資助</span><span class=\"val\">" + escapeHtml((org.funding || []).join("、") || "—") + "</span></li>" +
-        "<li><span class=\"lab\">地區</span><span class=\"val\">" + escapeHtml((org.regions || []).join("、") || "—") + "</span></li>" +
+        "<li><span class=\"lab\">地區</span><span class=\"val\">" + renderDistrictFact(org) + "</span></li>" +
         "<li><span class=\"lab\">對象</span><span class=\"val\">" + escapeHtml((org.audience || []).join("、") || "—") + "</span></li>";
       li.appendChild(facts);
 
@@ -746,7 +1119,8 @@
   }
 
   function clearFilters() {
-    state.filters = { sector: [], fee: [], funding: [], audience: [] };
+    /* 清服務地區等篩選；唔清身份（含居住地區、身份標籤） */
+    state.filters = { sector: [], fee: [], funding: [], audience: [], districts: [] };
     saveFilters();
     buildFilterChips();
     renderList();
@@ -771,6 +1145,8 @@
 
   loadIdentity();
   loadFilters();
+  buildResidenceRadios();
+  buildIdentityTagChips();
   syncIdentityForm();
 
   fetch(DATA_URL, { credentials: "same-origin", cache: "no-cache" })
