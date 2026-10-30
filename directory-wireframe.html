@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="資源目錄與身份導航設計稿——只提供公開資訊，不載個案。">
+  <meta name="robots" content="noindex,nofollow">
+  <title>資源目錄（設計稿）｜香港精神健康求助資源</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Wireframe-only supplements — 唔改正式 styles.css */
+    .wf-banner {
+      background: #5c5348;
+      color: #faf7f2;
+      text-align: center;
+      font-size: 0.88rem;
+      font-weight: 600;
+      padding: 0.45rem 1rem;
+      letter-spacing: 0.02em;
+    }
+    .wf-banner a { color: #f3eee6; }
+    .emergency-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem 1rem;
+      margin: 0 0 1.25rem;
+      padding: 0.85rem 1.1rem;
+      background: var(--urgent-bg);
+      border: 1px solid var(--urgent-border);
+      border-radius: var(--radius);
+      font-size: 0.98rem;
+    }
+    .emergency-bar strong a { color: var(--ink); font-size: 1.15rem; }
+    .privacy-pill {
+      display: inline-block;
+      margin: 0.25rem 0 0;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      background: var(--bg-soft);
+      border: 1px solid var(--border);
+      color: var(--ink-muted);
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+    .identity-panel,
+    .dir-filters {
+      margin: 0 0 1.25rem;
+      padding: 1rem 1.15rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .identity-panel > summary {
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--accent);
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      min-height: 44px;
+    }
+    .identity-panel > summary::-webkit-details-marker { display: none; }
+    .identity-panel > summary::after {
+      content: "展開";
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--ink-muted);
+    }
+    .identity-panel[open] > summary::after { content: "收起"; }
+    .identity-body { margin-top: 1rem; }
+    .id-fieldset {
+      border: 0;
+      margin: 0 0 1rem;
+      padding: 0;
+    }
+    .id-fieldset legend {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--accent);
+      margin-bottom: 0.45rem;
+      padding: 0;
+    }
+    .id-options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+    }
+    .id-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.4rem 0.75rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--bg-soft);
+      font-size: 0.92rem;
+      cursor: pointer;
+      user-select: none;
+      min-height: 44px;
+    }
+    .id-chip:has(input:checked) {
+      border-color: var(--accent-soft);
+      background: #fff;
+      box-shadow: inset 0 0 0 1px var(--accent-soft);
+    }
+    .id-chip input { margin: 0; accent-color: var(--accent); }
+    .id-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.25rem;
+    }
+    .id-actions .btn {
+      cursor: pointer;
+      font-family: inherit;
+      min-height: 44px;
+    }
+    .btn-ghost {
+      background: transparent;
+      color: var(--ink-muted);
+      border: 2px solid var(--border);
+      border-radius: 999px;
+      padding: 0.55rem 1.1rem;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .btn-ghost:hover { color: var(--accent); border-color: var(--accent-soft); }
+    .dir-filters h2 {
+      font-size: 1.05rem;
+      margin: 0 0 0.75rem;
+      color: var(--accent);
+    }
+    .results-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 0.5rem;
+      margin: 0 0 0.85rem;
+      font-size: 0.95rem;
+      color: var(--ink-muted);
+    }
+    .results-meta strong { color: var(--ink); }
+    .org-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .org-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.15rem 1.25rem;
+      box-shadow: var(--shadow);
+    }
+    .org-card.is-recommended {
+      border-color: var(--accent-soft);
+      box-shadow: 0 2px 14px rgba(139, 94, 60, 0.1);
+      background: linear-gradient(180deg, #fffefb 0%, var(--bg-card) 48%);
+    }
+    .org-card-top {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 0.5rem 0.75rem;
+      margin-bottom: 0.55rem;
+    }
+    .org-name {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: 700;
+      line-height: 1.35;
+      color: var(--ink);
+      flex: 1 1 12rem;
+    }
+    .match-tag {
+      display: inline-block;
+      padding: 0.2rem 0.65rem;
+      border-radius: 999px;
+      background: var(--bg-soft);
+      border: 1px solid var(--accent-soft);
+      color: var(--accent);
+      font-size: 0.8rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .org-sectors {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin: 0 0 0.65rem;
+    }
+    .sector-chip {
+      display: inline-block;
+      padding: 0.15rem 0.55rem;
+      border-radius: 6px;
+      background: var(--bg-soft);
+      color: var(--ink-muted);
+      font-size: 0.82rem;
+      font-weight: 600;
+    }
+    .org-facts {
+      margin: 0 0 0.65rem;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 0.35rem;
+      font-size: 0.98rem;
+    }
+    .org-facts li {
+      display: grid;
+      grid-template-columns: 4.5rem 1fr;
+      gap: 0.35rem;
+      align-items: baseline;
+    }
+    .org-facts .lab {
+      color: var(--ink-muted);
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+    .org-facts .val { color: var(--ink); }
+    .org-summary {
+      margin: 0 0 0.75rem;
+      color: var(--ink-muted);
+      font-size: 0.98rem;
+      line-height: 1.55;
+    }
+    .org-contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 0.85rem;
+      margin: 0 0 0.5rem;
+      align-items: center;
+    }
+    .org-source {
+      margin: 0.65rem 0 0;
+      font-size: 0.92rem;
+      color: var(--ink-muted);
+      line-height: 1.45;
+    }
+    .org-source a {
+      font-weight: 600;
+      color: var(--link);
+    }
+    .org-source .verified {
+      display: inline-block;
+      margin-left: 0.35rem;
+      white-space: nowrap;
+    }
+    .org-contact a {
+      font-weight: 700;
+      font-size: 1.05rem;
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+    }
+    .org-details {
+      margin: 0.35rem 0 0;
+      border-top: 1px solid var(--border);
+      padding-top: 0.35rem;
+    }
+    .org-details > summary {
+      cursor: pointer;
+      font-weight: 600;
+      color: var(--link);
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+      list-style: none;
+    }
+    .org-details > summary::-webkit-details-marker { display: none; }
+    .org-details-body {
+      margin: 0.25rem 0 0.35rem;
+      color: var(--ink-muted);
+      font-size: 0.95rem;
+    }
+    .org-details-body p { margin: 0 0 0.5rem; }
+    .empty-state {
+      text-align: center;
+      padding: 2rem 1.25rem;
+      background: var(--bg-soft);
+      border-radius: var(--radius);
+      border: 1px dashed var(--border);
+      color: var(--ink-muted);
+    }
+    .empty-state p { margin: 0 0 0.75rem; }
+    .wf-footnote {
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      color: var(--ink-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wf-banner" role="status">
+    設計稿／wireframe · 非正式上線 · 假資料演示 ·
+    <a href="index.html">返回正式首頁</a>
+  </div>
+
+  <a class="skip-link" href="#main">跳至主要內容</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-name">香港精神健康求助資源</span>
+      </a>
+      <nav class="nav nav--desktop" aria-label="主要導覽">
+        <a href="index.html">首頁</a>
+        <a href="hotlines.html">求助熱線</a>
+        <a href="directory-wireframe.html" aria-current="page">資源目錄</a>
+        <a href="news-overview.html">新聞整理</a>
+        <a href="about.html">關於本站</a>
+      </nav>
+      <details class="nav-drawer">
+        <summary class="nav-toggle">
+          <span class="nav-toggle-label-closed">開啟選單</span>
+          <span class="nav-toggle-label-open">關閉選單</span>
+        </summary>
+        <nav class="nav nav--drawer" aria-label="主要導覽">
+          <a href="index.html">首頁</a>
+          <a href="hotlines.html">求助熱線</a>
+          <a href="directory-wireframe.html" aria-current="page">資源目錄</a>
+          <a href="news-overview.html">新聞整理</a>
+          <a href="about.html">關於本站</a>
+        </nav>
+      </details>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="emergency-bar" role="note">
+      <span>緊急：請即致電 <strong><a href="tel:999">999</a></strong></span>
+      <span>· <a href="hotlines.html">其他求助熱線</a></span>
+    </div>
+
+    <section class="hero">
+      <h1>資源目錄</h1>
+      <p class="lead">
+        瀏覽香港精神健康相關公開服務資訊。可先揀身份偏好，睇「為你推薦」；
+        亦可只用篩選瀏覽。本頁<strong>只提供資訊，不接個案、不代預約</strong>。
+      </p>
+      <p class="privacy-pill">本機配對 · 唔上傳 · 唔存案</p>
+    </section>
+
+    <aside class="note" role="note">
+      身份設定只存在你嘅瀏覽器（localStorage）。換篩選唔會清走你嘅身份；
+      可用「清除本機設定」隨時刪除。配對只係粗略參考，唔等於專業評估。
+    </aside>
+
+    <!-- B. 身份導航 -->
+    <details class="identity-panel" id="identity-panel" open>
+      <summary>身份導航（可選）</summary>
+      <div class="identity-body">
+        <p class="privacy-pill" style="margin-bottom:0.85rem">本機配對、唔上傳、唔存案</p>
+
+        <fieldset class="id-fieldset">
+          <legend>年齡段</legend>
+          <div class="id-options" role="radiogroup" aria-label="年齡段">
+            <label class="id-chip"><input type="radio" name="ageBand" value="under13"> 12 歲或以下</label>
+            <label class="id-chip"><input type="radio" name="ageBand" value="teen"> 13–17 歲</label>
+            <label class="id-chip"><input type="radio" name="ageBand" value="young"> 18–29 歲</label>
+            <label class="id-chip"><input type="radio" name="ageBand" value="adult"> 30–59 歲</label>
+            <label class="id-chip"><input type="radio" name="ageBand" value="senior"> 60 歲或以上</label>
+            <label class="id-chip"><input type="radio" name="ageBand" value="skip"> 唔想講</label>
+          </div>
+        </fieldset>
+
+        <fieldset class="id-fieldset">
+          <legend>性別</legend>
+          <div class="id-options" role="radiogroup" aria-label="性別">
+            <label class="id-chip"><input type="radio" name="gender" value="female"> 女性</label>
+            <label class="id-chip"><input type="radio" name="gender" value="male"> 男性</label>
+            <label class="id-chip"><input type="radio" name="gender" value="other"> 其他</label>
+            <label class="id-chip"><input type="radio" name="gender" value="skip" checked> 唔想講</label>
+          </div>
+        </fieldset>
+
+        <fieldset class="id-fieldset">
+          <legend>家庭角色／成員（可多選）</legend>
+          <div class="id-options">
+            <label class="id-chip"><input type="checkbox" name="role" value="self"> 為自己搵</label>
+            <label class="id-chip"><input type="checkbox" name="role" value="carer"> 照顧者</label>
+            <label class="id-chip"><input type="checkbox" name="role" value="parent"> 家長／監護人</label>
+            <label class="id-chip"><input type="checkbox" name="role" value="partner"> 伴侶／家人</label>
+            <label class="id-chip"><input type="checkbox" name="role" value="friend"> 朋友／同事</label>
+          </div>
+        </fieldset>
+
+        <div class="id-actions">
+          <button type="button" class="btn btn-primary" id="btn-apply-identity">套用推薦</button>
+          <button type="button" class="btn-ghost" id="btn-clear-identity">清除本機設定</button>
+        </div>
+        <p class="news-filter-hint" id="identity-status" aria-live="polite"></p>
+      </div>
+    </details>
+
+    <!-- C. 篩選（與身份分開） -->
+    <section class="dir-filters" aria-label="資源篩選">
+      <h2>篩選</h2>
+      <p class="news-filter-hint" style="margin-top:0;margin-bottom:0.85rem">
+        篩選只影響列表顯示；唔會改動或清除你嘅身份設定。
+      </p>
+
+      <fieldset class="news-filter-fieldset">
+        <legend>界別</legend>
+        <div class="news-filter-chips" id="filter-sector"></div>
+      </fieldset>
+      <fieldset class="news-filter-fieldset">
+        <legend>收費</legend>
+        <div class="news-filter-chips" id="filter-fee"></div>
+      </fieldset>
+      <fieldset class="news-filter-fieldset">
+        <legend>資助</legend>
+        <div class="news-filter-chips" id="filter-funding"></div>
+      </fieldset>
+      <fieldset class="news-filter-fieldset">
+        <legend>對象</legend>
+        <div class="news-filter-chips" id="filter-audience"></div>
+      </fieldset>
+      <div class="news-filter-actions">
+        <button type="button" class="btn-ghost" id="btn-clear-filters">清除篩選</button>
+      </div>
+    </section>
+
+    <!-- D + E -->
+    <div class="results-meta" aria-live="polite" id="results-meta">
+      <span>顯示 <strong>0</strong> 項</span>
+    </div>
+    <ul class="org-list" id="org-list" aria-label="資源列表"></ul>
+    <div class="empty-state" id="empty-state" hidden>
+      <p>而家篩選之下未有符合項目。</p>
+      <p>可以放寬篩選，或睇吓<a href="hotlines.html">求助熱線</a>頁。</p>
+      <button type="button" class="btn btn-secondary" id="btn-empty-clear">清除篩選</button>
+    </div>
+
+    <p class="wf-footnote">
+      設計稿用假資料（6 筆）。正式上線會接數據隊 JSON；建議路由
+      <code>directory.html</code>。身份 key：<code>mh-public-identity-v1</code>。
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <nav class="footer-nav" aria-label="頁尾導覽">
+        <a href="index.html">首頁</a>
+        <a href="hotlines.html">求助熱線</a>
+        <a href="news-overview.html">新聞整理</a>
+        <a href="about.html">關於本站</a>
+        <a href="disclaimer.html">免責聲明</a>
+      </nav>
+      <p class="footer-meta">設計稿 · 非正式上線</p>
+      <p class="footer-copy">
+        © 香港精神健康求助資源 · 本站只提供公開求助資源，不載個案資料。
+      </p>
+    </div>
+  </footer>
+
+  <script>
+(function () {
+  "use strict";
+
+  var IDENTITY_KEY = "mh-public-identity-v1";
+  var FILTERS_KEY = "mh-public-dir-filters-v1";
+
+  /** Mock orgs — 假資料；正式版由 JSON 取代 */
+  var ORGS = [
+    {
+      id: "org-demo-1",
+      name: "社區情緒支援中心（示範）",
+      sector: ["精神健康", "情緒支援"],
+      fee: "免費",
+      funding: ["社署資助"],
+      audience: ["成人", "照顧者"],
+      regions: ["全港"],
+      contact: { phone: "23456789", whatsapp: "", url: "https://example.com/demo-1" },
+      summary: "提供短期情緒傾談與精神健康資訊轉介說明（示範摘要）。",
+      details: "示範詳情：服務以面談／電話為主；不設緊急危機介入。正式資料以機構公布為準。",
+      hours: "平日 10:00–18:00（示範）",
+      source: { label: "社署公開資源頁（示範）", url: "https://www.swd.gov.hk/", verified_on: "2026-10-30" }
+    },
+    {
+      id: "org-demo-2",
+      name: "青少年心情小站（示範）",
+      sector: ["精神健康", "青少年"],
+      fee: "免費",
+      funding: ["社署資助", "慈善基金"],
+      audience: ["青少年"],
+      regions: ["九龍東", "九龍西"],
+      contact: { phone: "27654321", whatsapp: "85291234567", url: "https://example.com/demo-2" },
+      summary: "面向青少年嘅情緒支援與朋輩小組資訊（示範）。",
+      details: "示範詳情：需預約；家長可陪同。非臨床診斷服務。",
+      hours: "星期二至六 14:00–20:00（示範）",
+      source: { label: "機構服務簡介頁（示範）", url: "https://example.com/demo-2/about", verified_on: "2026-10-28" }
+    },
+    {
+      id: "org-demo-3",
+      name: "危機傾聽專線（示範）",
+      sector: ["危機支援", "情緒支援"],
+      fee: "免費",
+      funding: ["自資", "捐款"],
+      audience: ["成人", "青少年", "照顧者"],
+      regions: ["全港"],
+      contact: { phone: "23820000", whatsapp: "", url: "https://example.com/demo-3" },
+      summary: "24 小時傾聽與危機支援資訊整理（示範；請同時記低 999）。",
+      details: "示範詳情：即時危險請先打 999。本卡僅作目錄版面演示。",
+      hours: "全日（示範）",
+      source: { label: "機構熱線說明頁（示範）", url: "https://example.com/demo-3/hotline", verified_on: "2026-10-30" }
+    },
+    {
+      id: "org-demo-4",
+      name: "照顧者喘息諮詢處（示範）",
+      sector: ["照顧者支援", "精神健康"],
+      fee: "部分收費",
+      funding: ["社署資助"],
+      audience: ["照顧者", "成人"],
+      regions: ["新界東", "新界西"],
+      contact: { phone: "26543210", whatsapp: "", url: "https://example.com/demo-4" },
+      summary: "為長期照顧者提供資訊、喘息資源簡介（示範）。",
+      details: "示範詳情：部分工作坊酌收材料費；個別諮詢名額有限。",
+      hours: "平日 09:30–17:30（示範）",
+      source: { label: "機構照顧者服務頁（示範）", url: "https://example.com/demo-4/carers", verified_on: "2026-10-25" }
+    },
+    {
+      id: "org-demo-5",
+      name: "職場壓力輔導計劃（示範）",
+      sector: ["精神健康", "就業支援"],
+      fee: "收費",
+      funding: ["自資"],
+      audience: ["成人"],
+      regions: ["香港島及離島", "九龍西"],
+      contact: { phone: "", whatsapp: "85261112222", url: "https://example.com/demo-5" },
+      summary: "在職人士短期輔導與壓力管理工作坊（示範、收費）。",
+      details: "示範詳情：按次收費；可查詢機構有否資助名額。",
+      hours: "平日晚間及星期六上午（示範）",
+      source: { label: "計劃說明（示範）", url: "https://example.com/demo-5/program", verified_on: "2026-10-20" }
+    },
+    {
+      id: "org-demo-6",
+      name: "長者心情關懷隊（示範）",
+      sector: ["精神健康", "長者"],
+      fee: "免費",
+      funding: ["社署資助"],
+      audience: ["長者", "照顧者"],
+      regions: ["九龍東", "新界東"],
+      contact: { phone: "23441122", whatsapp: "", url: "https://example.com/demo-6" },
+      summary: "外展與中心為本嘅長者情緒關懷資訊（示範）。",
+      details: "示範詳情：可由家人代為查詢服務時間與地區覆蓋。",
+      hours: "平日 09:00–17:00（示範）",
+      source: { label: "中心服務一覽（示範）", url: "https://example.com/demo-6/services", verified_on: "2026-10-27" }
+    }
+  ];
+
+  var FILTER_OPTS = {
+    sector: ["精神健康", "危機支援", "情緒支援", "青少年", "照顧者支援", "就業支援", "長者"],
+    fee: ["免費", "收費", "部分收費"],
+    funding: ["社署資助", "自資", "慈善基金", "捐款"],
+    audience: ["青少年", "成人", "照顧者", "長者"]
+  };
+
+  var state = {
+    identity: { ageBand: "", gender: "skip", roles: [], recommendOn: false },
+    filters: { sector: [], fee: [], funding: [], audience: [] }
+  };
+
+  function loadIdentity() {
+    try {
+      var raw = localStorage.getItem(IDENTITY_KEY);
+      if (!raw) return;
+      var parsed = JSON.parse(raw);
+      if (parsed && typeof parsed === "object") {
+        state.identity.ageBand = parsed.ageBand || "";
+        state.identity.gender = parsed.gender || "skip";
+        state.identity.roles = Array.isArray(parsed.roles) ? parsed.roles : [];
+        state.identity.recommendOn = !!parsed.recommendOn;
+      }
+    } catch (e) { /* ignore corrupt */ }
+  }
+
+  function saveIdentity() {
+    localStorage.setItem(IDENTITY_KEY, JSON.stringify({
+      ageBand: state.identity.ageBand,
+      gender: state.identity.gender,
+      roles: state.identity.roles,
+      recommendOn: state.identity.recommendOn,
+      savedAt: new Date().toISOString()
+    }));
+  }
+
+  function clearIdentityStorage() {
+    localStorage.removeItem(IDENTITY_KEY);
+    state.identity = { ageBand: "", gender: "skip", roles: [], recommendOn: false };
+  }
+
+  function loadFilters() {
+    try {
+      var raw = localStorage.getItem(FILTERS_KEY);
+      if (!raw) return;
+      var parsed = JSON.parse(raw);
+      if (parsed && typeof parsed === "object") {
+        ["sector", "fee", "funding", "audience"].forEach(function (k) {
+          if (Array.isArray(parsed[k])) state.filters[k] = parsed[k];
+        });
+      }
+    } catch (e) { /* ignore */ }
+  }
+
+  function saveFilters() {
+    /* 篩選可選持久化；與身份 key 分開，互唔覆蓋 */
+    localStorage.setItem(FILTERS_KEY, JSON.stringify(state.filters));
+  }
+
+  function ageToAudiences(ageBand) {
+    switch (ageBand) {
+      case "under13":
+      case "teen":
+        return ["青少年"];
+      case "young":
+      case "adult":
+        return ["成人"];
+      case "senior":
+        return ["長者", "成人"];
+      default:
+        return [];
+    }
+  }
+
+  function isRecommended(org) {
+    if (!state.identity.recommendOn) return false;
+    var targets = {};
+    ageToAudiences(state.identity.ageBand).forEach(function (a) { targets[a] = true; });
+    if (state.identity.roles.indexOf("carer") !== -1 ||
+        state.identity.roles.indexOf("parent") !== -1) {
+      targets["照顧者"] = true;
+    }
+    if (state.identity.roles.indexOf("self") !== -1 && !state.identity.ageBand) {
+      /* 只選「為自己」而無年齡：唔亂標全部 */
+    }
+    var keys = Object.keys(targets);
+    if (!keys.length) {
+      /* 有開推薦但幾乎無線索：唔標「較合適」，避免誤導 */
+      return false;
+    }
+    return (org.audience || []).some(function (a) { return targets[a]; });
+  }
+
+  function matchFilters(org) {
+    function hit(selected, values) {
+      if (!selected.length) return true;
+      return selected.some(function (s) {
+        return (values || []).indexOf(s) !== -1 || values === s;
+      });
+    }
+    if (!hit(state.filters.sector, org.sector)) return false;
+    if (state.filters.fee.length && state.filters.fee.indexOf(org.fee) === -1) return false;
+    if (!hit(state.filters.funding, org.funding)) return false;
+    if (!hit(state.filters.audience, org.audience)) return false;
+    return true;
+  }
+
+  function buildFilterChips() {
+    Object.keys(FILTER_OPTS).forEach(function (key) {
+      var host = document.getElementById("filter-" + key);
+      host.innerHTML = "";
+      FILTER_OPTS[key].forEach(function (opt) {
+        var label = document.createElement("label");
+        label.className = "news-filter-chip";
+        var input = document.createElement("input");
+        input.type = "checkbox";
+        input.value = opt;
+        input.checked = state.filters[key].indexOf(opt) !== -1;
+        input.addEventListener("change", function () {
+          if (input.checked) {
+            if (state.filters[key].indexOf(opt) === -1) state.filters[key].push(opt);
+          } else {
+            state.filters[key] = state.filters[key].filter(function (x) { return x !== opt; });
+          }
+          saveFilters();
+          /* 刻意唔動 identity / localStorage identity key */
+          renderList();
+        });
+        label.appendChild(input);
+        label.appendChild(document.createTextNode(" " + opt));
+        host.appendChild(label);
+      });
+    });
+  }
+
+  function syncIdentityForm() {
+    document.querySelectorAll('input[name="ageBand"]').forEach(function (el) {
+      el.checked = el.value === (state.identity.ageBand || "");
+    });
+    document.querySelectorAll('input[name="gender"]').forEach(function (el) {
+      el.checked = el.value === (state.identity.gender || "skip");
+    });
+    document.querySelectorAll('input[name="role"]').forEach(function (el) {
+      el.checked = state.identity.roles.indexOf(el.value) !== -1;
+    });
+    var st = document.getElementById("identity-status");
+    if (state.identity.recommendOn) {
+      st.textContent = "已套用本機推薦（設定已保存在瀏覽器）。";
+    } else if (localStorage.getItem(IDENTITY_KEY)) {
+      st.textContent = "已有本機設定；撳「套用推薦」更新列表標記。";
+    } else {
+      st.textContent = "";
+    }
+  }
+
+  function readIdentityForm() {
+    var age = document.querySelector('input[name="ageBand"]:checked');
+    var gender = document.querySelector('input[name="gender"]:checked');
+    var roles = [];
+    document.querySelectorAll('input[name="role"]:checked').forEach(function (el) {
+      roles.push(el.value);
+    });
+    state.identity.ageBand = age ? age.value : "";
+    state.identity.gender = gender ? gender.value : "skip";
+    state.identity.roles = roles;
+  }
+
+  function formatPhone(p) {
+    if (!p) return "";
+    var d = String(p).replace(/\D/g, "");
+    if (d.length === 8) return d.slice(0, 4) + " " + d.slice(4);
+    return p;
+  }
+
+  function renderList() {
+    var list = document.getElementById("org-list");
+    var empty = document.getElementById("empty-state");
+    var meta = document.getElementById("results-meta");
+    var matched = ORGS.filter(function (org) {
+      return org.source && org.source.url && matchFilters(org);
+    }).map(function (org) {
+      return { org: org, rec: isRecommended(org) };
+    });
+    matched.sort(function (a, b) {
+      if (a.rec === b.rec) return 0;
+      return a.rec ? -1 : 1;
+    });
+    var recCount = matched.filter(function (x) { return x.rec; }).length;
+    meta.innerHTML = state.identity.recommendOn
+      ? "顯示 <strong>" + matched.length + "</strong> 項｜其中推薦 <strong>" + recCount + "</strong> 項"
+      : "顯示 <strong>" + matched.length + "</strong> 項";
+
+    list.innerHTML = "";
+    if (!matched.length) {
+      empty.hidden = false;
+      return;
+    }
+    empty.hidden = true;
+    matched.forEach(function (row) {
+      var org = row.org;
+      var li = document.createElement("li");
+      li.className = "org-card" + (row.rec ? " is-recommended" : "");
+      li.setAttribute("data-id", org.id);
+
+      var top = document.createElement("div");
+      top.className = "org-card-top";
+      var h = document.createElement("h2");
+      h.className = "org-name";
+      h.textContent = org.name;
+      top.appendChild(h);
+      if (row.rec) {
+        var tag = document.createElement("span");
+        tag.className = "match-tag";
+        tag.textContent = "較合適";
+        top.appendChild(tag);
+      }
+      li.appendChild(top);
+
+      var sectors = document.createElement("div");
+      sectors.className = "org-sectors";
+      (org.sector || []).forEach(function (s) {
+        var sp = document.createElement("span");
+        sp.className = "sector-chip";
+        sp.textContent = s;
+        sectors.appendChild(sp);
+      });
+      li.appendChild(sectors);
+
+      var facts = document.createElement("ul");
+      facts.className = "org-facts";
+      facts.innerHTML =
+        "<li><span class=\"lab\">收費</span><span class=\"val\">" + escapeHtml(org.fee) + "</span></li>" +
+        "<li><span class=\"lab\">資助</span><span class=\"val\">" + escapeHtml((org.funding || []).join("、")) + "</span></li>" +
+        "<li><span class=\"lab\">地區</span><span class=\"val\">" + escapeHtml((org.regions || []).join("、")) + "</span></li>" +
+        "<li><span class=\"lab\">對象</span><span class=\"val\">" + escapeHtml((org.audience || []).join("、")) + "</span></li>";
+      li.appendChild(facts);
+
+      var sum = document.createElement("p");
+      sum.className = "org-summary";
+      sum.textContent = org.summary;
+      li.appendChild(sum);
+
+      var contact = document.createElement("div");
+      contact.className = "org-contact";
+      if (org.contact && org.contact.phone) {
+        var tel = document.createElement("a");
+        tel.href = "tel:" + String(org.contact.phone).replace(/\s/g, "");
+        tel.textContent = formatPhone(org.contact.phone);
+        contact.appendChild(tel);
+      }
+      if (org.contact && org.contact.whatsapp) {
+        var wa = document.createElement("a");
+        wa.href = "https://wa.me/" + String(org.contact.whatsapp).replace(/\D/g, "");
+        wa.textContent = "WhatsApp";
+        wa.rel = "noopener noreferrer";
+        wa.target = "_blank";
+        contact.appendChild(wa);
+      }
+      if (org.contact && org.contact.url) {
+        var link = document.createElement("a");
+        link.href = org.contact.url;
+        link.textContent = "網站";
+        link.rel = "noopener noreferrer";
+        link.target = "_blank";
+        contact.appendChild(link);
+      }
+      li.appendChild(contact);
+
+      if (org.source && org.source.url) {
+        var src = document.createElement("p");
+        src.className = "org-source";
+        src.appendChild(document.createTextNode("來源："));
+        var sa = document.createElement("a");
+        sa.href = org.source.url;
+        sa.textContent = org.source.label || org.source.url;
+        sa.rel = "noopener noreferrer";
+        sa.target = "_blank";
+        src.appendChild(sa);
+        if (org.source.verified_on) {
+          var ver = document.createElement("span");
+          ver.className = "verified";
+          ver.textContent = "（查核：" + org.source.verified_on + "）";
+          src.appendChild(ver);
+        }
+        li.appendChild(src);
+      }
+
+      var det = document.createElement("details");
+      det.className = "org-details";
+      var sumEl = document.createElement("summary");
+      sumEl.textContent = "詳情";
+      det.appendChild(sumEl);
+      var body = document.createElement("div");
+      body.className = "org-details-body";
+      var p1 = document.createElement("p");
+      p1.innerHTML = "<strong>時段：</strong>" + escapeHtml(org.hours || "—");
+      var p2 = document.createElement("p");
+      p2.textContent = org.details || "";
+      body.appendChild(p1);
+      body.appendChild(p2);
+      det.appendChild(body);
+      li.appendChild(det);
+
+      list.appendChild(li);
+    });
+  }
+
+  function escapeHtml(s) {
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function clearFilters() {
+    state.filters = { sector: [], fee: [], funding: [], audience: [] };
+    saveFilters();
+    buildFilterChips();
+    renderList();
+  }
+
+  document.getElementById("btn-apply-identity").addEventListener("click", function () {
+    readIdentityForm();
+    state.identity.recommendOn = true;
+    saveIdentity();
+    syncIdentityForm();
+    renderList();
+  });
+
+  document.getElementById("btn-clear-identity").addEventListener("click", function () {
+    clearIdentityStorage();
+    syncIdentityForm();
+    renderList();
+  });
+
+  document.getElementById("btn-clear-filters").addEventListener("click", clearFilters);
+  document.getElementById("btn-empty-clear").addEventListener("click", clearFilters);
+
+  loadIdentity();
+  loadFilters();
+  buildFilterChips();
+  syncIdentityForm();
+  renderList();
+})();
+  </script>
+</body>
+</html>

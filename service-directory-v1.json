@@ -1,0 +1,6412 @@
+{
+  "generated_at": "2026-10-30T21:52:08+08:00",
+  "timezone": "Asia/Hong_Kong",
+  "schema_version": 1,
+  "platform_role": "本目錄只供瀏覽與自行聯絡公開服務；平台不作接案、跟進或個案管理。請直接聯絡所列機構／熱線，並以官方最新資料為準。",
+  "regions": [
+    {
+      "id": "hk_island_islands",
+      "label": "港島及離島"
+    },
+    {
+      "id": "kowloon_east",
+      "label": "九龍東"
+    },
+    {
+      "id": "kowloon_west",
+      "label": "九龍西"
+    },
+    {
+      "id": "nt_east",
+      "label": "新界東"
+    },
+    {
+      "id": "nt_west",
+      "label": "新界西"
+    },
+    {
+      "id": "territory_wide",
+      "label": "全港"
+    }
+  ],
+  "org_types": [
+    {
+      "id": "public",
+      "label_zh": "公營"
+    },
+    {
+      "id": "ngo",
+      "label_zh": "NGO／社福"
+    },
+    {
+      "id": "private",
+      "label_zh": "私營"
+    },
+    {
+      "id": "other",
+      "label_zh": "其他"
+    }
+  ],
+  "sectors": [
+    {
+      "id": "social_welfare",
+      "label_zh": "社福"
+    },
+    {
+      "id": "healthcare",
+      "label_zh": "醫護"
+    },
+    {
+      "id": "primary_care",
+      "label_zh": "基層醫療"
+    },
+    {
+      "id": "funded_programme",
+      "label_zh": "資助計劃"
+    },
+    {
+      "id": "residential",
+      "label_zh": "院舍"
+    },
+    {
+      "id": "other",
+      "label_zh": "其他"
+    }
+  ],
+  "audience_self_labels": {
+    "child": "兒童",
+    "youth": "青少年",
+    "adult": "成年",
+    "elderly": "長者",
+    "any": "不限"
+  },
+  "audience_role_labels": {
+    "self": "自己",
+    "parent_carer": "父母／照顧者",
+    "spouse": "配偶",
+    "family": "家人"
+  },
+  "gender_focus_labels": {
+    "any": "不限",
+    "women": "女性相關",
+    "men": "男性相關",
+    "lgbtq_friendly": "LGBTQ+ 友善"
+  },
+  "supply_type_labels": {
+    "public": "公營供應",
+    "private": "私營",
+    "ngo": "NGO",
+    "hybrid": "混合",
+    "other": "其他"
+  },
+  "fee_model_labels": {
+    "free": "免費",
+    "subsidised": "資助／收費減免",
+    "self_pay": "自負",
+    "unknown": "未有"
+  },
+  "funding_labels": {
+    "gov_swd": "政府／社署",
+    "ha": "醫管局",
+    "jockey_club": "賽馬會",
+    "other_fund": "其他基金",
+    "none": "無",
+    "unknown": "未有"
+  },
+  "item_count": 116,
+  "stats": {
+    "org_type": {
+      "public": 46,
+      "ngo": 68,
+      "other": 1,
+      "private": 1
+    },
+    "sector": {
+      "other": 15,
+      "social_welfare": 46,
+      "healthcare": 21,
+      "primary_care": 3,
+      "funded_programme": 2,
+      "residential": 29
+    },
+    "status": {
+      "ongoing": 114,
+      "unverified": 2
+    }
+  },
+  "items": [
+    {
+      "id": "hotline-999",
+      "name_zh": "緊急求助",
+      "name_en": "Emergency",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "crisis",
+        "hotline"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "999",
+      "whatsapp": "",
+      "website": "https://www.police.gov.hk/",
+      "hours_note": "即時危險或不安全情況",
+      "languages_note": "",
+      "fee_note": "免費（緊急服務）",
+      "source_url": "https://www.police.gov.hk/",
+      "checked_at": "2026-10-30",
+      "notes": "即時危險請致電 999。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "other",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hotline"
+      ],
+      "profession": [],
+      "supply_type": "public",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "hotline-18111",
+      "name_zh": "情緒通",
+      "name_en": "18111 Emotional Support",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "hotline",
+        "crisis"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "18111",
+      "whatsapp": "18111",
+      "website": "https://www.info.gov.hk/gia/general/202511/04/P2025110400342.htm",
+      "hours_note": "24小時；亦可 WhatsApp",
+      "languages_note": "",
+      "fee_note": "公開說明為免費求助熱線",
+      "source_url": "https://www.info.gov.hk/gia/general/202511/04/P2025110400342.htm",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "GovHK",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hotline"
+      ],
+      "profession": [],
+      "supply_type": "public",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "hotline-sps",
+      "name_zh": "生命熱線",
+      "name_en": "The Samaritans Befrienders / Suicide Prevention Services",
+      "org_type": "ngo",
+      "parent_org_zh": "生命熱線",
+      "audiences": [
+        "general",
+        "elderly"
+      ],
+      "service_types": [
+        "hotline",
+        "crisis"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "23820000",
+      "whatsapp": "",
+      "website": "https://www.sps.org.hk/",
+      "hours_note": "24小時預防自殺熱線",
+      "languages_note": "",
+      "fee_note": "熱線公開為免費",
+      "source_url": "https://www.sps.org.hk/",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [
+        "elderly_care"
+      ],
+      "sector": "social_welfare",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hotline"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "unknown",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "hotline-sbhk",
+      "name_zh": "香港撒瑪利亞防止自殺會",
+      "name_en": "The Samaritan Befrienders Hong Kong",
+      "org_type": "ngo",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "hotline",
+        "crisis"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "23892222",
+      "whatsapp": "",
+      "website": "https://sbhk.org.hk/",
+      "hours_note": "24小時情緒支援熱線；另有英語線等（見官網）",
+      "languages_note": "",
+      "fee_note": "熱線公開為免費",
+      "source_url": "https://sbhk.org.hk/?page_id=36231",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hotline"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "unknown",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "hotline-samaritans",
+      "name_zh": "撒瑪利亞會",
+      "name_en": "The Samaritans",
+      "org_type": "ngo",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "hotline",
+        "crisis"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "28960000",
+      "whatsapp": "",
+      "website": "https://campaign.samaritans.org.hk/contact",
+      "hours_note": "24小時；多語言情緒支援",
+      "languages_note": "多語言（見官網）",
+      "fee_note": "熱線公開為免費",
+      "source_url": "https://campaign.samaritans.org.hk/contact",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hotline"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "unknown",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "hotline-18288",
+      "name_zh": "向晴熱線（明愛向晴軒）",
+      "name_en": "Caritas Family Crisis Support",
+      "org_type": "ngo",
+      "parent_org_zh": "香港明愛",
+      "audiences": [
+        "general",
+        "carer"
+      ],
+      "service_types": [
+        "hotline",
+        "crisis",
+        "counselling"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "18288",
+      "whatsapp": "",
+      "website": "https://www.fcec.caritas.org.hk/18288",
+      "hours_note": "24小時；專業社工接聽",
+      "languages_note": "",
+      "fee_note": "熱線公開為免費",
+      "source_url": "https://www.fcec.caritas.org.hk/18288",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "spouse",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hotline",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "unknown",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "hotline-ha-mhd",
+      "name_zh": "醫管局精神健康專線",
+      "name_en": "HA Mental Health Direct",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer"
+      ],
+      "service_types": [
+        "hotline"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "24667350",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/haho/ho/cc/Mental_Health_Direct_ENG.html",
+      "hours_note": "24小時",
+      "languages_note": "",
+      "fee_note": "公開查詢熱線；治療收費見醫管局",
+      "source_url": "https://www.ha.org.hk/haho/ho/cc/Mental_Health_Direct_ENG.html",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hotline",
+        "hospital"
+      ],
+      "profession": [
+        "social_worker"
+      ],
+      "supply_type": "public",
+      "fee_model": "unknown",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "hotline-ha-easy",
+      "name_zh": "思覺失調服務熱線（醫管局）",
+      "name_en": "HA EASY Hotline",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "youth",
+        "general"
+      ],
+      "service_types": [
+        "hotline",
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "29283283",
+      "whatsapp": "",
+      "website": "https://www3.ha.org.hk/easy/chi/help.html",
+      "hours_note": "思覺失調評估／轉介查詢（見官網）",
+      "languages_note": "",
+      "fee_note": "熱線查詢；門診收費見醫管局",
+      "source_url": "https://www3.ha.org.hk/easy/chi/help.html",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "思覺失調服務（EASY）",
+      "status": "ongoing",
+      "category": [
+        "hotline",
+        "hospital"
+      ],
+      "profession": [],
+      "supply_type": "public",
+      "fee_model": "unknown",
+      "funding": "ha",
+      "special_programme": true,
+      "special_programme_name": "思覺失調服務（EASY）",
+      "address_public": ""
+    },
+    {
+      "id": "hotline-carer-182183",
+      "name_zh": "照顧者支援專線",
+      "name_en": "Designated Hotline for Carer Support",
+      "org_type": "public",
+      "parent_org_zh": "社會福利署",
+      "audiences": [
+        "carer"
+      ],
+      "service_types": [
+        "hotline"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "182183",
+      "whatsapp": "",
+      "website": "https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/scpd/dhcs/",
+      "hours_note": "24小時；專業社工",
+      "languages_note": "",
+      "fee_note": "公開為免費專線",
+      "source_url": "https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/scpd/dhcs/",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "parent_carer",
+        "family",
+        "spouse"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [
+        "carer"
+      ],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hotline"
+      ],
+      "profession": [],
+      "supply_type": "public",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "hotline-carer-whatsapp",
+      "name_zh": "摯安 Zone（照顧者支援）",
+      "name_en": "",
+      "org_type": "public",
+      "parent_org_zh": "社會福利署",
+      "audiences": [
+        "carer"
+      ],
+      "service_types": [
+        "hotline"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "53222183",
+      "website": "https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/scpd/dhcs/",
+      "hours_note": "聽力／語言障礙人士 WhatsApp 文字支援",
+      "languages_note": "",
+      "fee_note": "公開為免費文字支援",
+      "source_url": "https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/scpd/dhcs/",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [
+        "carer"
+      ],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hotline"
+      ],
+      "profession": [],
+      "supply_type": "public",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "hotline-swd",
+      "name_zh": "社會福利署熱線",
+      "name_en": "SWD Hotline",
+      "org_type": "public",
+      "parent_org_zh": "社會福利署",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "hotline",
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "23432255",
+      "whatsapp": "",
+      "website": "https://www.swd.gov.hk/tc/department/",
+      "hours_note": "話音系統24小時；社工：一至五09:00–17:00、六09:00–12:00；其餘可轉東華三院熱線／外展或留言",
+      "languages_note": "",
+      "fee_note": "公開熱線查詢",
+      "source_url": "https://www.swd.gov.hk/tc/department/",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hotline"
+      ],
+      "profession": [
+        "social_worker"
+      ],
+      "supply_type": "public",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "hotline-18281",
+      "name_zh": "芷若園",
+      "name_en": "CEASE Crisis Centre",
+      "org_type": "ngo",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "hotline",
+        "crisis"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "18281",
+      "whatsapp": "",
+      "website": "https://www.swd.gov.hk/tc/pubsvc/family/cat_familyandc/crisisintervention/",
+      "hours_note": "24小時危機介入及支援熱線",
+      "languages_note": "",
+      "fee_note": "熱線公開為免費",
+      "source_url": "https://www.swd.gov.hk/tc/pubsvc/family/cat_familyandc/crisisintervention/",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hotline"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "hotline-yo",
+      "name_zh": "協青社",
+      "name_en": "Youth Outreach",
+      "org_type": "ngo",
+      "parent_org_zh": "",
+      "audiences": [
+        "youth"
+      ],
+      "service_types": [
+        "hotline",
+        "crisis"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "90881023",
+      "whatsapp": "90881023",
+      "website": "https://www.yo.org.hk/zh/services-outreaching-team.html",
+      "hours_note": "電話24小時；WhatsApp 僅21:00–06:00",
+      "languages_note": "",
+      "fee_note": "公開熱線",
+      "source_url": "https://www.yo.org.hk/zh/services-outreaching-team.html",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "youth"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [
+        "exam_stress"
+      ],
+      "sector": "social_welfare",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hotline"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "unknown",
+      "funding": "unknown",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "iccmw-sunrise-fuhong",
+      "name_zh": "康晴天地",
+      "name_en": "Sunrise Centre",
+      "org_type": "ngo",
+      "parent_org_zh": "扶康會",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "25183880",
+      "whatsapp": "",
+      "website": "https://www.fuhong.org/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "香港華富邨華美樓地下 404-412 室（中西南區）"
+    },
+    {
+      "id": "iccmw-lok-hong-twghs",
+      "name_zh": "東華三院樂康軒",
+      "name_en": "TWGHs Lok Hong ICCMW",
+      "org_type": "ngo",
+      "parent_org_zh": "東華三院",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "34606060",
+      "whatsapp": "",
+      "website": "https://www.tungwah.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "港島；另有黃竹坑分址（見社署名單）"
+    },
+    {
+      "id": "iccmw-wellness-islands-nlpra",
+      "name_zh": "安泰軒（離島）",
+      "name_en": "The Wellness Centre (Islands)",
+      "org_type": "ngo",
+      "parent_org_zh": "新生精神康復會",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "23635718",
+      "whatsapp": "",
+      "website": "https://www.nlpra.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "大嶼山東涌逸東(一)邨祿逸樓地下"
+    },
+    {
+      "id": "iccmw-wellness-islands-sjs",
+      "name_zh": "喜匯離島",
+      "name_en": "Wellness Islands",
+      "org_type": "ngo",
+      "parent_org_zh": "聖雅各福群會",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "59318691",
+      "whatsapp": "",
+      "website": "https://www.sjs.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "東涌逸東商場服務點（見社署名單）"
+    },
+    {
+      "id": "iccmw-bokss-eastern",
+      "name_zh": "樂心匯（港島東）",
+      "name_en": "ICCMW (Eastern)",
+      "org_type": "ngo",
+      "parent_org_zh": "浸信會愛羣社會服務處",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "29670902",
+      "whatsapp": "",
+      "website": "https://www.bokss.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "筲箕灣利嘉中心（見社署名單）"
+    },
+    {
+      "id": "iccmw-aloha-eastern",
+      "name_zh": "友樂坊（港島東）",
+      "name_en": "ALOHA (Eastern)",
+      "org_type": "ngo",
+      "parent_org_zh": "利民會",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "25054287",
+      "whatsapp": "",
+      "website": "https://www.richmond.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "柴灣環翠邨澤翠樓（見社署名單）"
+    },
+    {
+      "id": "iccmw-bokss-wanchai",
+      "name_zh": "樂心匯（灣仔）",
+      "name_en": "ICCMW (Wan Chai)",
+      "org_type": "ngo",
+      "parent_org_zh": "浸信會愛羣社會服務處",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "34131641",
+      "whatsapp": "",
+      "website": "https://www.bokss.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "灣仔愛群道 36 號 8 樓"
+    },
+    {
+      "id": "iccmw-aloha-wts",
+      "name_zh": "友樂坊（黃大仙）",
+      "name_en": "ALOHA (Wong Tai Sin)",
+      "org_type": "ngo",
+      "parent_org_zh": "利民會",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "kowloon_east"
+      ],
+      "phone": "23223794",
+      "whatsapp": "",
+      "website": "https://www.richmond.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "慈雲山慈樂邨；另有黃大仙上邨分址"
+    },
+    {
+      "id": "iccmw-amity-kt-central",
+      "name_zh": "恆泰坊",
+      "name_en": "Amity Place (Kwun Tong Central)",
+      "org_type": "ngo",
+      "parent_org_zh": "香港心理衞生會",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "kowloon_east"
+      ],
+      "phone": "23463798",
+      "whatsapp": "",
+      "website": "https://www.mhahk.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "觀塘福塘道啟能綜合康復服務大樓；另有分址"
+    },
+    {
+      "id": "iccmw-cfsc-tko-south",
+      "name_zh": "和悅軒",
+      "name_en": "Wellness Zone ICCMW",
+      "org_type": "ngo",
+      "parent_org_zh": "基督教家庭服務中心",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "nt_east"
+      ],
+      "phone": "35211611",
+      "whatsapp": "",
+      "website": "https://www.cfsc.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "將軍澳(南)翠嶺峰（見社署名單）"
+    },
+    {
+      "id": "iccmw-stewards-syner-bright",
+      "name_zh": "匯晴坊",
+      "name_en": "Syner-bright Zone",
+      "org_type": "ngo",
+      "parent_org_zh": "香港神託會",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "nt_east"
+      ],
+      "phone": "26333117",
+      "whatsapp": "",
+      "website": "https://www.stewards.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "西貢及將軍澳(北)翠林邨（見社署名單）"
+    },
+    {
+      "id": "iccmw-srcphk-vitality",
+      "name_zh": "龍澄坊",
+      "name_en": "Vitality Place",
+      "org_type": "ngo",
+      "parent_org_zh": "香港善導會",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "kowloon_east"
+      ],
+      "phone": "23325332",
+      "whatsapp": "",
+      "website": "https://www.sracp.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "九龍城／紅磡服務點（九龍城歸九龍東）"
+    },
+    {
+      "id": "iccmw-wellness-ytm",
+      "name_zh": "安泰軒（油尖旺）",
+      "name_en": "The Wellness Centre (Yau Tsim Mong)",
+      "org_type": "ngo",
+      "parent_org_zh": "新生精神康復會",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "kowloon_west"
+      ],
+      "phone": "29778900",
+      "whatsapp": "",
+      "website": "https://www.nlpra.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "旺角長旺道（見社署名單）"
+    },
+    {
+      "id": "iccmw-wellness-ssp",
+      "name_zh": "安泰軒（深水埗）",
+      "name_en": "The Wellness Centre (Sham Shui Po)",
+      "org_type": "ngo",
+      "parent_org_zh": "新生精神康復會",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "kowloon_west"
+      ],
+      "phone": "23192103",
+      "whatsapp": "",
+      "website": "https://www.nlpra.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "南昌街新生會大樓"
+    },
+    {
+      "id": "iccmw-caritas-tsuen-wan",
+      "name_zh": "明愛全樂軒",
+      "name_en": "Caritas Wellness Link – Tsuen Wan",
+      "org_type": "ngo",
+      "parent_org_zh": "香港明愛",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "nt_west"
+      ],
+      "phone": "31055337",
+      "whatsapp": "",
+      "website": "https://www.caritas.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "荃灣新領域廣場（見社署名單）"
+    },
+    {
+      "id": "iccmw-bokss-kwai-tsing",
+      "name_zh": "樂心匯（葵青）",
+      "name_en": "ICCMW (Kwai Tsing)",
+      "org_type": "ngo",
+      "parent_org_zh": "浸信會愛羣社會服務處",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "nt_west"
+      ],
+      "phone": "24344569",
+      "whatsapp": "",
+      "website": "https://www.bokss.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "青衣長亨邨（見社署名單）"
+    },
+    {
+      "id": "iccmw-wellness-kwai-chung",
+      "name_zh": "安泰軒（葵涌）",
+      "name_en": "The Wellness Centre (Kwai Chung)",
+      "org_type": "ngo",
+      "parent_org_zh": "新生精神康復會",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "nt_west"
+      ],
+      "phone": "26521868",
+      "whatsapp": "",
+      "website": "https://www.nlpra.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "葵涌大窩口邨（見社署名單）"
+    },
+    {
+      "id": "iccmw-stewards-take-your-way",
+      "name_zh": "創薈坊（沙田）",
+      "name_en": "Take Your Way Clubhouse (Shatin)",
+      "org_type": "ngo",
+      "parent_org_zh": "香港神託會",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "nt_east"
+      ],
+      "phone": "26451263",
+      "whatsapp": "",
+      "website": "https://www.stewards.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "沙田沙角邨；另有馬鞍山分址"
+    },
+    {
+      "id": "iccmw-wellness-shatin",
+      "name_zh": "安泰軒（沙田）",
+      "name_en": "The Wellness Centre (Shatin)",
+      "org_type": "ngo",
+      "parent_org_zh": "新生精神康復會",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "nt_east"
+      ],
+      "phone": "35525460",
+      "whatsapp": "",
+      "website": "https://www.nlpra.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "沙田美林邨（見社署名單）"
+    },
+    {
+      "id": "iccmw-amity-taipo",
+      "name_zh": "賽馬會恆悅坊",
+      "name_en": "Jockey Club Amity Place (Tai Po)",
+      "org_type": "ngo",
+      "parent_org_zh": "香港心理衞生會",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "nt_east"
+      ],
+      "phone": "26518132",
+      "whatsapp": "",
+      "website": "https://www.mhahk.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "大埔廣福邨"
+    },
+    {
+      "id": "iccmw-caritas-north",
+      "name_zh": "明愛樂晴軒",
+      "name_en": "Caritas Wellness Link – North District",
+      "org_type": "ngo",
+      "parent_org_zh": "香港明愛",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "nt_east"
+      ],
+      "phone": "22781016",
+      "whatsapp": "",
+      "website": "https://www.caritas.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "上水北區社區健康中心大樓"
+    },
+    {
+      "id": "iccmw-srcphk-placidity",
+      "name_zh": "朗澄坊",
+      "name_en": "Placidity Place",
+      "org_type": "ngo",
+      "parent_org_zh": "香港善導會",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "nt_west"
+      ],
+      "phone": "31632873",
+      "whatsapp": "",
+      "website": "https://www.sracp.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "天水圍家庭醫學綜合中心（見社署名單）"
+    },
+    {
+      "id": "iccmw-wellness-tsw",
+      "name_zh": "安泰軒（天水圍）",
+      "name_en": "The Wellness Centre (Tin Shui Wai)",
+      "org_type": "ngo",
+      "parent_org_zh": "新生精神康復會",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "nt_west"
+      ],
+      "phone": "24514369",
+      "whatsapp": "",
+      "website": "https://www.nlpra.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "天水圍天澤邨（見社署名單）"
+    },
+    {
+      "id": "iccmw-wellness-tuen-mun",
+      "name_zh": "安泰軒（屯門）",
+      "name_en": "The Wellness Centre (Tuen Mun)",
+      "org_type": "ngo",
+      "parent_org_zh": "新生精神康復會",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "nt_west"
+      ],
+      "phone": "24502172",
+      "whatsapp": "",
+      "website": "https://www.nlpra.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "屯門湖景／安定分址（見社署名單）"
+    },
+    {
+      "id": "iccmw-skh-tuen-mun",
+      "name_zh": "香港聖公會屯門精神健康綜合社區中心 - 樂喜聚",
+      "name_en": "HKSKH Tuen Mun ICCMW - The Club",
+      "org_type": "ngo",
+      "parent_org_zh": "香港聖公會福利協會",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer",
+        "youth"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "peer_support",
+        "clinical_psychology",
+        "info_education"
+      ],
+      "regions": [
+        "nt_west"
+      ],
+      "phone": "24653210",
+      "whatsapp": "",
+      "website": "https://www.skhwc.org.hk/",
+      "hours_note": "服務時間請向中心查詢",
+      "languages_note": "",
+      "fee_note": "社署公開：免費",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/695/tc/List_of_25_ICCMWs_May%202026_F.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神健康綜合社區中心（ICCMW）；申請可自行或經轉介。詳見社署簡介：https://www.swd.gov.hk/tc/pubsvc/rehab/cat_supportcom/centrebase/iccmw/",
+      "audience_self": [
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "精神健康綜合社區中心",
+      "status": "ongoing",
+      "category": [
+        "iccmw",
+        "counselling"
+      ],
+      "profession": [
+        "social_worker",
+        "clinical_psychologist"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "屯門良景邨（見社署名單）"
+    },
+    {
+      "id": "ha-psych-ndh-alice",
+      "name_zh": "雅麗氏何妙齡那打素醫院精神科門診",
+      "name_en": "Alice Ho Miu Ling Nethersole Hospital Psychiatry SOPC",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "youth",
+        "elderly"
+      ],
+      "service_types": [
+        "psychiatric_outpatient"
+      ],
+      "regions": [
+        "nt_east"
+      ],
+      "phone": "26893070",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "hours_note": "成人／老人／兒童青少年精神科（分線見官網）；週日及公眾假期休息（見醫管局名單）",
+      "languages_note": "",
+      "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
+      "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "checked_at": "2026-10-30",
+      "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
+      "audience_self": [
+        "child",
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [
+        "elderly_care"
+      ],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hospital",
+        "psychiatrist"
+      ],
+      "profession": [
+        "psychiatrist"
+      ],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "新界大埔全安路11號"
+    },
+    {
+      "id": "ha-psych-caritas",
+      "name_zh": "明愛醫院精神科門診",
+      "name_en": "Caritas Medical Centre Psychiatry SOPC",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient"
+      ],
+      "service_types": [
+        "psychiatric_outpatient"
+      ],
+      "regions": [
+        "kowloon_west"
+      ],
+      "phone": "34087096",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "hours_note": "成人精神科；週日及公眾假期休息（見醫管局名單）",
+      "languages_note": "",
+      "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
+      "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "checked_at": "2026-10-30",
+      "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
+      "audience_self": [
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hospital",
+        "psychiatrist"
+      ],
+      "profession": [
+        "psychiatrist"
+      ],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "九龍深水埗永康街111號"
+    },
+    {
+      "id": "ha-psych-kch-camhs",
+      "name_zh": "葵涌醫院兒童及青少年綜合診所",
+      "name_en": "Kwai Chung Hospital Child & Adolescent Integrated Clinic",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "youth",
+        "elderly"
+      ],
+      "service_types": [
+        "psychiatric_outpatient"
+      ],
+      "regions": [
+        "nt_west"
+      ],
+      "phone": "27525090",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "hours_note": "兒童及青少年；週日及公眾假期休息（見醫管局名單）",
+      "languages_note": "",
+      "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
+      "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "checked_at": "2026-10-30",
+      "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
+      "audience_self": [
+        "child",
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hospital",
+        "psychiatrist"
+      ],
+      "profession": [
+        "psychiatrist"
+      ],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "葵涌醫院兒童及青少年服務座"
+    },
+    {
+      "id": "ha-psych-dtrc",
+      "name_zh": "戴麟趾康復中心精神科門診",
+      "name_en": "David Trench Rehabilitation Centre Psychiatry SOPC",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "youth",
+        "elderly"
+      ],
+      "service_types": [
+        "psychiatric_outpatient"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "25178131",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "hours_note": "成人／老人精神科；週日及公眾假期休息（見醫管局名單）",
+      "languages_note": "",
+      "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
+      "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "checked_at": "2026-10-30",
+      "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
+      "audience_self": [
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [
+        "elderly_care"
+      ],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hospital",
+        "psychiatrist"
+      ],
+      "profession": [
+        "psychiatrist"
+      ],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "香港高街一號"
+    },
+    {
+      "id": "ha-psych-ekpc",
+      "name_zh": "東九龍精神科中心",
+      "name_en": "East Kowloon Psychiatric Centre",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient"
+      ],
+      "service_types": [
+        "psychiatric_outpatient"
+      ],
+      "regions": [
+        "kowloon_east"
+      ],
+      "phone": "39602100",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "hours_note": "成人精神科；週日及公眾假期休息（見醫管局名單）",
+      "languages_note": "",
+      "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
+      "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "checked_at": "2026-10-30",
+      "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
+      "audience_self": [
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hospital",
+        "psychiatrist"
+      ],
+      "profession": [
+        "psychiatrist"
+      ],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "鑽石山斧山道東九龍分科診所"
+    },
+    {
+      "id": "ha-psych-kh",
+      "name_zh": "九龍醫院精神科門診",
+      "name_en": "Kowloon Hospital Psychiatry SOPC",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "youth",
+        "elderly"
+      ],
+      "service_types": [
+        "psychiatric_outpatient"
+      ],
+      "regions": [
+        "kowloon_east"
+      ],
+      "phone": "31296708",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "hours_note": "成人／老人／兒童青少年；週日及公眾假期休息（見醫管局名單）",
+      "languages_note": "",
+      "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
+      "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "checked_at": "2026-10-30",
+      "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
+      "audience_self": [
+        "child",
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [
+        "elderly_care"
+      ],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hospital",
+        "psychiatrist"
+      ],
+      "profession": [
+        "psychiatrist"
+      ],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "九龍亞皆老街147A（九龍城歸九龍東）"
+    },
+    {
+      "id": "ha-psych-kch-elderly",
+      "name_zh": "葵涌老齡精神科門診部暨照顧者支援中心",
+      "name_en": "Kwai Chung Psychogeriatric Outpatient & Carer Support",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "youth",
+        "elderly"
+      ],
+      "service_types": [
+        "psychiatric_outpatient"
+      ],
+      "regions": [
+        "nt_west"
+      ],
+      "phone": "27524212",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "hours_note": "老人精神科；照顧者支援；週日及公眾假期休息（見醫管局名單）",
+      "languages_note": "",
+      "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
+      "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "checked_at": "2026-10-30",
+      "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
+      "audience_self": [
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [
+        "elderly_care"
+      ],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hospital",
+        "psychiatrist"
+      ],
+      "profession": [
+        "psychiatrist"
+      ],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "葵涌醫院主座大樓"
+    },
+    {
+      "id": "ha-psych-ndh",
+      "name_zh": "北區醫院精神科門診",
+      "name_en": "North District Hospital Psychiatry SOPC",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "youth",
+        "elderly"
+      ],
+      "service_types": [
+        "psychiatric_outpatient"
+      ],
+      "regions": [
+        "nt_east"
+      ],
+      "phone": "26837653",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "hours_note": "成人／老人精神科；週日及公眾假期休息（見醫管局名單）",
+      "languages_note": "",
+      "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
+      "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "checked_at": "2026-10-30",
+      "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
+      "audience_self": [
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [
+        "elderly_care"
+      ],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hospital",
+        "psychiatrist"
+      ],
+      "profession": [
+        "psychiatrist"
+      ],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "上水保健路9號"
+    },
+    {
+      "id": "ha-psych-nloh",
+      "name_zh": "北大嶼山醫院精神科門診",
+      "name_en": "North Lantau Hospital Psychiatry SOPC",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient"
+      ],
+      "service_types": [
+        "psychiatric_outpatient"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "34677376",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "hours_note": "成人精神科；週日及公眾假期休息（見醫管局名單）",
+      "languages_note": "",
+      "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
+      "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "checked_at": "2026-10-30",
+      "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
+      "audience_self": [
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hospital",
+        "psychiatrist"
+      ],
+      "profession": [
+        "psychiatrist"
+      ],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "東涌松仁路8號"
+    },
+    {
+      "id": "ha-psych-pyneh",
+      "name_zh": "東區尤德夫人那打素醫院精神科門診",
+      "name_en": "PYNEH Psychiatry SOPC",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "youth",
+        "elderly"
+      ],
+      "service_types": [
+        "psychiatric_outpatient"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "25957609",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "hours_note": "成人／兒童青少年／老人；週日及公眾假期休息（見醫管局名單）",
+      "languages_note": "",
+      "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
+      "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "checked_at": "2026-10-30",
+      "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
+      "audience_self": [
+        "child",
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [
+        "elderly_care"
+      ],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hospital",
+        "psychiatrist"
+      ],
+      "profession": [
+        "psychiatrist"
+      ],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "柴灣樂民道3號"
+    },
+    {
+      "id": "ha-psych-pwh",
+      "name_zh": "威爾斯親王醫院精神科門診",
+      "name_en": "Prince of Wales Hospital Psychiatry SOPC",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "youth",
+        "elderly"
+      ],
+      "service_types": [
+        "psychiatric_outpatient"
+      ],
+      "regions": [
+        "nt_east"
+      ],
+      "phone": "35053415",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "hours_note": "成人／兒童青少年／老人；週日及公眾假期休息（見醫管局名單）",
+      "languages_note": "",
+      "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
+      "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "checked_at": "2026-10-30",
+      "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
+      "audience_self": [
+        "child",
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [
+        "elderly_care"
+      ],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hospital",
+        "psychiatrist"
+      ],
+      "profession": [
+        "psychiatrist"
+      ],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "沙田銀城街30-32號"
+    },
+    {
+      "id": "ha-psych-qmh",
+      "name_zh": "瑪麗醫院精神科門診",
+      "name_en": "Queen Mary Hospital Psychiatry SOPC",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "youth",
+        "elderly"
+      ],
+      "service_types": [
+        "psychiatric_outpatient"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "22553067",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "hours_note": "思覺失調服務／兒童青少年等（分線見官網）；週日及公眾假期休息（見醫管局名單）",
+      "languages_note": "",
+      "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
+      "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "checked_at": "2026-10-30",
+      "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
+      "audience_self": [
+        "child",
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hospital",
+        "psychiatrist"
+      ],
+      "profession": [
+        "psychiatrist"
+      ],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "薄扶林道102號"
+    },
+    {
+      "id": "ha-psych-tkoh",
+      "name_zh": "將軍澳醫院精神科門診",
+      "name_en": "Tseung Kwan O Hospital Psychiatry SOPC",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "youth",
+        "elderly"
+      ],
+      "service_types": [
+        "psychiatric_outpatient"
+      ],
+      "regions": [
+        "nt_east"
+      ],
+      "phone": "22081534",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "hours_note": "成人／老人精神科；週日及公眾假期休息（見醫管局名單）",
+      "languages_note": "",
+      "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
+      "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "checked_at": "2026-10-30",
+      "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
+      "audience_self": [
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [
+        "elderly_care"
+      ],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hospital",
+        "psychiatrist"
+      ],
+      "profession": [
+        "psychiatrist"
+      ],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "將軍澳坑口寶寧里"
+    },
+    {
+      "id": "ha-psych-tmh-camhs",
+      "name_zh": "屯門醫院兒童及青少年精神科門診",
+      "name_en": "Tuen Mun Hospital Child & Adolescent Psychiatry",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "youth",
+        "elderly"
+      ],
+      "service_types": [
+        "psychiatric_outpatient"
+      ],
+      "regions": [
+        "nt_west"
+      ],
+      "phone": "24541744",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "hours_note": "兒童及青少年精神科；週日及公眾假期休息（見醫管局名單）",
+      "languages_note": "",
+      "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
+      "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "checked_at": "2026-10-30",
+      "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
+      "audience_self": [
+        "child",
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hospital",
+        "psychiatrist"
+      ],
+      "profession": [
+        "psychiatrist"
+      ],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "屯門青松觀路23號"
+    },
+    {
+      "id": "ha-psych-tmhc",
+      "name_zh": "屯門精神健康中心",
+      "name_en": "Tuen Mun Mental Health Centre",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "youth",
+        "elderly"
+      ],
+      "service_types": [
+        "psychiatric_outpatient"
+      ],
+      "regions": [
+        "nt_west"
+      ],
+      "phone": "24568000",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "hours_note": "成人／圍產期／老人／智障精神科；另有思覺失調、物質濫用等分線；週日及公眾假期休息（見醫管局名單）",
+      "languages_note": "",
+      "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
+      "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "checked_at": "2026-10-30",
+      "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
+      "audience_self": [
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [
+        "elderly_care",
+        "postpartum"
+      ],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hospital",
+        "psychiatrist"
+      ],
+      "profession": [
+        "psychiatrist"
+      ],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "屯門青松觀路13號"
+    },
+    {
+      "id": "ha-psych-uch",
+      "name_zh": "基督教聯合醫院精神科門診",
+      "name_en": "United Christian Hospital Psychiatry SOPC",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "youth",
+        "elderly"
+      ],
+      "service_types": [
+        "psychiatric_outpatient"
+      ],
+      "regions": [
+        "kowloon_east"
+      ],
+      "phone": "39494830",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "hours_note": "成人／老人／兒童青少年（分線見官網）；週日及公眾假期休息（見醫管局名單）",
+      "languages_note": "",
+      "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
+      "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "checked_at": "2026-10-30",
+      "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
+      "audience_self": [
+        "child",
+        "youth",
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [
+        "elderly_care"
+      ],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hospital",
+        "psychiatrist"
+      ],
+      "profession": [
+        "psychiatrist"
+      ],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "觀塘協和街130號"
+    },
+    {
+      "id": "ha-psych-wkpc",
+      "name_zh": "西九龍精神科中心",
+      "name_en": "West Kowloon Psychiatric Centre",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient"
+      ],
+      "service_types": [
+        "psychiatric_outpatient"
+      ],
+      "regions": [
+        "nt_west"
+      ],
+      "phone": "27824557",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "hours_note": "成人精神科；週日及公眾假期休息（見醫管局名單）",
+      "languages_note": "",
+      "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
+      "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "checked_at": "2026-10-30",
+      "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
+      "audience_self": [
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hospital",
+        "psychiatrist"
+      ],
+      "profession": [
+        "psychiatrist"
+      ],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "葵涌醫院主座大樓"
+    },
+    {
+      "id": "ha-psych-yfs",
+      "name_zh": "容鳳書紀念中心精神科門診",
+      "name_en": "Yung Fung Shee Memorial Centre Psychiatry SOPC",
+      "org_type": "public",
+      "parent_org_zh": "醫院管理局",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "youth",
+        "elderly"
+      ],
+      "service_types": [
+        "psychiatric_outpatient"
+      ],
+      "regions": [
+        "kowloon_east"
+      ],
+      "phone": "27278260",
+      "whatsapp": "",
+      "website": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "hours_note": "成人／老人精神科；週日及公眾假期休息（見醫管局名單）",
+      "languages_note": "",
+      "fee_note": "公立專科門診收費按醫管局現行規定（需有效轉介）",
+      "source_url": "https://www.ha.org.hk/visitor/ha_isf_result.asp?lang=chiB5&location=&service_code_id=460&service_item=23&service_type=SC",
+      "checked_at": "2026-10-30",
+      "notes": "須經註冊西醫轉介（見醫管局專科門診須知）。平台只提供資訊，請自行向診所查詢。",
+      "audience_self": [
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [
+        "elderly_care"
+      ],
+      "sector": "healthcare",
+      "funder": "HA",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "hospital",
+        "psychiatrist"
+      ],
+      "profession": [
+        "psychiatrist"
+      ],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "ha",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "觀塘茶果嶺道79號"
+    },
+    {
+      "id": "ngo-nlpra",
+      "name_zh": "新生精神康復會",
+      "name_en": "New Life Psychiatric Rehabilitation Association",
+      "org_type": "ngo",
+      "parent_org_zh": "",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer"
+      ],
+      "service_types": [
+        "community_support",
+        "peer_support",
+        "info_education",
+        "counselling"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.nlpra.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "視乎個別服務；請查機構官網",
+      "source_url": "https://www.nlpra.org.hk/",
+      "checked_at": "2026-10-30",
+      "notes": "營辦多間 ICCMW、中途宿舍及輔助宿舍等（見社署名單）。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "counselling",
+        "other"
+      ],
+      "profession": [
+        "social_worker"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "unknown",
+      "funding": "unknown",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "ngo-richmond",
+      "name_zh": "利民會",
+      "name_en": "Richmond Fellowship of Hong Kong",
+      "org_type": "ngo",
+      "parent_org_zh": "",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "25291323",
+      "whatsapp": "",
+      "website": "https://www.richmond.org.hk/",
+      "hours_note": "總辦事處一至五 09:00–17:45（見官網）",
+      "languages_note": "",
+      "fee_note": "視乎個別服務；請查機構官網",
+      "source_url": "https://www.richmond.org.hk/",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "counselling",
+        "other"
+      ],
+      "profession": [
+        "social_worker"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "unknown",
+      "funding": "unknown",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "北角總辦事處（見官網）"
+    },
+    {
+      "id": "ngo-mhahk",
+      "name_zh": "香港心理衞生會",
+      "name_en": "The Mental Health Association of Hong Kong",
+      "org_type": "ngo",
+      "parent_org_zh": "",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.mhahk.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "視乎個別服務；請查機構官網",
+      "source_url": "https://www.mhahk.org.hk/",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "counselling",
+        "other"
+      ],
+      "profession": [
+        "social_worker"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "unknown",
+      "funding": "unknown",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "ngo-fuhong",
+      "name_zh": "扶康會",
+      "name_en": "Fu Hong Society",
+      "org_type": "ngo",
+      "parent_org_zh": "",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer"
+      ],
+      "service_types": [
+        "community_support",
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.fuhong.org/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "視乎個別服務；請查機構官網",
+      "source_url": "https://www.fuhong.org/",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "other",
+        "halfway_house"
+      ],
+      "profession": [
+        "social_worker"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "unknown",
+      "funding": "unknown",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "ngo-bokss",
+      "name_zh": "浸信會愛羣社會服務處",
+      "name_en": "Baptist Oi Kwan Social Service",
+      "org_type": "ngo",
+      "parent_org_zh": "",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.bokss.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "視乎個別服務；請查機構官網",
+      "source_url": "https://www.bokss.org.hk/",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "counselling",
+        "iccmw"
+      ],
+      "profession": [
+        "social_worker"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "unknown",
+      "funding": "unknown",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "ngo-cfsc",
+      "name_zh": "基督教家庭服務中心",
+      "name_en": "Christian Family Service Centre",
+      "org_type": "ngo",
+      "parent_org_zh": "",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.cfsc.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "視乎個別服務；請查機構官網",
+      "source_url": "https://www.cfsc.org.hk/",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "counselling",
+        "iccmw"
+      ],
+      "profession": [
+        "social_worker"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "unknown",
+      "funding": "unknown",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "ngo-sjs",
+      "name_zh": "聖雅各福群會",
+      "name_en": "St. James' Settlement",
+      "org_type": "ngo",
+      "parent_org_zh": "",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.sjs.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "視乎個別服務；請查機構官網",
+      "source_url": "https://www.sjs.org.hk/",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "counselling"
+      ],
+      "profession": [
+        "social_worker"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "unknown",
+      "funding": "unknown",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "ngo-rehabsociety",
+      "name_zh": "香港復康會",
+      "name_en": "The Hong Kong Society for Rehabilitation",
+      "org_type": "ngo",
+      "parent_org_zh": "",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer"
+      ],
+      "service_types": [
+        "community_support",
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.rehabsociety.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "視乎個別服務；請查機構官網",
+      "source_url": "https://www.rehabsociety.org.hk/",
+      "checked_at": "2026-10-30",
+      "notes": "復康及社區支援；精神健康相關服務見官網。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "other"
+      ],
+      "profession": [
+        "social_worker"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "unknown",
+      "funding": "unknown",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "ngo-twghs-mh",
+      "name_zh": "東華三院精神健康服務（總覽）",
+      "name_en": "TWGHs Mental Health Services",
+      "org_type": "ngo",
+      "parent_org_zh": "東華三院",
+      "audiences": [
+        "general",
+        "ex_patient",
+        "carer"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.tungwah.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "視乎個別服務；請查機構官網",
+      "source_url": "https://www.tungwah.org.hk/",
+      "checked_at": "2026-10-30",
+      "notes": "",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "counselling",
+        "iccmw"
+      ],
+      "profession": [
+        "social_worker"
+      ],
+      "supply_type": "ngo",
+      "fee_model": "unknown",
+      "funding": "unknown",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "dhc-portal",
+      "name_zh": "地區康健中心／站（官方入口）",
+      "name_en": "District Health Centres Portal",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "info_education",
+        "community_support"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.dhc.gov.hk/tc/",
+      "hours_note": "各地中心服務時間不同；不少熱線約每日10:00–20:00（見政府公布）",
+      "languages_note": "",
+      "fee_note": "會員服務收費視乎項目；部分評估／教育公開為免費或資助",
+      "source_url": "https://www.dhc.gov.hk/tc/",
+      "checked_at": "2026-10-30",
+      "notes": "十八區康健中心／站熱線及服務請查官方頁；平台只提供導航。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "primary_care",
+      "funder": "GovHK",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "dhc"
+      ],
+      "profession": [],
+      "supply_type": "public",
+      "fee_model": "unknown",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "dhc-healthy-mind-pilot",
+      "name_zh": "健康心靈先導計劃",
+      "name_en": "Healthy Mind Pilot Programme",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "counselling",
+        "info_education"
+      ],
+      "regions": [
+        "nt_west",
+        "kowloon_west",
+        "hk_island_islands"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.dhc.gov.hk/tc/mental_health.html",
+      "hours_note": "見各試點中心",
+      "languages_note": "",
+      "fee_note": "政府公布：評估及後續低密度心理治療不收費（指定試點會員）",
+      "source_url": "https://www.dhc.gov.hk/tc/mental_health.html",
+      "checked_at": "2026-10-30",
+      "notes": "試點：屯門地區康健中心、油尖旺地區康健站、東區地區康健站；高風險會轉介社區專業服務。請自行向所屬中心查詢。",
+      "audience_self": [
+        "adult"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "primary_care",
+      "funder": "GovHK",
+      "programme_name": "健康心靈先導計劃",
+      "status": "ongoing",
+      "category": [
+        "dhc",
+        "funded_programme",
+        "counselling"
+      ],
+      "profession": [],
+      "supply_type": "hybrid",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": true,
+      "special_programme_name": "健康心靈先導計劃",
+      "address_public": ""
+    },
+    {
+      "id": "primarycare-gov-portal",
+      "name_zh": "基層醫療健康（政府入口）",
+      "name_en": "Primary Healthcare Gov Portal",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.primaryhealthcare.gov.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "視乎服務",
+      "source_url": "https://www.primaryhealthcare.gov.hk/",
+      "checked_at": "2026-10-30",
+      "notes": "含地區康健中心／站聯絡等公開資料入口。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "primary_care",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "dhc",
+        "gp"
+      ],
+      "profession": [],
+      "supply_type": "public",
+      "fee_model": "unknown",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "prog-joyage",
+      "name_zh": "賽馬會樂齡同行計劃",
+      "name_en": "Jockey Club JoyAge Project",
+      "org_type": "ngo",
+      "parent_org_zh": "",
+      "audiences": [
+        "elderly"
+      ],
+      "service_types": [
+        "community_support",
+        "counselling",
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.jcjoyage.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "計劃公開服務詳情見官網",
+      "source_url": "https://www.jcjoyage.hk/",
+      "checked_at": "2026-10-30",
+      "notes": "長者精神健康社區支援；部分地區康健中心有協作（見政府報道）。請自行聯絡計劃／地區夥伴。",
+      "audience_self": [
+        "elderly"
+      ],
+      "audience_role": [
+        "self",
+        "family",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [
+        "elderly_care"
+      ],
+      "sector": "funded_programme",
+      "funder": "Jockey Club",
+      "programme_name": "賽馬會樂齡同行計劃",
+      "status": "ongoing",
+      "category": [
+        "funded_programme",
+        "counselling"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "unknown",
+      "funding": "jockey_club",
+      "special_programme": true,
+      "special_programme_name": "賽馬會樂齡同行計劃",
+      "address_public": ""
+    },
+    {
+      "id": "prog-hkjc-charities-portal",
+      "name_zh": "香港賽馬會慈善信託基金（資助計劃入口）",
+      "name_en": "HKJC Charities Trust",
+      "org_type": "other",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://charities.hkjc.com/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "入口頁；個別計劃收費見計劃頁",
+      "source_url": "https://charities.hkjc.com/",
+      "checked_at": "2026-10-30",
+      "notes": "用作查找賽馬會資助社區／精神健康相關計劃之公開入口，非服務本身。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "funded_programme",
+      "funder": "Jockey Club",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "funded_programme"
+      ],
+      "profession": [],
+      "supply_type": "other",
+      "fee_model": "unknown",
+      "funding": "jockey_club",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "residential-hwh-list",
+      "name_zh": "中途宿舍服務單位名單（社署）",
+      "name_en": "SWD List of Halfway Houses",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.swd.gov.hk/tc/pubsvc/rehab/cat_residcare/resserexmental/halfwayhou/",
+      "hours_note": "名冊含全港各中途宿舍聯絡",
+      "languages_note": "",
+      "fee_note": "社署公開：每月租金約 $1,220（以官網為準）；須經康復服務中央轉介系統",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "官方名冊入口（截至2026年5月 PDF）。申請須由社工經 CRSRehab 轉介。平台不處理申請。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "halfway_house",
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "residential-lsch-list",
+      "name_zh": "長期護理院名單（精神復元人士｜社署）",
+      "name_en": "SWD Long Stay Care Home List",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.swd.gov.hk/tc/pubsvc/rehab/cat_residcare/resserexmental/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "收費見社署／院舍公開說明；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_LSCH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "官方名冊（2026年5月）。平台只提供名冊導航。",
+      "audience_self": [
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "residential-shos-mh-list",
+      "name_zh": "精神復元人士輔助宿舍名單（社署）",
+      "name_en": "Supported Hostel for Persons in Mental Recovery",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.swd.gov.hk/tc/svcdesk/download/listofserv/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "見社署名單／單位說明；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/SHOS_bilingual_102026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "官方雙語名單（截至2026年10月）中「精神復元人士輔助宿舍」部分。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "public",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "hwh-wan-tsui",
+      "name_zh": "環翠之家",
+      "name_en": "Wan Tsui House",
+      "org_type": "ngo",
+      "parent_org_zh": "利民會",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "25588449",
+      "whatsapp": "",
+      "website": "https://www.richmond.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family"
+      ],
+      "gender_focus": "women",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "halfway_house",
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "柴灣環翠邨（見社署名單）"
+    },
+    {
+      "id": "hwh-sidebyside-lunar",
+      "name_zh": "善導會箕月居",
+      "name_en": "SideBySide Lunar House",
+      "org_type": "ngo",
+      "parent_org_zh": "香港善導會",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "29603688",
+      "whatsapp": "",
+      "website": "https://www.sracp.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family"
+      ],
+      "gender_focus": "men",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "halfway_house",
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "筲箕灣（只收男性｜見社署名單）"
+    },
+    {
+      "id": "hwh-yuet-kwan",
+      "name_zh": "悅群之家",
+      "name_en": "Yuet Kwan Home",
+      "org_type": "ngo",
+      "parent_org_zh": "扶康會",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "22142545",
+      "whatsapp": "",
+      "website": "https://www.fuhong.org/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family"
+      ],
+      "gender_focus": "men",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "halfway_house",
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "香港仔漁光道（只收男性）"
+    },
+    {
+      "id": "hwh-yuet-hang",
+      "name_zh": "悅行之家",
+      "name_en": "Yuet Hang Home",
+      "org_type": "ngo",
+      "parent_org_zh": "扶康會",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "22142567",
+      "whatsapp": "",
+      "website": "https://www.fuhong.org/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family"
+      ],
+      "gender_focus": "women",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "halfway_house",
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "香港仔漁光道（只收女性）"
+    },
+    {
+      "id": "hwh-lei-tung",
+      "name_zh": "利東宿舍",
+      "name_en": "Lei Tung Halfway House",
+      "org_type": "ngo",
+      "parent_org_zh": "新生精神康復會",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "28747770",
+      "whatsapp": "",
+      "website": "https://www.nlpra.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family"
+      ],
+      "gender_focus": "men",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "halfway_house",
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "鴨脷洲利東邨（只收男性）"
+    },
+    {
+      "id": "hwh-lok-kwan",
+      "name_zh": "樂羣樓宿舍",
+      "name_en": "Lok Kwan Halfway House",
+      "org_type": "ngo",
+      "parent_org_zh": "浸信會愛羣社會服務處",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "34131592",
+      "whatsapp": "",
+      "website": "https://www.bokss.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family"
+      ],
+      "gender_focus": "women",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "halfway_house",
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "灣仔愛群道（只收女性）"
+    },
+    {
+      "id": "hwh-dun-muk",
+      "name_zh": "敦睦軒",
+      "name_en": "Jockey Club Building Halfway House (1)",
+      "org_type": "ngo",
+      "parent_org_zh": "香港心理衞生會",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "kowloon_east"
+      ],
+      "phone": "21726036",
+      "whatsapp": "",
+      "website": "https://www.mhahk.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family"
+      ],
+      "gender_focus": "men",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "halfway_house",
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "觀塘功樂道賽馬會大樓（只收男性）"
+    },
+    {
+      "id": "hwh-yan-yi",
+      "name_zh": "欣怡軒",
+      "name_en": "Jockey Club Building Halfway House (2)",
+      "org_type": "ngo",
+      "parent_org_zh": "香港心理衞生會",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "kowloon_east"
+      ],
+      "phone": "21727970",
+      "whatsapp": "",
+      "website": "https://www.mhahk.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family"
+      ],
+      "gender_focus": "women",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "halfway_house",
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "觀塘功樂道賽馬會大樓（只收女性）"
+    },
+    {
+      "id": "hwh-yuk-kwan",
+      "name_zh": "旭羣樓中途宿舍",
+      "name_en": "Yuk Kwan Halfway House",
+      "org_type": "ngo",
+      "parent_org_zh": "浸信會愛羣社會服務處",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "kowloon_east"
+      ],
+      "phone": "36110760",
+      "whatsapp": "",
+      "website": "https://www.bokss.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "halfway_house",
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "觀塘福塘道啟能大樓"
+    },
+    {
+      "id": "hwh-sheung-tak",
+      "name_zh": "尚德之家",
+      "name_en": "Sheung Tak House",
+      "org_type": "ngo",
+      "parent_org_zh": "利民會",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "nt_east"
+      ],
+      "phone": "21780965",
+      "whatsapp": "",
+      "website": "https://www.richmond.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family"
+      ],
+      "gender_focus": "men",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "halfway_house",
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "將軍澳尚德邨（只收男性）"
+    },
+    {
+      "id": "hwh-choi-wan",
+      "name_zh": "彩雲宿舍",
+      "name_en": "Choi Wan Hostel",
+      "org_type": "ngo",
+      "parent_org_zh": "香港心理衞生會",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "kowloon_east"
+      ],
+      "phone": "27568267",
+      "whatsapp": "",
+      "website": "https://www.mhahk.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "halfway_house",
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "黃大仙彩雲邨"
+    },
+    {
+      "id": "hwh-lee-cheng-uk",
+      "name_zh": "李鄭屋宿舍",
+      "name_en": "Lee Cheng Uk Hostel",
+      "org_type": "ngo",
+      "parent_org_zh": "新生精神康復會",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "kowloon_west"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.nlpra.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "halfway_house",
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "深水埗李鄭屋邨（電話見社署2026年5月名單）"
+    },
+    {
+      "id": "hwh-fanling-caritas",
+      "name_zh": "明愛粉嶺宿舍",
+      "name_en": "Caritas Fanling Hostel",
+      "org_type": "ngo",
+      "parent_org_zh": "香港明愛",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "nt_east"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.caritas.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "halfway_house",
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "北區（電話見社署名單）"
+    },
+    {
+      "id": "hwh-yiu-on",
+      "name_zh": "耀安宿舍",
+      "name_en": "Yiu On Hostel",
+      "org_type": "ngo",
+      "parent_org_zh": "香港神託會",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "nt_east"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.stewards.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "halfway_house",
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "馬鞍山耀安邨（電話見社署名單）"
+    },
+    {
+      "id": "hwh-tin-yuet",
+      "name_zh": "天悅宿舍",
+      "name_en": "Tin Yuet Hostel",
+      "org_type": "ngo",
+      "parent_org_zh": "",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "nt_west"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.swd.gov.hk/tc/pubsvc/rehab/cat_residcare/resserexmental/halfwayhou/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "halfway_house",
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "天水圍天悅邨（見社署名單）"
+    },
+    {
+      "id": "hwh-shan-king",
+      "name_zh": "山景宿舍",
+      "name_en": "Shan King Hostel",
+      "org_type": "ngo",
+      "parent_org_zh": "",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "nt_west"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.swd.gov.hk/tc/pubsvc/rehab/cat_residcare/resserexmental/halfwayhou/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "社署公開中途宿舍租金約 $1,220／月（以官網為準）；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_HWH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "中途宿舍公開服務點；申請經社工／CRSRehab。完整名單見社署 PDF。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self",
+        "family"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "halfway_house",
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": "屯門山景邨（見社署名單）"
+    },
+    {
+      "id": "lsch-yeung-sing",
+      "name_zh": "楊成紀念長期護理院",
+      "name_en": "Yeung Sing Memorial Long Stay Care Home",
+      "org_type": "ngo",
+      "parent_org_zh": "東華三院",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.tungwah.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "見社署／院舍公開說明；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_LSCH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神復元人士長期護理院；詳情以社署2026年5月名單為準。",
+      "audience_self": [
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "lsch-nlpra-building",
+      "name_zh": "新生會大樓長期護理院",
+      "name_en": "New Life Building Long Stay Care Home",
+      "org_type": "ngo",
+      "parent_org_zh": "新生精神康復會",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "kowloon_west"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.nlpra.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "見社署／院舍公開說明；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_LSCH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神復元人士長期護理院；詳情以社署2026年5月名單為準。",
+      "audience_self": [
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "lsch-caritas-lai-hong",
+      "name_zh": "荔康居",
+      "name_en": "Lai Hong Residence",
+      "org_type": "ngo",
+      "parent_org_zh": "香港明愛",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.caritas.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "見社署／院舍公開說明；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_LSCH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神復元人士長期護理院；詳情以社署2026年5月名單為準。",
+      "audience_self": [
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "lsch-tuen-mun",
+      "name_zh": "屯門長期護理院",
+      "name_en": "Tuen Mun Long Stay Care Home",
+      "org_type": "ngo",
+      "parent_org_zh": "",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "nt_west"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_LSCH_TC_052026.pdf",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "見社署／院舍公開說明；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_LSCH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神復元人士長期護理院；詳情以社署2026年5月名單為準。",
+      "audience_self": [
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "lsch-tsw-plk",
+      "name_zh": "保良局天水圍復康中心",
+      "name_en": "PLK Tin Shui Wai Rehabilitation Centre",
+      "org_type": "ngo",
+      "parent_org_zh": "保良局",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "nt_west"
+      ],
+      "phone": "26020600",
+      "whatsapp": "",
+      "website": "https://www.poleungkuk.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "見社署／院舍公開說明；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_LSCH_TC_052026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神復元人士長期護理院；詳情以社署2026年5月名單為準。",
+      "audience_self": [
+        "adult",
+        "elderly"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "shos-on-yee",
+      "name_zh": "安怡宿舍",
+      "name_en": "On Yee Hostel",
+      "org_type": "ngo",
+      "parent_org_zh": "基督教家庭服務中心",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "25588768",
+      "whatsapp": "",
+      "website": "https://www.cfsc.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "見社署／單位公開說明；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/SHOS_bilingual_102026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神復元人士輔助宿舍（SHOS）。",
+      "audience_self": [
+        "adult"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "women",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "shos-on-yue",
+      "name_zh": "安愉宿舍",
+      "name_en": "On Yue Hostel",
+      "org_type": "ngo",
+      "parent_org_zh": "基督教家庭服務中心",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "hk_island_islands"
+      ],
+      "phone": "25588768",
+      "whatsapp": "",
+      "website": "https://www.cfsc.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "見社署／單位公開說明；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/SHOS_bilingual_102026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神復元人士輔助宿舍（SHOS）。",
+      "audience_self": [
+        "adult"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "shos-lok-wah",
+      "name_zh": "明愛樂華宿舍",
+      "name_en": "Lok Wah Supported Hostel",
+      "org_type": "ngo",
+      "parent_org_zh": "香港明愛",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "kowloon_east"
+      ],
+      "phone": "35905470",
+      "whatsapp": "",
+      "website": "https://www.caritas.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "見社署／單位公開說明；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/SHOS_bilingual_102026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神復元人士輔助宿舍（SHOS）。",
+      "audience_self": [
+        "adult"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "shos-tsun-kwan",
+      "name_zh": "駿羣樓輔助宿舍",
+      "name_en": "Tsun Kwan Supported Hostel",
+      "org_type": "ngo",
+      "parent_org_zh": "浸信會愛羣社會服務處",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "nt_east"
+      ],
+      "phone": "26071200",
+      "whatsapp": "",
+      "website": "https://www.bokss.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "見社署／單位公開說明；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/SHOS_bilingual_102026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神復元人士輔助宿舍（SHOS）。",
+      "audience_self": [
+        "adult"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "shos-joyous",
+      "name_zh": "思悅園",
+      "name_en": "Joyous Place",
+      "org_type": "ngo",
+      "parent_org_zh": "新生精神康復會",
+      "audiences": [
+        "ex_patient"
+      ],
+      "service_types": [
+        "community_support"
+      ],
+      "regions": [
+        "nt_east"
+      ],
+      "phone": "26902239",
+      "whatsapp": "",
+      "website": "https://www.nlpra.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "見社署／單位公開說明；須經轉介",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/SHOS_bilingual_102026.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "精神復元人士輔助宿舍（SHOS）。",
+      "audience_self": [
+        "adult"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "residential",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "residential_care"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "subsidised",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "school-edb-guidance",
+      "name_zh": "教育局學生輔導／支援（官方入口）",
+      "name_en": "EDB Student Guidance Portal",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "youth",
+        "student"
+      ],
+      "service_types": [
+        "info_education",
+        "counselling"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.edb.gov.hk/tc/teacher/student-guidance-discipline-services/projects-services/sgs/index.html",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "校本服務為主",
+      "source_url": "https://www.edb.gov.hk/tc/teacher/student-guidance-discipline-services/projects-services/sgs/index.html",
+      "checked_at": "2026-10-30",
+      "notes": "已換教育局學生輔導服務現行入口（原 cro-services 404）。",
+      "audience_self": [
+        "child",
+        "youth"
+      ],
+      "audience_role": [
+        "self",
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [
+        "exam_stress"
+      ],
+      "sector": "other",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "school",
+        "counselling"
+      ],
+      "profession": [],
+      "supply_type": "public",
+      "fee_model": "unknown",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "uni-hku-cedars",
+      "name_zh": "香港大學學生發展與資源中心（輔導）",
+      "name_en": "HKU CEDARS Counselling",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "student"
+      ],
+      "service_types": [
+        "counselling"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.cedars.hku.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "大學學生服務；詳見官網",
+      "source_url": "https://www.cedars.hku.hk/",
+      "checked_at": "2026-10-30",
+      "notes": "大學輔導示例；僅供所屬學生。其他院校請查各校輔導中心。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "other",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "school",
+        "counselling"
+      ],
+      "profession": [
+        "counsellor",
+        "clinical_psychologist"
+      ],
+      "supply_type": "public",
+      "fee_model": "unknown",
+      "funding": "unknown",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "uni-cuhk-ucc",
+      "name_zh": "香港中文大學心理健康及輔導中心（學生事務處）",
+      "name_en": "CUHK Wellness and Counselling Centre (Office of Student Affairs)",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "student"
+      ],
+      "service_types": [
+        "counselling"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.osa.cuhk.edu.hk/services/mental-health-services/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "大學學生服務；詳見官網",
+      "source_url": "https://wacc.osa.cuhk.edu.hk/sc/",
+      "checked_at": "2026-10-30",
+      "notes": "已換 WACC 現行網站（原 uco.cuhk.edu.hk TLS 失敗）。服務對象為中大註冊學生；公眾請用其他公開熱線／服務。",
+      "audience_self": [
+        "youth",
+        "adult"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "other",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "school",
+        "counselling"
+      ],
+      "profession": [
+        "counsellor"
+      ],
+      "supply_type": "public",
+      "fee_model": "unknown",
+      "funding": "unknown",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "care-team-portal",
+      "name_zh": "關愛隊（民政事務總署／地區入口）",
+      "name_en": "Care Teams Portal",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "info_education",
+        "community_support"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.had.gov.hk/tc/public_services/district_services_community_care_teams/subdistrictcareteams.htm",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "地區關懷網絡；非醫療診治",
+      "source_url": "https://www.had.gov.hk/tc/public_services/district_services_community_care_teams/introduction.htm",
+      "checked_at": "2026-10-30",
+      "notes": "已換民政事務總署關愛隊現行簡介頁；聯絡途徑見小區關愛隊頁。只供資訊導航。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "other",
+      "funder": "GovHK",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "care_team"
+      ],
+      "profession": [],
+      "supply_type": "public",
+      "fee_model": "free",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "legco-members-portal",
+      "name_zh": "立法會議員辦事處（官方名冊入口）",
+      "name_en": "LegCo Members Directory",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.legco.gov.hk/tc/members/legco-members/members-contact-directory.html",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "議員辦事處諮詢／轉介視乎個別辦事處",
+      "source_url": "https://www.legco.gov.hk/tc/members/legco-members/members-contact-directory.html",
+      "checked_at": "2026-10-30",
+      "notes": "已換立法會「議員聯絡資料」現行頁（原 /tc/members/index.html 404）。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "other",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "legco_office"
+      ],
+      "profession": [],
+      "supply_type": "public",
+      "fee_model": "free",
+      "funding": "none",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "patient-group-portal-gov",
+      "name_zh": "殘疾人士／病人自助組織資助計劃名單（社署）",
+      "name_en": "SWD Financial Support Scheme for Self-help Organisations (SHO list)",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "info_education",
+        "peer_support"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.gov.hk/tc/residents/health/rehab/index.htm",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "未有／待核",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/339/tc/List_of_SHOs_under_12th_Batch_of_FSS_Chi_Rev.pdf",
+      "checked_at": "2026-10-30",
+      "notes": "原 GovHK patientgroups.htm 404；改用社署第十二期自助組織名單 PDF 為清晰來源；GovHK 康復頁作入口。只供自行聯絡，平台唔接案。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "other",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "patient_group"
+      ],
+      "profession": [],
+      "supply_type": "public",
+      "fee_model": "unknown",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "carer-alliance-mh",
+      "name_zh": "關注精神病康復者權益協會／照顧者組織（請查官方病人組織目錄）",
+      "name_en": "",
+      "org_type": "ngo",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "peer_support",
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.gov.hk/tc/residents/health/hosp/patientgroups.htm",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "未有／待核",
+      "source_url": "https://www.gov.hk/tc/residents/health/hosp/patientgroups.htm",
+      "checked_at": "2026-10-30",
+      "notes": "第一期以 GovHK 病人組織一覽為準核實個別組織；此條為照顧者／同路人互助導航提示。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "parent_carer",
+        "family",
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [
+        "carer"
+      ],
+      "sector": "social_welfare",
+      "funder": "",
+      "programme_name": "",
+      "status": "unverified",
+      "category": [
+        "patient_group"
+      ],
+      "profession": [],
+      "supply_type": "ngo",
+      "fee_model": "unknown",
+      "funding": "unknown",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "pta-edb-portal",
+      "name_zh": "家長教師會（教育局入口）",
+      "name_en": "EDB Parent-Teacher Associations Portal",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.edb.gov.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "未有／待核",
+      "source_url": "https://www.edb.gov.hk/tc/student-parents/pta/index.html",
+      "checked_at": "2026-10-30",
+      "notes": "僅列教育局家教會公開入口。個別家教會若有精神健康活動／講座，以該校／聯會公布為準。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "parent_carer"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "other",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "pta",
+        "school"
+      ],
+      "profession": [],
+      "supply_type": "public",
+      "fee_model": "unknown",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "swd-clinical-psychology",
+      "name_zh": "社署臨床心理服務",
+      "name_en": "SWD Clinical Psychological Service",
+      "org_type": "public",
+      "parent_org_zh": "社會福利署",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "clinical_psychology",
+        "counselling"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.swd.gov.hk/tc/pubsvc/rehab/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "須經社工轉介（社署公開說明）",
+      "source_url": "https://www.swd.gov.hk/storage/asset/section/177/tc/List_of_Clinical_Psychology_Units_and_Operating_Hours_20210727_(chi).pdf",
+      "checked_at": "2026-10-30",
+      "notes": "單位名單 PDF 年份較舊（2021）；請向社署／社工確認最新安排。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "social_welfare",
+      "funder": "SWD",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "counselling",
+        "therapist"
+      ],
+      "profession": [
+        "clinical_psychologist"
+      ],
+      "supply_type": "public",
+      "fee_model": "unknown",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "reg-mchk",
+      "name_zh": "醫務委員會醫生名冊（官方）",
+      "name_en": "Medical Council HK Doctor List",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.mchk.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "名冊查冊；診金視乎個別執業者",
+      "source_url": "https://www.mchk.org.hk/",
+      "checked_at": "2026-10-30",
+      "notes": "私營精神科醫生／西醫個人執業請查醫委會官方名冊；本目錄不掃全港私人診所。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "other",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "psychiatrist",
+        "gp",
+        "professional_body"
+      ],
+      "profession": [
+        "psychiatrist",
+        "gp"
+      ],
+      "supply_type": "public",
+      "fee_model": "unknown",
+      "funding": "none",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "reg-cp-list",
+      "name_zh": "臨床心理學家名冊／學會入口（請核最新官方渠道）",
+      "name_en": "Clinical Psychologists Registry Entry",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.dh.gov.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "名冊查冊；診金視乎個別執業者",
+      "source_url": "https://www.dh.gov.hk/",
+      "checked_at": "2026-10-30",
+      "notes": "個人執業臨床心理學家請查衛生署／相關法定名冊或學會公開名冊；第一期只放入口。status 待持續核實。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "other",
+      "funder": "",
+      "programme_name": "",
+      "status": "unverified",
+      "category": [
+        "therapist",
+        "professional_body"
+      ],
+      "profession": [
+        "clinical_psychologist"
+      ],
+      "supply_type": "public",
+      "fee_model": "unknown",
+      "funding": "none",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "reg-ot-board",
+      "name_zh": "職業治療師管理委員會（名冊入口）",
+      "name_en": "OT Board HK",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.smp-council.org.hk/ot/tc/html/srh.html",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "名冊查冊；診金視乎個別執業者",
+      "source_url": "https://www.smp-council.org.hk/ot/tc/html/srh.html",
+      "checked_at": "2026-10-30",
+      "notes": "已改輔助醫療業管理局／職業治療師註冊人士名單入口（原 otboard.org.hk TLS 不穩）。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "other",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "ot",
+        "professional_body",
+        "therapist"
+      ],
+      "profession": [
+        "ot"
+      ],
+      "supply_type": "public",
+      "fee_model": "unknown",
+      "funding": "none",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "reg-pt-board",
+      "name_zh": "物理治療師管理委員會（名冊入口）",
+      "name_en": "PT Board HK",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.smp-council.org.hk/pt/tc/html/srh.html",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "名冊查冊；診金視乎個別執業者",
+      "source_url": "https://www.smp-council.org.hk/pt/tc/html/srh.html",
+      "checked_at": "2026-10-30",
+      "notes": "已改輔助醫療業管理局／物理治療師註冊人士名單入口（原 ptboard.org.hk TLS 不穩）。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "other",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "pt",
+        "professional_body",
+        "therapist"
+      ],
+      "profession": [
+        "pt"
+      ],
+      "supply_type": "public",
+      "fee_model": "unknown",
+      "funding": "none",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "reg-st-board",
+      "name_zh": "香港言語治療師公會認可名冊（公眾資訊）",
+      "name_en": "Hong Kong Institute of Speech Therapists – Accredited Register",
+      "org_type": "public",
+      "parent_org_zh": "香港言語治療師公會",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://hkist.org.hk/zh/information-to-public-hk/%E8%A1%9B%E7%94%9F%E7%BD%B2%E8%AA%8D%E5%8F%AF%E8%A8%80%E8%AA%9E%E6%B2%BB%E7%99%82%E5%B8%AB%E5%90%8D%E5%86%8A%E6%9C%83%E5%93%A1/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "名冊查冊；診金視乎個別執業者",
+      "source_url": "https://hkist.org.hk/information-to-public/",
+      "checked_at": "2026-10-30",
+      "notes": "言語治療師非 OT/PT 式法定 board 網域；改為衞生署認可醫療專業註冊計劃下香港言語治療師公會公眾名冊入口（原 stboard.org.hk 無法開啟）。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "other",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "therapist",
+        "professional_body"
+      ],
+      "profession": [
+        "st"
+      ],
+      "supply_type": "public",
+      "fee_model": "unknown",
+      "funding": "none",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "reg-cmchk",
+      "name_zh": "中醫藥管理委員會（中醫名冊）",
+      "name_en": "Chinese Medicine Council of Hong Kong",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.cmchk.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "名冊查冊；診金視乎個別執業者",
+      "source_url": "https://www.cmchk.org.hk/",
+      "checked_at": "2026-10-30",
+      "notes": "中醫與精神健康交界服務屬個人選擇；請查官方名冊。本目錄不推薦個別中醫。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "other",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "tcm",
+        "professional_body"
+      ],
+      "profession": [
+        "tcm"
+      ],
+      "supply_type": "public",
+      "fee_model": "unknown",
+      "funding": "none",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "private-example-note",
+      "name_zh": "私營精神科／臨床心理（目錄來源說明）",
+      "name_en": "Private MH Practitioners — Directory Source Note",
+      "org_type": "private",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "psychiatric_outpatient",
+        "clinical_psychology",
+        "counselling"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.mchk.org.hk/",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "私營一般自負；個別保險／計劃視乎條款",
+      "source_url": "https://www.mchk.org.hk/",
+      "checked_at": "2026-10-30",
+      "notes": "私營示例／目錄來源：請用醫委會及相關專業名冊查核註冊資格。本平台不硬推個別診所。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "healthcare",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "psychiatrist",
+        "therapist"
+      ],
+      "profession": [
+        "psychiatrist",
+        "clinical_psychologist",
+        "counsellor"
+      ],
+      "supply_type": "private",
+      "fee_model": "self_pay",
+      "funding": "none",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    },
+    {
+      "id": "govhk-rehab-portal",
+      "name_zh": "GovHK 康復及支援",
+      "name_en": "GovHK Rehabilitation & Support",
+      "org_type": "public",
+      "parent_org_zh": "",
+      "audiences": [
+        "general"
+      ],
+      "service_types": [
+        "info_education"
+      ],
+      "regions": [
+        "territory_wide"
+      ],
+      "phone": "",
+      "whatsapp": "",
+      "website": "https://www.gov.hk/tc/residents/health/rehab/index.htm",
+      "hours_note": "",
+      "languages_note": "",
+      "fee_note": "入口彙整",
+      "source_url": "https://www.gov.hk/tc/residents/health/rehab/index.htm",
+      "checked_at": "2026-10-30",
+      "notes": "政府康復／精神復元／照顧者資訊總入口。",
+      "audience_self": [
+        "any"
+      ],
+      "audience_role": [
+        "self"
+      ],
+      "gender_focus": "any",
+      "life_stage_tags": [],
+      "sector": "other",
+      "funder": "",
+      "programme_name": "",
+      "status": "ongoing",
+      "category": [
+        "other"
+      ],
+      "profession": [],
+      "supply_type": "public",
+      "fee_model": "unknown",
+      "funding": "gov_swd",
+      "special_programme": false,
+      "special_programme_name": "",
+      "address_public": ""
+    }
+  ],
+  "coverage_note": "第一期靜態目錄：覆蓋公營熱線、醫管局精神科專科門診、社署 ICCMW 全數、主要 NGO 總部、地區康健／健康心靈先導、賽馬會相關入口、院舍官方名冊＋抽樣中途宿舍／長期護理院／輔助宿舍、學校／關愛隊／議員／家教會／病人組織／專業名冊等官方入口。本目錄只供瀏覽與自行聯絡公開服務；平台不作接案、跟進或個案管理。請直接聯絡所列機構／熱線，並以官方最新資料為準。 個人執業（精神科醫生、臨床心理、OT／PT／ST、中西醫）請查對應官方名冊，本目錄不掃全港私人診所。 第二關退修（2026-10-30）：已更新 8 條失效來源（patient-group／care-team／school-edb／legco／ot／pt／st／cuhk-wacc）。",
+  "gaps": [
+    "中途宿舍／長期護理院／輔助宿舍：已附社署完整 PDF 入口，單位抽樣非整份名冊逐條全錄",
+    "十八區地區康健中心／站：已列入口與健康心靈先導；未逐區建檔全部熱線",
+    "私營精神科／輔導：只放名冊來源說明，未列個別診所",
+    "臨床心理學家法定名冊連結待再核最新官方 URL",
+    "賽馬會以外其他基金精神健康計劃未全面掃描",
+    "大學輔導只抽樣港大／中大；其他院校待補",
+    "關愛隊／議員辦事處未按區詳列",
+    "病人互助組織個別名稱待對 GovHK 目錄逐一核實後再加"
+  ],
+  "next_priorities": [
+    "由社署 HWH／LSCH／SHOS PDF 機械化全量匯入（保留公開服務點欄位）",
+    "補齊十八區 DHC／DHCE 熱線與情緒服務摘要",
+    "核實臨床心理／輔導員最新官方名冊 URL 並加 1–2 個公開可查私營示例",
+    "掃描 HKJC Charities 進行中精神健康項目清單",
+    "按 GovHK 病人組織一覽篩選精神健康／照顧者相關組織"
+  ]
+}
