@@ -200,21 +200,18 @@ button:focus-visible {
   border-left-color: var(--accent-soft);
 }
 
-/* Wide: inline nav, hide summary toggle */
+/* Desktop header nav (outside details — avoid display:contents) */
+.nav--desktop {
+  display: none;
+}
+
 @media (min-width: 641px) {
   .header-inner {
     flex-wrap: nowrap;
   }
 
-  .nav-drawer {
-    display: contents;
-  }
-
-  .nav-drawer > summary {
-    display: none;
-  }
-
-  .nav {
+  .nav--desktop {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
@@ -224,7 +221,7 @@ button:focus-visible {
     border-top: none;
   }
 
-  .nav a {
+  .nav--desktop a {
     min-height: auto;
     padding: 0.25rem 0;
     border-radius: 0;
@@ -233,11 +230,16 @@ button:focus-visible {
     background: transparent;
   }
 
-  .nav a:hover,
-  .nav a[aria-current="page"] {
+  .nav--desktop a:hover,
+  .nav--desktop a[aria-current="page"] {
     background: transparent;
     border-left-color: transparent;
     border-bottom-color: var(--accent-soft);
+  }
+
+  /* Hide mobile drawer entirely on wide screens */
+  .nav-drawer {
+    display: none;
   }
 }
 
