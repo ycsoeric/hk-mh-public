@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" role="img" aria-labelledby="title desc">
+  <title id="title">溫暖陪伴裝飾</title>
+  <desc id="desc">軟萌圓潤角色與連繫弧，象徵陪伴與希望，無寫實面孔</desc>
+  <!-- soft ground cloud -->
+  <ellipse cx="320" cy="168" rx="260" ry="22" fill="#f3eee6"/>
+  <!-- left soft blob character -->
+  <ellipse cx="150" cy="118" rx="52" ry="48" fill="#c4a484"/>
+  <ellipse cx="150" cy="118" rx="46" ry="42" fill="#f3eee6"/>
+  <!-- blush -->
+  <circle cx="128" cy="122" r="6" fill="#c9895a" opacity="0.45"/>
+  <circle cx="172" cy="122" r="6" fill="#c9895a" opacity="0.45"/>
+  <!-- simple closed-smile eyes (kawaii, non-identifying) -->
+  <path d="M132 112 q6 -6 12 0" fill="none" stroke="#8b5e3c" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M156 112 q6 -6 12 0" fill="none" stroke="#8b5e3c" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M144 128 q6 6 12 0" fill="none" stroke="#8b5e3c" stroke-width="2" stroke-linecap="round"/>
+  <!-- right friend blob -->
+  <ellipse cx="430" cy="110" rx="44" ry="40" fill="#5a6b4a" opacity="0.35"/>
+  <ellipse cx="430" cy="110" rx="38" ry="34" fill="#faf7f2"/>
+  <circle cx="412" cy="112" r="5" fill="#c9895a" opacity="0.4"/>
+  <circle cx="448" cy="112" r="5" fill="#c9895a" opacity="0.4"/>
+  <circle cx="418" cy="104" r="3" fill="#8b5e3c"/>
+  <circle cx="442" cy="104" r="3" fill="#8b5e3c"/>
+  <path d="M422 118 q8 7 16 0" fill="none" stroke="#8b5e3c" stroke-width="2" stroke-linecap="round"/>
+  <!-- small middle companion -->
+  <circle cx="290" cy="130" r="28" fill="#8b5e3c" opacity="0.2"/>
+  <circle cx="290" cy="130" r="24" fill="#ffffff"/>
+  <circle cx="280" cy="132" r="4" fill="#c9895a" opacity="0.4"/>
+  <circle cx="300" cy="132" r="4" fill="#c9895a" opacity="0.4"/>
+  <path d="M278 124 q5 -4 10 0" fill="none" stroke="#8b5e3c" stroke-width="2" stroke-linecap="round"/>
+  <path d="M292 124 q5 -4 10 0" fill="none" stroke="#8b5e3c" stroke-width="2" stroke-linecap="round"/>
+  <path d="M284 138 q6 5 12 0" fill="none" stroke="#8b5e3c" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- connecting hearts / sparkles (hope) -->
+  <path d="M220 78 C218 72 224 68 228 72 C232 68 238 72 236 78 C234 84 228 90 228 90 S222 84 220 78 Z" fill="#c9895a" opacity="0.7"/>
+  <path d="M360 70 C358 64 364 60 368 64 C372 60 378 64 376 70 C374 76 368 82 368 82 S362 76 360 70 Z" fill="#8b5e3c" opacity="0.55"/>
+  <!-- soft sparkles -->
+  <circle cx="250" cy="55" r="4" fill="#c4a484"/>
+  <circle cx="500" cy="60" r="5" fill="#c4a484" opacity="0.7"/>
+  <circle cx="100" cy="70" r="3.5" fill="#5a6b4a" opacity="0.4"/>
+  <circle cx="540" cy="130" r="4" fill="#8b5e3c" opacity="0.3"/>
+  <!-- gentle arc of connection -->
+  <path d="M190 100 C240 50, 340 50, 400 95" fill="none" stroke="#c4a484" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-labelledby="title desc">
+  <title id="title">品牌標記</title>
+  <desc id="desc">圓潤軟萌連繫標記</desc>
+  <rect width="32" height="32" rx="10" fill="#8b5e3c"/>
+  <circle cx="11" cy="13" r="4" fill="#faf7f2"/>
+  <circle cx="21" cy="13" r="4" fill="#f3eee6"/>
+  <circle cx="9.5" cy="13.5" r="1.2" fill="#c9895a" opacity="0.55"/>
+  <circle cx="12.5" cy="13.5" r="1.2" fill="#c9895a" opacity="0.55"/>
+  <circle cx="19.5" cy="13.5" r="1.2" fill="#c9895a" opacity="0.5"/>
+  <circle cx="22.5" cy="13.5" r="1.2" fill="#c9895a" opacity="0.5"/>
+  <path d="M11 18 C13.5 22, 18.5 22, 21 18" fill="none" stroke="#c4a484" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="16" cy="8" r="2" fill="#5a6b4a" opacity="0.85"/>
+</svg>
