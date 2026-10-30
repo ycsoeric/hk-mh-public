@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="title desc">
+  <title id="title">關於我們圖示</title>
+  <desc id="desc">圓潤小屋與軟萌心形</desc>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="#f3eee6"/>
+  <!-- soft house -->
+  <path d="M32 14 L52 30 V48a6 6 0 0 1-6 6H18a6 6 0 0 1-6-6V30Z" fill="#c4a484"/>
+  <path d="M32 18 L48 31 V47a4 4 0 0 1-4 4H20a4 4 0 0 1-4-4V31Z" fill="#faf7f2"/>
+  <!-- roof blush strip -->
+  <path d="M14 30 L32 14 L50 30" fill="none" stroke="#8b5e3c" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- kawaii heart door -->
+  <path d="M32 36c-1.5-3-5.5-3.2-6.5-.8-1 2 .3 4.2 2.8 6.4 1.8 1.6 3.7 2.8 3.7 2.8s1.9-1.2 3.7-2.8c2.5-2.2 3.8-4.4 2.8-6.4-1-2.4-5-.2-6.5.8z" fill="#c9895a"/>
+  <!-- tiny sparkle -->
+  <circle cx="46" cy="20" r="2.5" fill="#5a6b4a" opacity="0.45"/>
+</svg>

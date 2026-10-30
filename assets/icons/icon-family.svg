@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-labelledby="title desc">
+  <title id="title">家庭與青少年分類圖示</title>
+  <desc id="desc">三枚軟萌圓潤剪影聚攏，象徵家庭連繫</desc>
+  <rect x="1" y="1" width="46" height="46" rx="14" fill="#f3eee6"/>
+  <!-- center -->
+  <circle cx="24" cy="13" r="6" fill="#8b5e3c"/>
+  <ellipse cx="24" cy="30" rx="10" ry="8" fill="#8b5e3c"/>
+  <circle cx="21" cy="13.5" r="1.8" fill="#c9895a" opacity="0.5"/>
+  <circle cx="27" cy="13.5" r="1.8" fill="#c9895a" opacity="0.5"/>
+  <!-- left -->
+  <circle cx="12" cy="17" r="4.5" fill="#c4a484"/>
+  <ellipse cx="12" cy="31" rx="7.5" ry="6.5" fill="#c4a484"/>
+  <!-- right -->
+  <circle cx="36" cy="17" r="4.5" fill="#5a6b4a" opacity="0.75"/>
+  <ellipse cx="36" cy="31" rx="7.5" ry="6.5" fill="#5a6b4a" opacity="0.75"/>
+  <!-- tiny sparkles -->
+  <circle cx="24" cy="42" r="1.8" fill="#c9895a" opacity="0.5"/>
+  <circle cx="8" cy="10" r="1.5" fill="#c4a484"/>
+</svg>

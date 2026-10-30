@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="title desc">
+  <title id="title">求助熱線圖示</title>
+  <desc id="desc">圓潤電話與軟萌對話氣泡</desc>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="#f3eee6"/>
+  <!-- kawaii speech bubble -->
+  <path d="M34 14h16a8 8 0 0 1 8 8v10a8 8 0 0 1-8 8h-5l-6 6v-6h-5a8 8 0 0 1-8-8V22a8 8 0 0 1 8-8z" fill="#ffffff"/>
+  <path d="M34 14h16a8 8 0 0 1 8 8v10a8 8 0 0 1-8 8h-5l-6 6v-6h-5a8 8 0 0 1-8-8V22a8 8 0 0 1 8-8z" fill="#c4a484" opacity="0.35"/>
+  <!-- cute dots in bubble -->
+  <circle cx="40" cy="26" r="2.2" fill="#8b5e3c"/>
+  <circle cx="46" cy="26" r="2.2" fill="#8b5e3c"/>
+  <circle cx="52" cy="26" r="2.2" fill="#8b5e3c"/>
+  <!-- rounded phone -->
+  <rect x="12" y="22" width="22" height="30" rx="6" fill="#8b5e3c"/>
+  <rect x="15" y="26" width="16" height="14" rx="3" fill="#faf7f2"/>
+  <circle cx="23" cy="46" r="3" fill="#c4a484"/>
+  <!-- blush on phone cheek (kawaii object) -->
+  <circle cx="16" cy="40" r="2.5" fill="#c9895a" opacity="0.5"/>
+  <circle cx="30" cy="40" r="2.5" fill="#c9895a" opacity="0.5"/>
+</svg>

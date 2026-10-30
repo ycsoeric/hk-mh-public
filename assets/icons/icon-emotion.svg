@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-labelledby="title desc">
+  <title id="title">情緒支援分類圖示</title>
+  <desc id="desc">軟萌對話氣泡與微笑，象徵傾聽</desc>
+  <rect x="1" y="1" width="46" height="46" rx="14" fill="#f3eee6"/>
+  <path d="M10 12h20a7 7 0 0 1 7 7v9a7 7 0 0 1-7 7h-4l-5 5v-5h-11a7 7 0 0 1-7-7v-9a7 7 0 0 1 7-7z" fill="#ffffff"/>
+  <path d="M10 12h20a7 7 0 0 1 7 7v9a7 7 0 0 1-7 7h-4l-5 5v-5h-11a7 7 0 0 1-7-7v-9a7 7 0 0 1 7-7z" fill="#c4a484" opacity="0.25"/>
+  <!-- smile face -->
+  <path d="M18 22 q3 -3 6 0" fill="none" stroke="#8b5e3c" stroke-width="2" stroke-linecap="round"/>
+  <path d="M26 22 q3 -3 6 0" fill="none" stroke="#8b5e3c" stroke-width="2" stroke-linecap="round"/>
+  <path d="M20 28 q5 5 10 0" fill="none" stroke="#8b5e3c" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="16" cy="26" r="2.5" fill="#c9895a" opacity="0.45"/>
+  <circle cx="34" cy="26" r="2.5" fill="#c9895a" opacity="0.45"/>
+</svg>
