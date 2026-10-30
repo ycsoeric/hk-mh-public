@@ -126,6 +126,32 @@
         更多本站說明見 <a href="about.html">關於本站</a>；使用資訊前請閱讀
         <a href="disclaimer.html">免責聲明</a>。
       </p>
+
+      <section id="ig-post-helper" class="ig-post-helper" hidden aria-hidden="true">
+        <h2 id="ig-post-heading">IG 帖文助手</h2>
+        <p class="ig-post-lead">
+          近 24 小時若有相關公開報道，可用以下圖像與短文，溫柔地分享求助訊息。
+          內容不載個案細節；若你或身邊的人需要即時支援，請致電
+          <strong><a href="tel:999">999</a></strong>，或參考本站
+          <a href="hotlines.html">求助熱線</a>。
+        </p>
+        <div class="ig-post-layout">
+          <figure class="ig-post-preview">
+            <img id="ig-post-image" class="ig-post-image" src="" alt="分享貼文預覽圖" width="540" height="540" hidden>
+            <p id="ig-post-image-fallback" class="ig-post-image-fallback note" hidden>圖像稍後提供。你仍可複製下方貼文。</p>
+            <figcaption id="ig-post-meta" class="ig-post-meta"></figcaption>
+          </figure>
+          <div class="ig-post-copy-panel">
+            <label class="ig-post-caption-label" for="ig-post-caption">貼文預覽</label>
+            <textarea id="ig-post-caption" class="ig-post-caption" rows="8" readonly></textarea>
+            <div class="ig-post-actions">
+              <button type="button" class="btn btn-primary" id="ig-post-copy">一鍵複製貼文</button>
+              <a class="btn btn-secondary" id="ig-post-download" href="#" download hidden>下載圖像</a>
+            </div>
+            <p id="ig-post-status" class="ig-post-status" role="status" aria-live="polite"></p>
+          </div>
+        </div>
+      </section>
     </article>
   </main>
 
@@ -491,5 +517,131 @@
       });
   })();
   </script>
+
+  <script>
+  (function () {
+    var PACK_URL = "ig-post-pack.json";
+    var section = document.getElementById("ig-post-helper");
+    if (!section) return;
+
+    var imgEl = document.getElementById("ig-post-image");
+    var fallbackEl = document.getElementById("ig-post-image-fallback");
+    var metaEl = document.getElementById("ig-post-meta");
+    var captionEl = document.getElementById("ig-post-caption");
+    var copyBtn = document.getElementById("ig-post-copy");
+    var downloadA = document.getElementById("ig-post-download");
+    var statusEl = document.getElementById("ig-post-status");
+
+    function hide() {
+      section.hidden = true;
+      section.setAttribute("aria-hidden", "true");
+      if (statusEl) statusEl.textContent = "";
+    }
+
+    function show() {
+      section.hidden = false;
+      section.setAttribute("aria-hidden", "false");
+    }
+
+    function setStatus(msg) {
+      if (statusEl) statusEl.textContent = msg || "";
+    }
+
+    function copyCaption() {
+      var text = captionEl ? captionEl.value : "";
+      if (!text) {
+        setStatus("沒有可複製的貼文。");
+        return;
+      }
+      function fallbackSelect() {
+        captionEl.focus();
+        captionEl.select();
+        try {
+          var ok = document.execCommand("copy");
+          setStatus(ok ? "已複製" : "請手動複製選取的文字。");
+        } catch (e) {
+          setStatus("請手動複製選取的文字。");
+        }
+        window.setTimeout(function () {
+          if (statusEl && statusEl.textContent === "已複製") setStatus("");
+        }, 2000);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function () {
+          setStatus("已複製");
+          var prev = copyBtn.textContent;
+          copyBtn.textContent = "已複製";
+          window.setTimeout(function () {
+            copyBtn.textContent = prev;
+            if (statusEl && statusEl.textContent === "已複製") setStatus("");
+          }, 2000);
+        }).catch(function () {
+          fallbackSelect();
+        });
+      } else {
+        fallbackSelect();
+      }
+    }
+
+    function applyPack(data) {
+      if (!data || data.active !== true || !(data.item_count > 0)) {
+        hide();
+        return;
+      }
+      var caption = data.caption_zh || "";
+      captionEl.value = caption;
+
+      var hint = data.theme_hint || "";
+      var generated = data.generated_at || "";
+      var metaBits = [];
+      if (hint) metaBits.push(hint);
+      if (generated) metaBits.push("產生：" + generated);
+      metaEl.textContent = metaBits.join(" · ");
+
+      var path = data.image_path || "";
+      var hasPath = !!path;
+      imgEl.hidden = true;
+      fallbackEl.hidden = true;
+      downloadA.hidden = true;
+      downloadA.removeAttribute("href");
+      downloadA.removeAttribute("download");
+
+      if (hasPath) {
+        imgEl.onload = function () {
+          imgEl.hidden = false;
+          fallbackEl.hidden = true;
+          downloadA.hidden = false;
+          downloadA.href = path;
+          var name = path.split("/").pop() || "ig-post.png";
+          downloadA.setAttribute("download", name);
+        };
+        imgEl.onerror = function () {
+          imgEl.hidden = true;
+          fallbackEl.hidden = false;
+          downloadA.hidden = true;
+        };
+        imgEl.src = path;
+        imgEl.alt = "分享貼文預覽圖";
+      } else {
+        fallbackEl.hidden = false;
+      }
+
+      show();
+    }
+
+    if (copyBtn) copyBtn.addEventListener("click", copyCaption);
+
+    fetch(PACK_URL, { credentials: "same-origin", cache: "no-cache" })
+      .then(function (res) {
+        if (!res.ok) throw new Error("pack " + res.status);
+        return res.json();
+      })
+      .then(applyPack)
+      .catch(function () {
+        hide();
+      });
+  })();
+  </script>
+
 </body>
 </html>

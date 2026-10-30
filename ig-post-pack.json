@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-10-30T13:27:39+08:00",
+  "timezone": "Asia/Hong_Kong",
+  "window_hours": 24,
+  "window_start": "2026-10-29T13:27:39+08:00",
+  "active": true,
+  "item_count": 1,
+  "theme_hint": "安慰／求助／陪伴（高階；唔寫個案、地點或方式）",
+  "caption_zh": "近排如果覺得好辛苦、好孤單，記得你唔係一個人。\n想傾計、需要支援，可以打「情緒通」18111（24小時，亦可 WhatsApp），或者「生命熱線」2382 0000。\n即時危險請打 999。\n照顧自己，一步一步嚟都得。",
+  "image_path": "assets/ig/latest.png",
+  "related_item_ids": [
+    "pub-119"
+  ],
+  "filter_note": "近24h（HKT）；category_id 屬 life_crisis_public_news／crisis_help 或類別含「危機」。唔含一般精神健康文娛項。貼文無地點／方式／可識別細節；用中性名稱，唔用內部服務品牌。",
+  "safety_note": "trauma-aware；圖由插圖隊補；sqlite 唔上 Pages。"
+}
