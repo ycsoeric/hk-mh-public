@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="危機相關公開新聞整理——只提供高階公開說明，不載個案、地點細節或方式。">
+  <meta name="description" content="危機相關公開新聞整理——列出可對外短題，以及日期、時間、類別與來源連結；可按粗分區與日期篩選；不載個案細節或方式。">
   <title>危機相關公開新聞整理｜香港精神健康求助資源</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,17 +42,15 @@
       </p>
       <h1>危機相關公開新聞整理</h1>
       <p class="lead" style="color:var(--ink-muted);font-size:1.05rem;max-width:38em">
-        公開資訊來源之整理說明——本頁不展示個別報道或個案。
+        整理香港公開報道中與精神健康、情緒危機及求助相關的資訊；列出可對外短題，以及日期、時間、類別與來源連結。
       </p>
 
       <p>
-        本站相關工作會收集及整理<strong>香港公開報道</strong>中，與精神健康、情緒危機及求助相關的新聞資訊，方便服務同工掌握公開資訊動態。
+        本頁展示可對外短題，以及日期、時間、主題類別與媒體來源連結。
+        整理結果<strong>並非臨床評估</strong>，亦不是個案系統。
       </p>
       <p>
-        整理結果<strong>只供內部參考</strong>，關注程度僅作資訊排序，<strong>並非臨床評估</strong>，亦不是個案系統。
-      </p>
-      <p>
-        <strong>本公開頁不展示</strong>個別新聞標題、內容摘要、地點或任何可識別資料。
+        <strong>本頁不載</strong>個案細節、精確地址、方式，亦不顯示關注程度分級。地區篩選只作五大粗分區，方便瀏覽；選項以資料清單為準。
       </p>
       <p>
         若你或身邊的人需要支援，請使用本站
@@ -61,9 +59,58 @@
         <strong><a href="tel:999">999</a></strong>。
       </p>
 
+      <h2>近期公開報道來源</h2>
+      <p id="news-feed-meta" class="news-feed-meta" hidden></p>
+      <div id="news-feed-notes" class="news-feed-notes" hidden></div>
+
+      <form id="news-filters" class="news-filters" aria-label="新聞列表篩選">
+        <fieldset class="news-filter-fieldset">
+          <legend>地區（可多選）</legend>
+          <div class="news-filter-chips" id="region-filters" role="group" aria-label="地區"></div>
+          <p class="news-filter-hint" id="region-hint">未選地區＝顯示全部。已選時：顯示命中粗分區或「全港適用」項目；未標明地區則唔顯示。</p>
+        </fieldset>
+
+        <fieldset class="news-filter-fieldset">
+          <legend>日期</legend>
+          <div class="news-filter-date-mode" role="radiogroup" aria-label="日期模式">
+            <label class="news-filter-radio">
+              <input type="radio" name="date_mode" value="all" checked>
+              <span>全部日期</span>
+            </label>
+            <label class="news-filter-radio">
+              <input type="radio" name="date_mode" value="24h">
+              <span>24 小時內</span>
+            </label>
+            <label class="news-filter-radio">
+              <input type="radio" name="date_mode" value="custom">
+              <span>自訂範圍</span>
+            </label>
+          </div>
+          <div class="news-filter-date-range" id="custom-date-range" hidden>
+            <label class="news-filter-date-field">
+              <span>由</span>
+              <input type="date" id="date-from" name="date_from" min="2026-01-01" value="2026-01-01">
+            </label>
+            <label class="news-filter-date-field">
+              <span>至</span>
+              <input type="date" id="date-to" name="date_to" min="2026-01-01">
+            </label>
+          </div>
+        </fieldset>
+
+        <div class="news-filter-actions">
+          <button type="button" class="btn btn-secondary" id="filters-reset">重設篩選</button>
+        </div>
+      </form>
+
+      <div id="news-feed-status" class="news-feed-status" role="status" aria-live="polite">正在載入列表…</div>
+      <ol id="news-feed-list" class="news-feed-list" hidden></ol>
+      <noscript>
+        <p class="note" role="note">請啟用 JavaScript 以載入公開新聞來源列表，或稍後再試。</p>
+      </noscript>
 
       <h2>整理主題類別（公開摘要）</h2>
-      <p>目前公開說明所涵蓋的主題類別共 <strong>5</strong> 類（唔展示個別新聞或個案宗數）：</p>
+      <p>目前涵蓋的主題類別共 <strong>5</strong> 類：</p>
       <ul>
         <li>精神健康</li>
         <li>危機及求助</li>
@@ -72,11 +119,7 @@
         <li>生命危機相關公開報道</li>
       </ul>
       <aside class="note" role="note">
-        資料說明上次核對：<time datetime="2026-10-30">2026-10-30</time>　·　主題類別 5　·　本頁不展示個別新聞或個案
-      </aside>
-
-      <aside class="note" role="note">
-        主題類別只說明整理範圍的高階分類，並非臨床診斷，亦不是個案宗數。本公開頁不載個案、地點細節、方式或個別報道。
+        主題類別只說明整理範圍的高階分類，並非臨床診斷。本頁不載個案細節、方式或關注程度分級。
       </aside>
 
       <p>
@@ -101,5 +144,352 @@
       </p>
     </div>
   </footer>
+
+  <script>
+  (function () {
+    var FEED_URL = "public-news-feed.json";
+    var DATE_MIN = "2026-01-01";
+    /* 五大粗分區 DEFAULT；載入後以 feed.regions 為準（唔顯示九龍中） */
+    var DEFAULT_REGIONS = [
+      { id: "hk_island_islands", label: "港島及離島" },
+      { id: "kowloon_east", label: "九龍東" },
+      { id: "kowloon_west", label: "九龍西" },
+      { id: "nt_east", label: "新界東" },
+      { id: "nt_west", label: "新界西" }
+    ];
+    var HIDDEN_REGION_IDS = { kowloon_central: true };
+
+    var statusEl = document.getElementById("news-feed-status");
+    var listEl = document.getElementById("news-feed-list");
+    var metaEl = document.getElementById("news-feed-meta");
+    var notesEl = document.getElementById("news-feed-notes");
+    var regionBox = document.getElementById("region-filters");
+    var customRange = document.getElementById("custom-date-range");
+    var dateFrom = document.getElementById("date-from");
+    var dateTo = document.getElementById("date-to");
+    var form = document.getElementById("news-filters");
+
+    var allItems = [];
+    var regionsCatalog = DEFAULT_REGIONS.slice();
+    var feedUpdatedAt = null;
+
+    function esc(s) {
+      return String(s == null ? "" : s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function isHttpUrl(u) {
+      try {
+        var x = new URL(u);
+        return x.protocol === "http:" || x.protocol === "https:";
+      } catch (e) {
+        return false;
+      }
+    }
+
+    function todayHK() {
+      try {
+        return new Intl.DateTimeFormat("en-CA", {
+          timeZone: "Asia/Hong_Kong",
+          year: "numeric",
+          month: "2-digit",
+          day: "2-digit"
+        }).format(new Date());
+      } catch (e) {
+        return new Date().toISOString().slice(0, 10);
+      }
+    }
+
+    function pad2(n) { return n < 10 ? "0" + n : String(n); }
+
+    function parseItemDateTime(it) {
+      if (it.published_at) {
+        var t0 = Date.parse(it.published_at);
+        if (!isNaN(t0)) return t0;
+      }
+      var date = it.date || "";
+      var time = it.time || "";
+      if (!date) return null;
+      var hm = /^\d{1,2}:\d{2}/.test(String(time)) ? String(time) : "00:00";
+      var parts = hm.split(":");
+      var iso = date + "T" + pad2(parseInt(parts[0], 10)) + ":" + pad2(parseInt(parts[1], 10)) + ":00+08:00";
+      var t = Date.parse(iso);
+      return isNaN(t) ? null : t;
+    }
+
+    function itemRegions(it) {
+      var out = [];
+      if (Array.isArray(it.regions)) {
+        for (var i = 0; i < it.regions.length; i++) {
+          var r = it.regions[i];
+          if (typeof r === "string") {
+            if (r && r !== "territory_wide") out.push({ id: r, label: r });
+          } else if (r && (r.id || r.region_id)) {
+            var id = String(r.id || r.region_id);
+            if (id === "territory_wide") continue;
+            out.push({ id: id, label: String(r.label || r.region_label || id) });
+          }
+        }
+      }
+      if (Array.isArray(it.region_ids)) {
+        for (var j = 0; j < it.region_ids.length; j++) {
+          var rid = String(it.region_ids[j]);
+          if (!rid || rid === "territory_wide") continue;
+          var found = false;
+          for (var k = 0; k < out.length; k++) if (out[k].id === rid) { found = true; break; }
+          if (!found) out.push({ id: rid, label: rid });
+        }
+      }
+      if (it.region_id && String(it.region_id) !== "territory_wide") {
+        var one = String(it.region_id);
+        var has = out.some(function (x) { return x.id === one; });
+        if (!has) out.push({ id: one, label: it.region_label || one });
+      }
+      return out;
+    }
+
+    function isTerritoryWide(it) {
+      if (it.is_territory_wide === true || it.is_territory_wide === 1) return true;
+      if (Array.isArray(it.regions)) {
+        for (var i = 0; i < it.regions.length; i++) {
+          var r = it.regions[i];
+          var id = typeof r === "string" ? r : (r && (r.id || r.region_id));
+          if (id === "territory_wide") return true;
+        }
+      }
+      return false;
+    }
+
+    function buildRegionChips(catalog) {
+      regionBox.innerHTML = "";
+      for (var i = 0; i < catalog.length; i++) {
+        var r = catalog[i];
+        var lab = document.createElement("label");
+        lab.className = "news-filter-chip";
+        lab.innerHTML =
+          "<input type=\"checkbox\" name=\"region\" value=\"" + esc(r.id) + "\">" +
+          "<span>" + esc(r.label) + "</span>";
+        regionBox.appendChild(lab);
+      }
+    }
+
+    function selectedRegions() {
+      var boxes = form.querySelectorAll('input[name="region"]:checked');
+      var out = [];
+      for (var i = 0; i < boxes.length; i++) out.push(boxes[i].value);
+      return out;
+    }
+
+    function dateMode() {
+      var el = form.querySelector('input[name="date_mode"]:checked');
+      return el ? el.value : "all";
+    }
+
+    function syncCustomVisibility() {
+      var custom = dateMode() === "custom";
+      customRange.hidden = !custom;
+      dateFrom.disabled = !custom;
+      dateTo.disabled = !custom;
+    }
+
+    function filterItems(items) {
+      var regs = selectedRegions();
+      var mode = dateMode();
+      var now = Date.now();
+      var fromStr = dateFrom.value || DATE_MIN;
+      var toStr = dateTo.value || todayHK();
+      if (fromStr < DATE_MIN) fromStr = DATE_MIN;
+      if (toStr < DATE_MIN) toStr = DATE_MIN;
+
+      return items.filter(function (it) {
+        if (regs.length) {
+          if (isTerritoryWide(it)) {
+            /* keep */
+          } else {
+            var rs = itemRegions(it);
+            if (!rs.length) return false;
+            var hit = false;
+            for (var i = 0; i < rs.length; i++) {
+              if (regs.indexOf(rs[i].id) >= 0) { hit = true; break; }
+            }
+            if (!hit) return false;
+          }
+        }
+
+        if (mode === "all") return true;
+        var ts = parseItemDateTime(it);
+        if (ts == null) return false;
+        if (mode === "24h") {
+          return ts >= now - 24 * 60 * 60 * 1000 && ts <= now + 60 * 1000;
+        }
+        if (mode === "custom") {
+          var start = Date.parse(fromStr + "T00:00:00+08:00");
+          var end = Date.parse(toStr + "T23:59:59+08:00");
+          if (isNaN(start) || isNaN(end)) return true;
+          return ts >= start && ts <= end;
+        }
+        return true;
+      });
+    }
+
+    function formatMeta(updatedAt, shown, total) {
+      var parts = [];
+      if (updatedAt) {
+        var label = String(updatedAt).replace("T", " ").replace(/\+08:00$/, "（香港時間）");
+        parts.push("資料更新：<time datetime=\"" + esc(updatedAt) + "\">" + esc(label) + "</time>");
+      }
+      if (shown === total) parts.push("共 " + shown + " 則");
+      else parts.push("顯示 " + shown + "／" + total + " 則");
+      return parts.join("　·　");
+    }
+
+    function renderNotes(data) {
+      if (!notesEl) return;
+      var bits = [];
+      if (data.update_frequency) bits.push("<p><strong>更新頻率：</strong>" + esc(data.update_frequency) + "</p>");
+      if (data.sources_note) bits.push("<p><strong>資料來源：</strong>" + esc(data.sources_note) + "</p>");
+      if (data.safety_note) bits.push("<p><strong>安全說明：</strong>" + esc(data.safety_note) + "</p>");
+      if (!bits.length) { notesEl.hidden = true; notesEl.innerHTML = ""; return; }
+      notesEl.innerHTML = bits.join("");
+      notesEl.hidden = false;
+    }
+
+    function renderEmpty(msg) {
+      statusEl.hidden = false;
+      statusEl.textContent = msg;
+      listEl.hidden = true;
+      listEl.innerHTML = "";
+    }
+
+    function renderItems(items, updatedAt, total) {
+      if (!items.length) {
+        metaEl.innerHTML = formatMeta(updatedAt, 0, total);
+        metaEl.hidden = false;
+        renderEmpty(total ? "沒有符合目前篩選的項目。可重設篩選或稍後再試。" : "暫時未有可公開項目；列表將於資料就緒後顯示。");
+        return;
+      }
+      var html = "";
+      for (var i = 0; i < items.length; i++) {
+        var it = items[i] || {};
+        var date = it.date || "";
+        var time = it.time || "";
+        var cat = it.category_label || it.category || it.category_id || "未分類";
+        var title = it.title || it.headline || it.short_title || "";
+        var name = it.source_name || "來源";
+        var url = it.source_url || "";
+        var when = (date && time) ? (date + "　" + time) : (date || time || "日期待補");
+        var timeAttr = "";
+        if (it.published_at) {
+          timeAttr = " datetime=\"" + esc(it.published_at) + "\"";
+        } else if (date && time && /^\d{1,2}:\d{2}/.test(String(time))) {
+          timeAttr = " datetime=\"" + esc(date) + "T" + esc(time) + "+08:00\"";
+        } else if (date) {
+          timeAttr = " datetime=\"" + esc(date) + "\"";
+        }
+        var sourceHtml = (url && isHttpUrl(url))
+          ? "<a class=\"news-source-link\" href=\"" + esc(url) + "\" rel=\"noopener noreferrer\" target=\"_blank\">" + esc(name) + "<span class=\"visually-hidden\">（另開新視窗）</span></a>"
+          : "<span class=\"news-source-text\">" + esc(name) + "</span>";
+        var titleHtml = title ? "<h3 class=\"news-feed-title\">" + esc(title) + "</h3>" : "";
+        var regParts = [];
+        if (isTerritoryWide(it)) regParts.push("全港適用");
+        var rs = itemRegions(it);
+        for (var r = 0; r < rs.length; r++) {
+          var lab = rs[r].label;
+          for (var c = 0; c < regionsCatalog.length; c++) {
+            if (regionsCatalog[c].id === rs[r].id) { lab = regionsCatalog[c].label; break; }
+          }
+          if (regParts.indexOf(lab) < 0) regParts.push(lab);
+        }
+        var regHtml = regParts.length
+          ? "<div class=\"news-feed-regions\">地區：" + esc(regParts.join("、")) + "</div>"
+          : "";
+        html +=
+          "<li class=\"news-feed-item\">" +
+          titleHtml +
+          "<div class=\"news-feed-meta-row\">" +
+          "<div class=\"news-feed-when\"><time" + timeAttr + ">" + esc(when) + "</time></div>" +
+          "<div class=\"news-feed-cat\"><span class=\"news-cat-badge\">" + esc(cat) + "</span></div>" +
+          "</div>" +
+          regHtml +
+          "<div class=\"news-feed-source\">來源：" + sourceHtml + "</div>" +
+          "</li>";
+      }
+      listEl.innerHTML = html;
+      listEl.hidden = false;
+      statusEl.hidden = true;
+      statusEl.textContent = "";
+      metaEl.innerHTML = formatMeta(updatedAt, items.length, total);
+      metaEl.hidden = false;
+    }
+
+    function applyFilters() {
+      syncCustomVisibility();
+      renderItems(filterItems(allItems), feedUpdatedAt, allItems.length);
+    }
+
+    function resetFilters() {
+      var boxes = form.querySelectorAll('input[name="region"]');
+      for (var i = 0; i < boxes.length; i++) boxes[i].checked = false;
+      var all = form.querySelector('input[name="date_mode"][value="all"]');
+      if (all) all.checked = true;
+      dateFrom.value = DATE_MIN;
+      dateTo.value = todayHK();
+      applyFilters();
+    }
+
+    dateTo.value = todayHK();
+    dateFrom.min = DATE_MIN;
+    dateTo.min = DATE_MIN;
+    buildRegionChips(regionsCatalog);
+    syncCustomVisibility();
+    form.addEventListener("change", applyFilters);
+    document.getElementById("filters-reset").addEventListener("click", resetFilters);
+
+    fetch(FEED_URL, { credentials: "same-origin", cache: "no-cache" })
+      .then(function (res) {
+        if (!res.ok) throw new Error("feed " + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        var items = (data && data.items) || [];
+        if (!Array.isArray(items)) items = [];
+        allItems = items;
+        feedUpdatedAt = (data && (data.updated_at || data.generated_at)) || null;
+        if (Array.isArray(data.regions) && data.regions.length) {
+          var fromFeed = data.regions.map(function (r) {
+            return { id: String(r.id || r.region_id), label: String(r.label || r.region_label || r.name || r.id) };
+          }).filter(function (r) {
+            return r.id && r.id !== "territory_wide" && !HIDDEN_REGION_IDS[r.id];
+          });
+          /* 以 feed.regions 為準（已隱藏九龍中）；DEFAULT 補齊五大區 */
+          var seen = {};
+          regionsCatalog = [];
+          for (var fi = 0; fi < fromFeed.length; fi++) {
+            seen[fromFeed[fi].id] = true;
+            regionsCatalog.push(fromFeed[fi]);
+          }
+          for (var di = 0; di < DEFAULT_REGIONS.length; di++) {
+            if (!seen[DEFAULT_REGIONS[di].id]) regionsCatalog.push(DEFAULT_REGIONS[di]);
+          }
+          buildRegionChips(regionsCatalog);
+        }
+        renderNotes(data || {});
+        var hasRegionData = items.some(function (it) {
+          return isTerritoryWide(it) || itemRegions(it).length > 0;
+        });
+        var hint = document.getElementById("region-hint");
+        if (hint && !hasRegionData) {
+          hint.textContent = "資料隊擴充 feed（regions／is_territory_wide／published_at）後，地區篩選會生效。未選地區時仍顯示全部項目。";
+        }
+        applyFilters();
+      })
+      .catch(function () {
+        renderEmpty("暫時未能載入列表。請稍後再試，或先參考下方主題類別說明。");
+      });
+  })();
+  </script>
 </body>
 </html>

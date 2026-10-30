@@ -1,0 +1,1059 @@
+{
+  "section": "危機相關公開新聞整理",
+  "generated_at": "2026-10-30T11:37:44+08:00",
+  "updated_at": "2026-10-30T11:37:44+08:00",
+  "timezone": "Asia/Hong_Kong",
+  "last_reviewed": "2026-10-30",
+  "earliest_filter_date": "2026-01-01",
+  "legco_year": "2025",
+  "update_frequency": "與內部監察同步嘗試於香港時間每日約 09:00、14:00、17:00 刷新；本公開列表於每次產出時更新。",
+  "sources_note": "資料來自香港公開新聞、政府公報等公開來源（經安全篩選）。只列香港相關項目。地區跟 2025 立法會粗分（含九龍中）。",
+  "safety_note": "地區只提供粗分區，不載街道或詳細地址。標題為可對外短題；危機類為安全改寫句。不顯示內部關注等級。",
+  "delivery": "static_json_browser_filter",
+  "regions": [
+    {
+      "id": "hk_island_islands",
+      "label": "港島及離島"
+    },
+    {
+      "id": "kowloon_east",
+      "label": "九龍東"
+    },
+    {
+      "id": "kowloon_west",
+      "label": "九龍西"
+    },
+    {
+      "id": "nt_east",
+      "label": "新界東"
+    },
+    {
+      "id": "nt_west",
+      "label": "新界西"
+    }
+  ],
+  "theme_categories": [
+    {
+      "id": "mental_health",
+      "label": "精神健康"
+    },
+    {
+      "id": "crisis_help",
+      "label": "危機及求助"
+    },
+    {
+      "id": "priority_groups",
+      "label": "關注群體"
+    },
+    {
+      "id": "risk_stress",
+      "label": "風險及壓力因素"
+    },
+    {
+      "id": "life_crisis_public_news",
+      "label": "生命危機相關公開報道"
+    }
+  ],
+  "filter_hints": {
+    "region_multi_select": "Match if is_territory_wide OR any selected id in region_ids; empty region_ids = unknown (hide when region filter active).",
+    "date_24h": "published_at >= now-24h (Asia/Hong_Kong)",
+    "date_range": "from >= 2026-01-01; filter by date or published_at"
+  },
+  "item_count": 51,
+  "window": "full_from_2026-01-01",
+  "items": [
+    {
+      "id": "pub-119",
+      "date": "2026-10-30",
+      "time": "06:06",
+      "published_at": "2026-10-30T06:06:50+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "香港01",
+      "source_url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxPTUEtVUVhTmJPVWNNVDAwOWpVNVAxRHNRZHlxQVZxUGZfcExuTEppem1kZVQ0MExITmhJYWNSMlJlY3RqOFB6ZjFGemhRaUJDVHg3OGhwYml3V3pvV2F5MWpvcmxVanJRci1mekk4YzRaXzBncDItdjNkRE1rWlo2NnNwN2ZDTnJHVWZvUGJVMlFKZTgyclFONkgxVGhGZ1dVUEVtamEwTEhsUmVxaF84NGhreExJVUNEN253SkU4UHRvQndxVXhjWmJWQUlXM0kySkdzcTNOSU9zdDlFc3A2UVVCbzFKUHF2M3VqQmZmVWx3Z0JTVlhNWTFoN1ppMklQVzB4LWtudzl1Wnl2QV9lTTNQT2JQcWZIQTU1UWZVVHgyOUJBM3EwUkFCMUZIek9JUWdhSUN3NXFTR1loRl93bWcwWVVkeWd4MW5OcmNBNXhvMVZHR0xEYlJHMGdzZXpEMl84anYyOWctd3ZjQ1pIMnU4VDZCUFI1SFUyZFNqSFd1XzRMZlVteWJFelFNM3JFNElqclp2bnFUeFNCYUFSS05HeUJMUQ?oc=5",
+      "region_ids": [
+        "kowloon_east"
+      ],
+      "regions": [
+        {
+          "id": "kowloon_east",
+          "label": "九龍東"
+        }
+      ],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-120",
+      "date": "2026-10-30",
+      "time": "04:04",
+      "published_at": "2026-10-30T04:04:01+08:00",
+      "category": "精神健康",
+      "category_id": "mental_health",
+      "category_label": "精神健康",
+      "title": "張國強與吳海昕首結戲緣 演父女檔仁醫倡精神健康",
+      "summary": "精神健康相關公開資訊。詳情以原文為準；本頁不載個案細節。",
+      "source_name": "香港文匯報",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0wSjBtZzR5NXFLY2MtT3dtUlJreHl5ZHhYM0xoZFFScE4zUDNVWHZsQ09hSjgzbW9LX1JUWlFpaDF4RDlFSUxMQ2o3VERCZzl4Z1dHQW9NLWNIbjJKeEdjZlJ2bjZ4RUZ4aGF2N2NRdW4xWTl6ZEZB?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-76",
+      "date": "2026-10-28",
+      "time": "21:02",
+      "published_at": "2026-10-28T21:02:26+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗與未成年人相關的危機資訊（詳見原文；本頁不轉述細節）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "香港01",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxNRmFqSWZPdTZPeTMwUTE0MmpBanFMME5VaXNRdmJZV1ZvX2poa2h4MVU3LXdzNW0tNWM1SFc0SGdBY2J3Xy1jWVNmUm1HTmhpNGd4a2EtdWt3MzdjT1h6Y2NZYkRJdXo2TlBtYVk1NlZwd0N6aXpkMXhBWFlab2xJS0JZU3BvSmc1Z3BGWUFJYXY3Slo3NmJIY09leDhCWG9VbXdKQUVwNmRhNlItQnFreFFUZ1cyZHpnYzg3blZXUmNXUzVfd1laUGowSW5nTUhfMS1QMFFJVFJLYXFXTm95bnlBY1YtUkdlMndhcXJ5M1RoVjR3eEpKaDQxT1BTRXotN29sNW5kc3FMak5mUDh4RVJ6U1JObFpEX05IMEJiX3FfTXN4V01tU25QQTI1ZGFNcWhsTTRLWkpRRDhNV3d3STY3dkRPQUNZZDhBS2FoRF9VS29hclg0NDVXMUxrN0dnVXM3MDdQc2JmUGdvbGNPbE1QMjlYdGNSS191ajRvWUhOOHNiWUNaTC1OWUxURDVna3RyZXRZbU9CNi1QUm5idndnNHhXWXdHbTQ0?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-91",
+      "date": "2026-10-28",
+      "time": "20:06",
+      "published_at": "2026-10-28T20:06:00+08:00",
+      "category": "精神健康",
+      "category_id": "mental_health",
+      "category_label": "精神健康",
+      "title": "立法會：教育局局長就「推動新時代下的教師專業發展」議員議案開場發言（只有中文）",
+      "summary": "精神健康相關公開資訊。詳情以原文為準；本頁不載個案細節。",
+      "source_name": "政府新聞處新聞公報（info.gov.hk）",
+      "source_url": "https://www.info.gov.hk/gia/general/202610/28/P2026102800679.htm",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": true,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-79",
+      "date": "2026-10-28",
+      "time": "15:10",
+      "published_at": "2026-10-28T15:10:08+08:00",
+      "category": "精神健康",
+      "category_id": "mental_health",
+      "category_label": "精神健康",
+      "title": "讓晚年身心更健康 從靜觀自我關懷學到的一課",
+      "summary": "精神健康相關公開資訊。詳情以原文為準；本頁不載個案細節。",
+      "source_name": "明報健康網",
+      "source_url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQYkloVXBhbnpQYVFSSTU0NC1hUG05bzBFSFI4Y0RBUW9RbFRMalQ4MldFTnFMdjBodV9obXRBMkxpVjNUY2RkcWg3TTJLN0NiSGt2bkxDR3diYlh2eTVNbEVZbXBZZlExLWYwSzVrSzByT0RqaUEwNkF0anp6RU95SG1MQ3NhcGoxUlM1NG4xc2V6bmtqYkdwY25SS0tLeE1heklISERicWhxNHVBYmZROXh1Skd5bXNCR0RtcWlyWHUzWVNyOUx3TlI2QmdzT2VsV1F1YjVmYUxlSkZrc1ZLZnVobXVIQlBpOGRrTE1weVZNYnE1Y2pNb3JLa2lHOVd0aXppRWxDaFZJc0N3Zk9zMHo4WTdROUZzWlgtSDVQcjd4X1dZQnZSc0xoVDRiVW5oeVhaYWp4dFVqQ2RCMjBzemQzamYxTWg0T1IwSw?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-85",
+      "date": "2026-10-28",
+      "time": "14:50",
+      "published_at": "2026-10-28T14:50:20+08:00",
+      "category": "精神健康",
+      "category_id": "mental_health",
+      "category_label": "精神健康",
+      "title": "時事HOY角度 精神健康諮詢委員會主席林正財—情緒支援熱線運作 - i-cable.com",
+      "summary": "精神健康相關公開資訊。詳情以原文為準；本頁不載個案細節。",
+      "source_name": "i-cable.com",
+      "source_url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxOWFJNWlJkM2FhRUhZZzgxLUdja3k0RmJvTDJQN2ljdF9mRDNQUlJad3FKNjVTTDRHbGw4QXJ5RGdVTmplbFR0S0F6azZjZkV4T0JnanpZSnBYUGJnMG51bDRBQ3hnaWZXZ1JBSlhhN0RCQXpobVozY2lYdnhlNmwzT1lPZ01RS2NhUW8xMFdrVl9oNGwzVlhLdlJWT2FHcDl5cEUtc0hiWkE0Y0tsYzNrSlk4Ni05a0dsVlpJY0pJejhtRXZrRHY0bDZzOUR1UU5Pc0ZEbVNVMmFXOWhNWVBRTDgtdU4tSWhvX2UtM3k4eTdLd2JlZ1hOWmlRZVhUS2ZDbWRaRnYxRlVPX012SXQzRUR3QjdUY01sVUhlcDc5b0NaakJzNV9HQy1maHd6NXhwVlF2bWVhbGhjc0tkZzJZU2pYX25sVVM4Y1REdzRCQzFtbGF0b0lSakx4VHdzb0NvV2c?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-98",
+      "date": "2026-10-28",
+      "time": "13:31",
+      "published_at": "2026-10-28T13:31:01+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "香港01",
+      "source_url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxORzk1U1o0ZUNYUEs1d3ZJdDNPenhaSXFWWnJyUDFfODZ0YVc4YnVrWi1LQUs1MjdTQ1NKZENCWFpkc0U1NkF1RmpMb3BoSzY0dmlBUnJtYmMxdUtjSnJjVks1d1NLZ2lwMVlsX3M1NDRDU3pteUY0MWl3TVZqUDAxdFFZZm5zRXdkYkxyTnBBaFpHZldLM3FKOF82cGtoV2x6Q3JjTjhzTlFUa1JUX0FJZFZqV2ZCZjhWRE01UkYwSzdkTWpoc09ud2JLOXlIU3huTVdKcFZQVEFhYjNBaV9lWlhfNUlsQU5ITndNSm9WS0lPMHZDTElxTVVWZVZ2LTlKdkNPRXFHeFZZb0JkeGliZE1vSEdMa1pGaDlKQlVsLWZqdVJlYlJGZGJuS1c3anBidDZRcU5SVW1YVDgyLTZlOURkNUdjU2RTM0FfV0N0MkFtVHE5Unl5WDZTRjJocmo3eUdyMllGdjZ3TVZfN3hLSDVFcGVuRmtNVk9XaHFBeUhPXzBKbnE1aEFNME92RzE0RU96MVJ6SzAxcVNPV1lla0t3c2JpbDRh?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-92",
+      "date": "2026-10-28",
+      "time": "11:35",
+      "published_at": "2026-10-28T11:35:00+08:00",
+      "category": "精神健康",
+      "category_id": "mental_health",
+      "category_label": "精神健康",
+      "title": "立法會十二題：社會服務令計劃",
+      "summary": "精神健康相關公開資訊。詳情以原文為準；本頁不載個案細節。",
+      "source_name": "政府新聞處新聞公報（info.gov.hk）",
+      "source_url": "https://www.info.gov.hk/gia/general/202610/28/P2026102800256.htm",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-103",
+      "date": "2026-10-28",
+      "time": "11:30",
+      "published_at": "2026-10-28T11:30:00+08:00",
+      "category": "精神健康",
+      "category_id": "mental_health",
+      "category_label": "精神健康",
+      "title": "藍莓不只護眼 研究： 助緩抑鬱症狀",
+      "summary": "精神健康相關公開資訊。詳情以原文為準；本頁不載個案細節。",
+      "source_name": "AM730",
+      "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBROXpqdG5va3RycGVlTFlSeU10U3l2UXFLZWxyNHFSZHRXODhwLTFwN2hLLWUxd1JyN2RlYk5mRmZaOFA1cHRrTHRIMnFiSlBJVGc?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-100",
+      "date": "2026-10-28",
+      "time": "06:30",
+      "published_at": "2026-10-28T06:30:10+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "巴士的報",
+      "source_url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxPREZPNjM5OVlhRHljWldyOWRiYldmZTJ6elB0WWJZRlhuWk1zdUVUTTl3VmsxNE5sR2ZmUUtPRzlfMFpGcWhQQmJUX0RId09fWE9ZSXk2eXEtQ0hnYWdhV1ZTWm5PcEIyeWFsZ2NYSEp6VjRaZFJuMUxWdEdXYTBIWkFVbFYwYmt4NEdyb3c1TC1xSmNLdHdGVlNpLUQ3eF9DczZOdmxEcEZCdEU4NGRHNjF2cnZoQkVub09tQU5HOHljWm5lUktITjZGYTFUcFhEal9wSVUyb2ZwTENWTzlUZWhWOTlGS25EeEdMTkZ0enJyZGh1QUo0NnZKOEJBY08yUDl3X0oyU0o2WTh6d0J2aGREajgxX0JrYXVTTEN6YVFseG91bVUzLVVoOWdLTGlPWjZSQWlhOWZ0NnNFQWcwWTJMczhTREg1SW1HSnNPTmpHRUJuR2cxQ2NLc0FQZDFQQWhSMEdGX2lZV25uVllN?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-118",
+      "date": "2026-10-28",
+      "time": "00:43",
+      "published_at": "2026-10-28T00:43:05+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗與未成年人相關的危機資訊（詳見原文；本頁不轉述細節）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "香港01",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxQV2xRM1R4MDFCR3RyVGcwWDVKSm95emtMb0RRRzQ1YURDdW8wRXY4T3VUZF9ENUFUOVVHNXlGZnctSnJqRm8wT2VraEVJeXlGMDd1V3Z2MlByc21FV3BNVFMxYkRwa2JBYkxLVkdpNkhKUTA3YXdFSzJaVkg3SENnTWIzT0w1WXRLYVJpNmFDeWI3ZUxqNWZBc1BOVXN1R1FCTldrVmVqSFBGUWI5ZXRid3Y0ZHV5eG1LZ25pRWF2ZVhKb1ZwVlFJS1B0VXp4bFktMmFEYkFiYTFPMEVacHhGRlRYTThLX1hUQUJ5V2RjWjg2NzBJb1Z0QUNveS1TMjB6dGdvZjdsckQ4bXdSQ2RvWXZwRDF4YU02WXBrR0dnMWtKZldQS21NMWJQX2pudXB5RmNybmZ1THZQRTdNWXhpbW5oa3NFRUF5M1BBR1F2Y3BJQWxNVHBIbFFtV2VBR0JlV3BKUUM0LVBwRU1yNDE3dGxPenZIaWdhRG1kSnIxbG03REF6Q2FnYTUwMTQ5VlZWX0k5OV9id0RMaXU5Mk43bXRxSV9lX2ppWS1r?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-11",
+      "date": "2026-10-27",
+      "time": "16:48",
+      "published_at": "2026-10-27T16:48:03+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "on.cc東網",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPa2NHeEN6VnJvYThpek9aajd6NlVRZFNzN0tKRDlGRHZWZGFPZUJaaC1PNnBIUTY4cUl6dFpYVktWd2NSSUxNNkdlWFlrSVZjY013N1k1NnctV1VGaG5EcmUtSVYxbFNDUkJmTG12S01DUDRJV0w4aU8yZXlGdTMtMkwtLTRweGxzcTFv?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-101",
+      "date": "2026-10-27",
+      "time": "15:00",
+      "published_at": "2026-10-27T15:00:00+08:00",
+      "category": "精神健康",
+      "category_id": "mental_health",
+      "category_label": "精神健康",
+      "title": "港台電視 31 凝聚香港 - 第1137集 狂追AI短劇會搞到「腦腐」？精神科醫生拆解6大精神健康危機！",
+      "summary": "精神健康相關公開資訊。詳情以原文為準；本頁不載個案細節。",
+      "source_name": "香港電台",
+      "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBPM05GNE9hdS02SmhXa0pfMTMwN2I0a2J0bnFZZ0s3ZmE1V09ROXpZandPVzJzTU9Ub2V0NW9yN3J1SUJuSmEzQWR5ZXNWb0FaQVFqZzVYMlpNYy1LaEMxcTZQNHRKRHRwcFlEWkhrX2Y?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-2",
+      "date": "2026-10-27",
+      "time": "02:04",
+      "published_at": "2026-10-27T02:04:47+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "星島頭條",
+      "source_url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPLW5JUzBmcG91Z1BMcF9oQzc4d0k3TXM0S2kxR18yaVRpQmJiVEtLSjZkVU45a1RXQUpNcGgwS3dtYmxwcFlUNlI5S3Uwa1BsdTJWVVVmMzlQbno0YjRZUy1adEFLUEtxYnJKc0RKNGw5UzJoaVR0NEk4S2RpUl9TUlRlQnF4Um84SkJmTHRhWDc5VmR0dWpHakFJclRFbVRQS0FROVRYQTViblVkUTRfU1lrdmZ3cGc3S3RzMXNfZElpRG9sdl9qWW9RRHpmOXFGUENBdzVDSExmMmVjbWJlSk91Z0JDM3o5aUZpdmQ4Nnd2VFByQ09FWDIwNlNPY2NqclRGcmxhOW5BZkxZTDR4X0poY21feHBIQWlFV1B1c2JCME4tUTVvSTdZTWpGLXRxYXBGLXN4OFRZN0RQTmc3U2czcU1SR1Vtd21xcUNBYjFVV1JENEY0MVA4VGs?oc=5",
+      "region_ids": [
+        "nt_west"
+      ],
+      "regions": [
+        {
+          "id": "nt_west",
+          "label": "新界西"
+        }
+      ],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-96",
+      "date": "2026-10-26",
+      "time": "21:00",
+      "published_at": "2026-10-26T21:00:52+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "香港01",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxNSC10ODloRDlmRkZ1ZEVvb09MNEcxNE1OUk9OdGhBaUVrNXJaVWwwcnZYV3RaTGFFeVVaQndNOTNGS1ZkaEF4c0FlQWpwQVJpSXZnWmtHdXl2YWFRcnY0YklFSmw0MnVzYWkwWWgyRTN2MUk4Q0c1aU5PX0ZxZUJMV1dDd29aMjIyNm5XVjh3N1VoTEIyNjdRcnhJYnBXdGFRZ3lkWkdUSTBmeG50MDBfWk1ka1czQ2RIYW9DdDVCU2VUN2ttenliMEZfc3ZGUXpVWDVmN0lxU0dUb0JOekNpSjB1WVpHY09ROHl5S3I4cGR3elZIczBZM3lfVzdqbEk2WFo1LVRRTVV5dnRMd0JVdDgyMUtORElORUhINXpEU2RxRmxfYmMxZ0JicnZoYUFOYXF0eF9UV2J6eGtlMHlHbF95by02dXVwR3F2dmhoUGhpNzBLZ3pHRmhfNkNoNU9FMXVWc1A3MkkwM0ltcDlES3JCV05KTzZsRzV3ZTNaNkRoM21nWkZqT044Vml6WnRSWkxpNkVGeXhXMTBDVC1BbFE5NHJlMktJR2c?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-73",
+      "date": "2026-10-26",
+      "time": "19:30",
+      "published_at": "2026-10-26T19:30:56+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "香港01",
+      "source_url": "https://news.google.com/rss/articles/CBMioANBVV95cUxPdVJneEl0cDNCcWV2WUE4VkZtUWNzaEdETWpNZW5mN283cjRPaWxHOFZzN1Y4Z2JkcUpoY2hNMGw1SUZNdkpkM05vVThQZTFxQW1iMXVBaUQ2YlkxVFRvb010ZDdwVkJ3N2RoUzZOR3hOU1NzREVERWFmVFNpNmVtbEhEd3RyV1pNOWNKLVZudnoxSm91VjN1WHNxejJGemlOTlk2c0xZZGI3OTFwQnhqa0hEWFZTR0hyNHZVWmZPODdibDhYSDBrRU5LTFNPNmpMSnlxSzJHbGhyM0hPOE1vekV4elVYU3ppcVRHSHVvc05wR2lMVlU4eUg1XzlJSFZGM0p5Y0JISnZXYTFHUnBidDlYTHA1MUV6djBGeWpTSzZOTERsclhrd1kzWnZLLWhZZ2xDVTlUSWdoeUFoRkd3dTU1ZHp1dVNJUlVxYkN2T0JaN0ZDcHRYVDczaVl6UjUzT0t0Qm9FOTVpUUluSDd5T3Rpa0EtOXU4WDlrblAzV1lFdXduUlBpa2NvRmpScm5VOU5ueWo1MnNsdGs1d0FzSw?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-19",
+      "date": "2026-10-26",
+      "time": "18:32",
+      "published_at": "2026-10-26T18:32:34+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "on.cc東網",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY1JBT3lQN0JJUDlmc25XSWNNUU9HTG56aTBLUDJNUjh3OFlBRHZ6V2dsT1p6dnBNb1hLTHlfX3Voa3JqUURnM2NoY2FuNGR3bHpEcWpvTzg2bFJDdW45YkIzMlJ0Nm9rU1E0Unc3bzJzdlV6S1RDdEU2c2E2SEJuN2dzeUgwNGozaWZz?oc=5",
+      "region_ids": [
+        "kowloon_east"
+      ],
+      "regions": [
+        {
+          "id": "kowloon_east",
+          "label": "九龍東"
+        }
+      ],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-81",
+      "date": "2026-10-26",
+      "time": "12:43",
+      "published_at": "2026-10-26T12:43:14+08:00",
+      "category": "精神健康",
+      "category_id": "mental_health",
+      "category_label": "精神健康",
+      "title": "產後抑鬱未必生完才出現？別再說她只是太累 用陪伴走過孕期低谷",
+      "summary": "精神健康相關公開資訊。詳情以原文為準；本頁不載個案細節。",
+      "source_name": "香港01",
+      "source_url": "https://news.google.com/rss/articles/CBMisANBVV95cUxOY0RnZFFobEZKa3k4MXdIekhDdHc5dWxkay1MbDlROWlQbWRSZUw2WmxTSWJKY1NvZWlnNVRzNVRFY0tBWmhMbV9uZEcwNVZtcWF2RHBpSVdta1ZkTXhjX3FXLU5BVEJkUkxmMmlqZlpaMFU3T1JwYksydVpjYmJjcFY4a0dKN1pldnVkd2xITjJIRFRuc3hnT0FuQmIxcWNLV3NsTmxfem9ZeUxuWVZvV0NWTmFsOHVUQS1HeHNUN2RkLWxKTEhsTXgxYUZZMVNRckY3M1ZFajZGVl9CTmlJd0RmYnNFV0ZGMGdIQ2VZNjJKS3lJQ1EtM1NVUXQ0NUIteTJBU2JKb3NPV2JDNFZVS1hsZjZWZ0gwdlo1TUJHZFhNZUxjS2RtVFhjSDRhb0s5UEVweU1mZXNjaGo0RUFDazQ3bGh1WlFLQ0w5a2NVNVJnLWdiOGVzM09nZ1lGWnE4WmpLdG9hQjBjdktXbzFMTDNlQ0l4VjF1UWIxN2RxYXdyY3BsRWdBNzY2WnF5UnZUclNfNWdXQlA3SkRrU2tHZUJQVGc5WmNITGNLdVpHem0?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-18",
+      "date": "2026-10-26",
+      "time": "09:10",
+      "published_at": "2026-10-26T09:10:51+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "香港01",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQSmtpR01mVExJX0FlbHR1T052LXZ0dk9fdWZ4UmMzMVhKTmdCcjUydUR6TWVZc1RlaXhtWDVUTkU2UFZRcURYWGRLNDhqYnVSdTA1cmUwQjVXVmFJSFhhWnFITzFfUEVZWnFzVDhRZ3JqMFNnS0lOSFl3aC1VOTdMam9fN3RZX2E1M3BjSHp0Wk4zVlNZS1JXc09LREo5T3YyWkYzTUxuTFBLQmZKNFAzUzVFRk1FSG1MaEV0X2tJelYtQWxwcVpVMHFCMHpDMldWRWhMeDFwOWwtUlNiZTJKckhqOXpHV2kyVFNmbEMwOFBmZGloaUx0SlNYRko5MkVubmtzY3FuQmVjTzFGQ2dxbGYyTnRENERjUWMyckNzNTdHdHBIazBvMHJ0SlpibE5tX0lkc0dmY2Q5NTQ?oc=5",
+      "region_ids": [
+        "nt_east"
+      ],
+      "regions": [
+        {
+          "id": "nt_east",
+          "label": "新界東"
+        }
+      ],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-87",
+      "date": "2026-10-26",
+      "time": "02:20",
+      "published_at": "2026-10-26T02:20:34+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "on.cc東網",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOa1NsSmItUjRQOTYxTXRmQjczeUY4Y3BaYVN4a19oZDk1MUV3LWFtQnFZNUItRXUzdmVqZDZuRGtPVURwd0F5MHZqWWVMcGJVTGg4cEFZWEFDM0dkQlJIZFlZSTdaLXpuWjFFRTc4VWtqMk9nN3JvVERLaUVMLTk3bGhGSzRRQk1YUG1SSGJtRnNXNzdmS0hJ?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-29",
+      "date": "2026-10-26",
+      "time": "00:39",
+      "published_at": "2026-10-26T00:39:11+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "明報新聞網",
+      "source_url": "https://news.google.com/rss/articles/CBMimANBVV95cUxQV0djSW12cjRnRkZGTTBtbEYyZTZUZjhRRWxDSE1ucEJWcHgtOU5QS3FWQTlsb3VicHJjZUw4cnVlZElwVHY5M2g2QUhNR1RkOXRRN0RPeWZpd05RZzV1T3RrenpHbFpyTXBRbWx4QUl1TWNjbTNHUHc1N1pSYndNVmZaYVQtdUdBMVkwRW1BV2RhN2lNeE5OTWNtckNzWUhNMGpFNGFDcFFYeUVabHhGYVJrd1lrZjRjRExCX1hkaHZJa2dvelFUZ0I2TlNENURNQXNpaEVVSHpPcTZ3ZS1takpyQklvRVI2ZkNfUzlFSW8zdGxhNUY3YmVfemo2UnhXdHR6VzdWTlJLLW5YeWJuX3lkUjN4cXh3bHN5QVhoMk1BUUNHMVc0OHZybnA2UUpSWWlqcHdIZTBqdjdzcEFtNU5IcXdfLUU5eThUZFowcWFWWU5hcHlwNG04T0N6eDZuQV9RU28zS0ZhQ2hVZUJIVkpPbzdvbUtKcHVQWHFvanZLR2xDSGZRQTNGN3ZJaTJLcjdtY2NYd04?oc=5",
+      "region_ids": [
+        "kowloon_west"
+      ],
+      "regions": [
+        {
+          "id": "kowloon_west",
+          "label": "九龍西"
+        }
+      ],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-4",
+      "date": "2026-10-26",
+      "time": "00:02",
+      "published_at": "2026-10-26T00:02:20+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "on.cc東網",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVmFGYV9sa0dPdld5QUFtVVRQTTRTbkVoNkEzMEEzZ3hLeVktRkFWaTRHVUJjMXdneVlyVXZLejFEWllvYTgwcjczaF9qTFdDT1dkX0J2alFnaDk4MV81TS1idE1nR1ZjbDJ3eExHaUJqUk16OVZlSURSSVFFUmZ3RXhodUdRU3ZaMEtr?oc=5",
+      "region_ids": [
+        "nt_east"
+      ],
+      "regions": [
+        {
+          "id": "nt_east",
+          "label": "新界東"
+        }
+      ],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-22",
+      "date": "2026-10-25",
+      "time": "23:22",
+      "published_at": "2026-10-25T23:22:24+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "香港01",
+      "source_url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxNUFZGQVVwMTRQMUQ5cXBRSUp2UVh1cVBLTTFnWFVkejk4ZDd2azh5OU9QdkExMWZxY1htUURnUzBRNzR1aEd6cGVmaW95eGd6amR6cVJJb29LUDVkMko4UU1DZHRWSC1idFZqODEyOFlFZ2Z6d3pUMVJRQ2NzYmxNcUlIM25kNXBiYVlnaFREbWx2X3hGQmk5U045UGtwMmN2T0pTOVotdkxpS01GUnE0amtXbEhZZ04xemFCeGM4VDB1QTlfQjJ6WUpPVTIyNlZrQ3diejl5VVdQSUtqclRIVUI2ZHpERk5qZzR1cjBteGQzaV9rZDJqbk1nZlhzQnR5a2pUM3dxVU9LcmFGY3lLb2ZyRlE2MmtRLVYxUTQ1MW5UYVNpVTBSMWo0Tmt5clZ1eE9SN0Vwc19IcDZhbWpTNkRRXzZCSHdfSE8tc21QeURaNWUtRkt4UUliZmU3dnZvNDhydkxwX0dpWlFTVUJGbUt6dGJ2aGZGRnc?oc=5",
+      "region_ids": [
+        "kowloon_west"
+      ],
+      "regions": [
+        {
+          "id": "kowloon_west",
+          "label": "九龍西"
+        }
+      ],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-1",
+      "date": "2026-10-25",
+      "time": "18:01",
+      "published_at": "2026-10-25T18:01:02+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "香港文匯報",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5UYjJIQ3dRVXZuMFRCaXN0dTZtcTJYRXdrcnpGb2g0V1h3MVJkdVBkdTFxOVQ0RlN4Z0l3c094TmNGckthQjFnTl9RTDRyV3hwSWd6OVFuRHVjLWRtVTU4V1pUU1NmQXEtMnFDYkcxQ18xbzc1Wmw0?oc=5",
+      "region_ids": [
+        "nt_east"
+      ],
+      "regions": [
+        {
+          "id": "nt_east",
+          "label": "新界東"
+        }
+      ],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-9",
+      "date": "2026-10-25",
+      "time": "17:52",
+      "published_at": "2026-10-25T17:52:14+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "明報新聞網",
+      "source_url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPQW5IMmRFVi1ZU2U4LUt2c1Q5YVUtdUh4U1dWNEFxOFJ1cHZXa2syRTNkSHFxay1MVWlxUENSQ3M4dlNLaVBuVlRKVFhoSkh0MHA2Y2hKbXVSWDFIaEdWS19pZk5Yel93UG1HdHBTQXBidGxwUGNCRXZIMXBqUEZ2Nm5QLVdPNEpfQ1BjSzVxVWhhQXlSUktqcXFwbVpoSlRQN1VIdEZjQ1EtVzNtNUxrWFloTlFtR3BfREszcUIzaGhZdUpmTC1CZzZGdzhhaE5teHFaRWdPaEVjTXJaLXF4QWFqelQteHFjUDhPa2o4WGxXdU1zQmx3aUF4dzhsbE5YNEg4eDA3a0M3alMzN3NDM0RwYzBlNTZlWm1RU3oyclVpSVZpWjhYcWZueXdIdw?oc=5",
+      "region_ids": [
+        "nt_east"
+      ],
+      "regions": [
+        {
+          "id": "nt_east",
+          "label": "新界東"
+        }
+      ],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-55",
+      "date": "2026-10-25",
+      "time": "12:00",
+      "published_at": "2026-10-25T12:00:46+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "香港01",
+      "source_url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxQN2hTSk5qLVRXS0x3WlNIOGpGLXZJWlZ5M3VtRzlNelB2MWN2MlhQSUNHeEJLLXdrajU4cUlOSzAyM1FGMmF0T1N4bVVQZ1JGSlNxZmRTaVE5UEQ0X2hpaDFZMldpZWFtUU9ma2Q0b3dBUDFaWkJOdEl1ZnVYYUxrbXFtZ2h2T3ZvanBZUUtYY1l1Q3AtZVlpR2ZSWVpZemo2THViQTJXdHd6SlByX2ZXUWNKREpZVHlob2pEZ0Yya2dwak1ncGNpMDQxZ2NOUE5ZUUgzdGtFZi1uSTZzSHB4b0h3NDVoSno0bWRyYk1kNUdsaFVrdWotSmtvVGxNM1Y2bXRUN0ZWbHJINGFDZldKQVQ5dHNmWUY0YXp4eXpQU3hBZGxjTkQtQVZ2cmRIelRkbGktd0lEMlpSZ2NWbzVXTGRRQ3Z2djJXME9wakh5d2k?oc=5",
+      "region_ids": [
+        "nt_east"
+      ],
+      "regions": [
+        {
+          "id": "nt_east",
+          "label": "新界東"
+        }
+      ],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-106",
+      "date": "2026-10-25",
+      "time": "11:35",
+      "published_at": "2026-10-25T11:35:12+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "星島頭條",
+      "source_url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxNQ3dRd2M2UG1UMnk5VVFjbkJEckZ2RlR6aXNfRDNzYlVtYmlGSHVwbnI2TGxfbTEyQ05waHhXUkxHdFNLLUNsMkM5TlRVWlRYZ2F5ai1yV2ZQSVIwUFFCenBDbldEc2oyMjRPR1VHWFpIYmdtYTFyYkNuZkViRVVvSnlhUVlUdXpteFdhSnFqcFRXeWd3VUtTY0dfaXVQMXlFbnU5MVpoSEdOMmcxVlFPcm82eTJ4bUtyZTBKSmJtYmZVMFgzNk9QZnNWRW55Q0NZVUg0WFA1emNyQ1hnRjNXbVp3dmJibDJIVG90SmJFMWg5QVE0TXI5MXJnZmdiaXptNExCWGtEWDd2NXM3dlgwWXpZX2dsbTF3NTlndU52a1hYSTkwa1hNYWhWUk42Wm5TQ2Q4RWdWeWZyVmR1ZnFDMk1ZWXIwY1J0MkxvaXAzMkdjckEtZU5UUjRGSFVFOGpRQy1GdXh5ZGZ6anZ1dERfXzl3UVlad3hocWVRRWRkeE16YktIbkZLUGpEZm4zVlk?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-46",
+      "date": "2026-10-25",
+      "time": "11:26",
+      "published_at": "2026-10-25T11:26:19+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "on.cc東網",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3F5X0I5MWFZcFFJR1NsSXQ3RDMzMUJjajFfSlVXXzZEVGVHT0J3UjU1NjBreG5mY3VyZ1RVanh5U0liODlmd240VXBxV2syX3NPWEVjWlpsTTZsYmRmNFkyeExCWlZBbGx4WGlVZno2R0hOZ01aNTJJTWYwd3pnU0o1d2kySkpxaFNr?oc=5",
+      "region_ids": [
+        "nt_east"
+      ],
+      "regions": [
+        {
+          "id": "nt_east",
+          "label": "新界東"
+        }
+      ],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-12",
+      "date": "2026-10-25",
+      "time": "04:08",
+      "published_at": "2026-10-25T04:08:04+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "星島頭條",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOVkNVTnc5emZ0UHVITGdXeHNKbm1EXzlkc09KVUdkbWZtblRna2FPbnVkZVk4MUVvaVJiZ0tDLTFFVVdsNTNIOVgzTm1nMDFocFg3NnR5ankxeDBwS3VDWExGQVdNRDdRSTBLcXJGV2ZsQzJISXZVZ2FGMXJLUnJLekhfd2FsSFZ2ZVJ1VTk0amtJQUZtUEcwMTZUNzBHQzZBNmstZGFadUtpMUoyWTVBOU5Ody04djZlWXVqY05ISU9DcmtkNlpybjJtcnpaY2d5Q1J1dWFES3c2UzJVTllCNmxwYi1IOFE5aE9QVFp3NFBfXzBHaHNGaHMxdlkzT085T05lTmJ1RmtuNzF0MFZHQWVHcER0emFDUUhaVHpmUW1oWGU5VjVmM2pBQkdYMnVwdWdKcDJXOGdKVDRyZ1NNcnl2dw?oc=5",
+      "region_ids": [
+        "hk_island_islands"
+      ],
+      "regions": [
+        {
+          "id": "hk_island_islands",
+          "label": "港島及離島"
+        }
+      ],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-24",
+      "date": "2026-10-24",
+      "time": "17:06",
+      "published_at": "2026-10-24T17:06:59+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "香港文匯報",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5CNXQwX2Y3dkVpcWM4X3pjV0dlX29HQk1MT2NaZWN1X0ZQdFRVVUlOUm1PeV9nTUJUV1diendxQ3I5ellpeHVwa3BnekFHRC1haXN1YTVNZS0wdzlnaFh6eWtnZHozYVU2RTFmY0hudkVhUkI2VVFJ?oc=5",
+      "region_ids": [
+        "nt_east"
+      ],
+      "regions": [
+        {
+          "id": "nt_east",
+          "label": "新界東"
+        }
+      ],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-28",
+      "date": "2026-10-24",
+      "time": "15:10",
+      "published_at": "2026-10-24T15:10:34+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "明報新聞網",
+      "source_url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxOZmhLa3RKWXV4RWpfUVlaX3V4T1R1dzhSSHNLb3lqc3N1NWsyRzJCMUU2dHRsMDhTSVFSV2F4TXMydkxIb0s5aERnRFlMS0puQTJzSWFTb3htdUVnejBMNnEwOEs2YjBDcFg1bzNZN2tnMnpKNTNpSnFvMFR3QXRmcFk1dDN4bWlXbW04MUh6RXJsNVUwZVZhZ3VsWkFpUFBJVGJGeWJXV1NaMTFhZTAwWEV4Q05zRUlqR3ZUM0NCLTgyMjJjVW02RFFPazg3cXpKbjE5S1ZLNjY1X0RXX0ZuR0dUQTIwQUdWeGZyVWtremJ1enROVjVQR3Rpbk1aNjk5V3FIWDhUVEwwQ3dseS1teDg5SHBTUGtteWlTamxQb25Wd1hBaW1xb1ZzbTNqSUUwOTBGckwyQkhQM2tqWkNXT0J0OVNxQXBrbUdYbFlhVlp1Uk5wM1FFdXlBdlM2ejQ0Slp0U2RxeWhJbDhvOXVKRjBweF8?oc=5",
+      "region_ids": [
+        "kowloon_west"
+      ],
+      "regions": [
+        {
+          "id": "kowloon_west",
+          "label": "九龍西"
+        }
+      ],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-57",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "published_at": "2026-10-24T15:00:11+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "星島頭條",
+      "source_url": "https://news.google.com/rss/articles/CBMigANBVV95cUxQQm1zSEctblNoQUU5dE1zV0Q1MEJDenk1S3AzMS1wdVgtSElEZ05BdWVWMHRkMzNaWkU0ODdoaTUyVkV6c1g2cmhqWTJrZmxHSGdfaXQxa3JqVnR5ZDhITjVud2R3MXVhTktPZC15VmgtQmIydWJ0YlF6dnNFYk1GS3FnQU14NzBWUXcxZ3g3bklZU3dMZHAtX3B3cktSblY4bGN1ejVTUkcwel8yVjluWlJIcGNaNmJMRWZDeGFFVGlKMWJ4Vi05cXlGZ1lBa3l6elRMLWVhbkhuWnE1MWY1Nm8wbWxTcF96X1Vab0ZqdjZzbF9KY1A4RWdrSGlwSjJlcmtfZGNFOXlVdEFhQ1h3cTBJd1hpTkZMbldXUjFBbE9oMGJFdkI2bk5hNnphMGM1QnhJM2VRanNXT3k0S3c3d1ZiS0lQYkpXdnRHMmNuZTQ3NjRVWHRFb3RBS2NMeTBkZDFoTUhUbFlKUWNNY0xrb3BHbXdCZXZ3cEpiTDdFSHo?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-27",
+      "date": "2026-10-24",
+      "time": "12:46",
+      "published_at": "2026-10-24T12:46:05+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "香港01",
+      "source_url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxNczlCWG1BZUV2OHR0dWx1X1FyRDBpYnAyS0FmcUc4T2lfa1dOanhPbXhBYm12cXJZa3JyVjR5OEtvOWgxM0lGa0xEYkVsejBHVXVySjAyTkhoTUUxZnJ2bklpQ283VHJ3d2k5RHg0LVZIWlhIN3NESVZCMlBCTVlVRmNPS0tUU0lpbHFzY05OSkw1SnJ1YUFraTRTcTZpNWJEU0hja2VzeVM1NS1zeGEwTDJZS1dCS3FiY3liMWtjWloyRkZxanlUZ0pnbElneW9PQVJLZFN6QU5Qb0pQQmxvaUdCRDdNeVYxTDRZZGZfeTk5SnNWb2NPc0VTbDFrVFR1Qm4wdVR6b0Z2UDJBWi1JTG5JZEY2dkVCVWxjVVJNNWFxWXk1TXFocTE2R0ZtMUJzamU3WlY2SndKb3VFZDlNRmdXRm50WTItTnY0Nm5yak1HQTNPZWZqOUVLQWF0eFJ3MC0yRVpGbm5SV3p4?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-97",
+      "date": "2026-10-24",
+      "time": "07:09",
+      "published_at": "2026-10-24T07:09:53+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "on.cc東網",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVDlwQlRYWnY5OTFIc2lnb28ybG94dnhSTFpUUS1YTXdwLVJZMGZwOWpMM1MxQjdIVndsYlhDZERqYWxrYkNQWVlvOU1MMGUwbU5pdWtqLWdFUDQ0dUhEc1JZR19GX0ptWjRhcWRnYUdHenNsV2ttd0NQdjJqNTZ5LWRpTTFaZ19YYlEw?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-115",
+      "date": "2026-10-23",
+      "time": "14:11",
+      "published_at": "2026-10-23T14:11:46+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "on.cc東網",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWFdfeDk1bTItYldPQlYxdmZ4MTY0dDg0SlZRTWl5aWJfaTdqVVZ6blVtTW4ybFlPTm1XNG8tY3dKeWlyZndYSDFiNklidGY0dWh3M0JWeVNKSENla29qeUZSbU13dTltWVVKQW5fcjRJN3JweEpkbkw4NmdOUEtHN3RJeWJTaU5pa3Q4?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-17",
+      "date": "2026-10-23",
+      "time": "13:41",
+      "published_at": "2026-10-23T13:41:46+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "on.cc東網",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxON2drTWgtSnlHU3E2QVZ2TDNwRmdoLVE0MGFFMTk4VXpIU2tydUZVbjdObWc0aXBOYWNIYjBTdTJaTEo1azdBZGtMQmZ4TEZaaXhaaEJ5dVNaVjRiS1NNNjlUZDF1NXpJbklzZ0M3ajliTjlCc1lpVG5qb2RxR3NZY00ta3R3UERnRWo0?oc=5",
+      "region_ids": [
+        "nt_east"
+      ],
+      "regions": [
+        {
+          "id": "nt_east",
+          "label": "新界東"
+        }
+      ],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-88",
+      "date": "2026-10-23",
+      "time": "03:00",
+      "published_at": "2026-10-23T03:00:00+08:00",
+      "category": "精神健康",
+      "category_id": "mental_health",
+      "category_label": "精神健康",
+      "title": "青協指6 開學適應期現抑鬱表徵",
+      "summary": "精神健康相關公開資訊。詳情以原文為準；本頁不載個案細節。",
+      "source_name": "星島頭條",
+      "source_url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNRlRCaXJMTzBsRFVvaXYwZkFFdzQxZGEwZ3VnOG5GQ2w2UnBlS2FrNll3alE2d1FEN2xnNjJfcVNqMTRXNWdxZVdGOGlIMlJneFY0MndaU2gxa2hLLTY2S3NUOTM5bE9oaU5WTjZCSnY0YlIwM1d5dmtJNmpfNXNCbjBranNRblo5dEhURV9QdzhScTd0Z3hmdlI4blUzWEJzdzVoYl9qZ3BBSHFCeGhFZVZoREs0Q29hM0t3OVllemIzaVNyc0lfX0ljbGUxQ0dFakthdHNTNmxMWERub1lGeVNlVUczSlpvcHFxMm8tdjdRWlE5ZU12RHhiQXdEd3paNXlfandWaURBV0xmc2dMV0g5aUZJZHRFbGVfYnJjaExfRkg0QWFYcDhjdE9Yck5kakl6RDZERWIzV0RfUGdteDQ3ZTE1QQ?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-80",
+      "date": "2026-10-22",
+      "time": "21:38",
+      "published_at": "2026-10-22T21:38:00+08:00",
+      "category": "精神健康",
+      "category_id": "mental_health",
+      "category_label": "精神健康",
+      "title": "調查指五成六受訪學生有抑鬱表徵 青協籲家長留意子女情緒變化",
+      "summary": "精神健康相關公開資訊。詳情以原文為準；本頁不載個案細節。",
+      "source_name": "香港電台新聞網",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SMTJvSTM0WXk3V0NKR2R2dC05NFYtVllzTktjeWQ2VXdKckxfenVwbjg2bHUwVHJUSVo4Zlp3alQ2ZWktb19HeWdpZGxadlBCRFFSWlMtX0R0LVV2MHhzQ1ZBQ1ZqZTNvdVI5VEFUQQ?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-83",
+      "date": "2026-10-22",
+      "time": "21:26",
+      "published_at": "2026-10-22T21:26:00+08:00",
+      "category": "精神健康",
+      "category_id": "mental_health",
+      "category_label": "精神健康",
+      "title": "表徵風險更高 青協倡家長留意子女行為變化",
+      "summary": "精神健康相關公開資訊。詳情以原文為準；本頁不載個案細節。",
+      "source_name": "TVB",
+      "source_url": "https://news.google.com/rss/articles/CBMi0wNBVV95cUxPWU1XZC11RWxGS0ZvS2lqTVJYVk1URnVyT3ZqRWZVcnYtME9xY19Fek9zaldWdzJ2WjlOb0lZZUt1bkdnU01IX043ZUk1ekw1emJMWi0wVXNCaFlEcVd4Q3VjNjJDOXY1eGhrMEVPOENJNVFuVDVmT2lQYS1OX1Z6S2pNazYydlRpbURwYlRCUDh0dDI0czFRUWVwYW10azZYWTZzemVkLUdaZ0l6U29ESUF3NThzQ0ZZX0k2STVmNzJyQ2J0RjBENDVvQ3N3UFF0c2hqenYxaW91aTJoMDF0V1F4MUJWSUl3Q0FtWGpibWhMSkREcTl1TTFzdHgxMWZCNXdPN0ZYejVvZWN4Qkgxa3k5cUNLVEpUS3NVbldCLTZyQWFESjBmR1ltUU41YkgxNFlsc2VVbzdLbWQtbE5JanJLcnNvbi1rajFUMW41SjE2OTFfU3cwQnhoZmRSRlk2aGVJc183aktudUY1LXpJcURQdm1adnlNaGtPMjV5Rjd1Zm9IbnQ4TmREZ0Z5S3FtTlVvR0R2YXlWVWpYcjhjdnJ5RVp6Qzd6UHhaYkRGOTFmS3ZFYzNJSzlEVms1Sy1uY0tMa3VyT3E0VmVxdmN2bzd4QQ?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-86",
+      "date": "2026-10-22",
+      "time": "21:18",
+      "published_at": "2026-10-22T21:18:00+08:00",
+      "category": "精神健康",
+      "category_id": "mental_health",
+      "category_label": "精神健康",
+      "title": "中尼邊境泥石流 香港紅十字 提供精神健康援助",
+      "summary": "精神健康相關公開資訊。詳情以原文為準；本頁不載個案細節。",
+      "source_name": "TVB",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwNBVV95cUxOWTVGSmpUTG9WZUdFRXRGLXVNM0FzYVJpbnlKUFpVN1lJSEhwX3NJZENRb015WGVCMHJVdTFJNWFfcEdoNlZJLWxkY0M2OVQ0MVlBcGp4ckxaeURtc2hLLURlVkNMOGtIUHJfXzBicGpqN0pqSmlUR2FPVVVXMnBSR3NZYngwbVdOejk1UVRxZk5ndzVCajNQVlZmQ09SbGNOS2RObjgzc19mVkhDN0s2NUxCUHh0Q3VRcmxUbUhMNFZCLXRKaHB0MFlnLU1Fc0pMbmdKTG1JcERmbFBNTUt6dS1ELU5LRF82N3hnVFF0bmdnLVR6NzB6T29tR0oybGpNV3NzUFgxOU00RnA2Vm5VU0xvX1QtemM1Qnl6Q0l1MlFORTJ0RDRhMWxJZTBTZ3NoR0pWVXBPSTJQYThYSzVuRnNwSDlPcEVNNkZqVjdoT0drRzRETFQ1c0lndzU3Z0JKVXhYWGlRWTNpdjQ1RTdvb0lGcHFRM2tYMEEwNGRmaVFlbzRUcy1VVXZFVEpJZGplNUtzbFRmVk0tRzE4Q01XeWRLQ0hqS0ZwcmpwTFdzUkN6cFRJczQzVmhDUQ?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-77",
+      "date": "2026-10-22",
+      "time": "18:13",
+      "published_at": "2026-10-22T18:13:42+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "AM730",
+      "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBlZFhvYk45SkJRcnJma2hIYnYwZVQzb1hiLVZIUkZpQXBmVmROdXRGUUtNVlc2NzgycFd3UEYtOGF2MmJYOHBjcFduOTR0ZHMwcWc?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-84",
+      "date": "2026-10-22",
+      "time": "18:03",
+      "published_at": "2026-10-22T18:03:02+08:00",
+      "category": "精神健康",
+      "category_id": "mental_health",
+      "category_label": "精神健康",
+      "title": "高不下 過半有抑鬱表徵",
+      "summary": "精神健康相關公開資訊。詳情以原文為準；本頁不載個案細節。",
+      "source_name": "on.cc東網",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQR0RMMEpzNm1QMXZvWTRyY0tjYV9nOU9FaTVNOTRidmV4RWNjczk5YUV2YXlZRnBBbTFSSnhVT0hOcmJwSU9mcmFEaklNNHlGVVpNQnJEbWpwREpMZTlGWnJ5eDJ1UFZGTEJKRjlPZGloU0FfX1dpc2xjOFNGSXZkOFlEUWZaZ3BWbGh3?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-74",
+      "date": "2026-10-22",
+      "time": "18:00",
+      "published_at": "2026-10-22T18:00:47+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "星島頭條",
+      "source_url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxOU2tkc2QycTZsZlQtelliTGpkaTFLQ3VUVmtRR0lpVDNiNG5ockg2VEtWM3EtZzZkS1RMbmxFSjFpd3BKV3NYWi04cFd3dzNxREZOT3hESVdmamdKT0pqNHo0S250dGx4VVJwMWQwaVVHX3lkMU1xN3hCWG5GQU81LWY0MEgyUW91aXltcGxKVF94QllmbWpWbWNTeGJBQXNEOEpTcWNZdDJZM2JaLXBQVjJXNmRxVzRGclBEMmRfQncxeExnUXhlMXMza0h1SGV6c1pXS1BId3JVZ0JhV09NRGZSSmVfLUJHcE5IRFZkZDBNb2tXcE44bHV0S2FGZnRyWk5WUUlqaEFtNmdvWll0aG1nY25ndzdOU2dfZG45akhvblhWRllNcVE3dVN1NzBzZkJiVU1NN3g1SG5sbFRVOUVBWW81eVFuTTBiR2F1REt6RjBJdzBBT010ZjZFc2dkRVdFTFRQQmNCaVZrNE4zOFlOcGJtQQ?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-20",
+      "date": "2026-10-22",
+      "time": "17:53",
+      "published_at": "2026-10-22T17:53:07+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "香港01",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxNTGJyRHl6cFhQc2FpWHZQSmh5R2FvbjItVWpaQU5UZnJ5aEJyVTM3SUFva0JFMDdRU1ppUndZLWZSNXY4Q0ZtcWo1Rkw3cVN0NDFWSk4waEpyX1FudVpEUy1VZmhXNS1ybG5HYWJSOXRxeXlRZW82RkNYQkVIUkdwblpaaDAxaGY0MTRoSWVtNW9Ta3BqOEpPSlJSLU1jSnhSR0VtXzNPaWZwOEhqN3BuOGJncU9JaXNoWFk5X0RhSGlUeWJGTkhDR0NhZUhVcWJBTVFlb2ZvMm45c0prekZrS2Flc2NZMmZLTFdDcjVLRmRYQnREWnJWSXRidkVaLW9tZW81UC1yQjhwUXlrcV9pTE9WZ2FzUjNRS0lSZG5SZ3ZlU3ZQZTd3eDNKSnNVcUpHU2hCVmpxV1NqM05VNlp4T09feTZoV3JOUDdBb1U1QTRTTWJXeGFlaEx2N2xWWDY3M2hJM3JhRzZhSDhudFBGUjZ4MHB6aXczUzZxa2YycDZzd1E1T2UxX3h5UURpOVU2VUdUWFFlSHB2b0pVVUZBWFpvaVQ0MERPRkdr?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-108",
+      "date": "2026-10-22",
+      "time": "17:29",
+      "published_at": "2026-10-22T17:29:00+08:00",
+      "category": "精神健康",
+      "category_id": "mental_health",
+      "category_label": "精神健康",
+      "title": "香港調查指逾五成受訪學生開學後出現抑鬱情緒表徵 曾向AI傾訴",
+      "summary": "精神健康相關公開資訊。詳情以原文為準；本頁不載個案細節。",
+      "source_name": "www.hkcna.hk",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKTEhORlFNRnBOS3I2T196dlBDelFpYVV4dDdzQ3JyLW43UVdFSXFTd3Y2elZ1Q25TLWE3S1lGRGQ3OUJadkthQVFzV25ZUjFWTFJBTERGTG5qbEFWUVN6TjVya0ZUQWFHQ28xaWs4MA?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-82",
+      "date": "2026-10-22",
+      "time": "15:57",
+      "published_at": "2026-10-22T15:57:31+08:00",
+      "category": "精神健康",
+      "category_id": "mental_health",
+      "category_label": "精神健康",
+      "title": "青協調查：近6成學生有抑鬱表徵 呼籲正視隱藏心理",
+      "summary": "精神健康相關公開資訊。詳情以原文為準；本頁不載個案細節。",
+      "source_name": "星島頭條",
+      "source_url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNNVZSYmJPT1JlV0lWX0dMa28xalBOa2M2OUpGY2IxX21HaGJTaDFrcGJROTFSeVZUeWlNNmVrc3NvUUdGbktlczVlbmZnbEFQaU82OGo5eFJKbHFaZUNVZDBmSFNHQ3NtLV9wc0dNWDVhUmR0RTFIVDlGZ1lSQjBHbjctU19ZSmlOZFgyeU1xSnN0T1BzVmUtYmFUbm5nS1IwaW9YVUl4WjVzajJwa3JNdmN2UUZON3BFTWZlU0ZKWmNaV3NqZTFlSkZMLTJWVnBKc1c5Qk1RcV9SU29hNElSZ2lfWXVxUWw3aWZwOEZRbTl1QVF1LUp4MWxTbzVDdVBRSTRZa0pyeUpiN0JNbmtuaHpWdVhicnhZVll0bmJENzdYdE1DZ2lfVUdpZXROQW82UFJ0VF9CS1R6elZTVTIwQWl2U2dyMmtRRXFQXzlpalFDR29rcXQ1dHp0Yw?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-13",
+      "date": "2026-10-22",
+      "time": "13:05",
+      "published_at": "2026-10-22T13:05:23+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "香港01",
+      "source_url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxOcDFOdlhQdC1qa3dVbjk1c3hFR2xRcEtURVU0RnMtRXQzNnZRcUU0ZlljQ1p4UVB1RWx5bEw0SU1POVQ5ZGpReDhKM1E5T0R4MHBscVUydnRYSHVYSU9BZF9BcDJhRllfdzY2YXpZRnp6REFKeHZ1d3RYaW9rdWFMOVNCa3lRNDBkbjFaVGtRZ1I4TG8zd0JsUkZxTzRvd21TMEFGYTlPcHNvdHZxVXpGSjVvX09PWEpIRjdNLUI3UkxxQk5YZUtzdldPN3p5MGRPNVJxT0RFWDVkVHVqRDNPZ2pyVkExT05ucm5XYzZwLTBQd0Ytci10M21PanVxRWM0b2JnXzVCckcxNHRIRmo0ZTdZTFNYVDVJa1ZKRGViSHNuUG5TVkZyUHVnRjlGOTB3OXJFZFpqemtMUzVOMkF5dUJzQ0R3enFhbWNwSHlYN292V2xIMUdRUjMzZ1RqTHJRVVRoaGlZZ3Z1bWFSQVFYQ3ZyX04?oc=5",
+      "region_ids": [
+        "nt_west"
+      ],
+      "regions": [
+        {
+          "id": "nt_west",
+          "label": "新界西"
+        }
+      ],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-35",
+      "date": "2026-10-22",
+      "time": "11:24",
+      "published_at": "2026-10-22T11:24:14+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "dotdotnews",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hWHVESDdMeVJObkFWeE9fVFhlVS0xZ1lpeUY0Uk1iNTNfVWRpV1NKZ0tLaEZDS0NlNlc1U29DZUdoLUYxZVl6SzBtLUJ0Zlota2JCVHhqZllvTmVNMElaUnU5U1ZiMG1JR19kRVZIeUw2cXlJczVDSktn?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-25",
+      "date": "2026-10-22",
+      "time": "10:20",
+      "published_at": "2026-10-22T10:20:58+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "on.cc東網",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbTN0TmZCcUp2NzIteWlkLVNLMEduMGo2UXcwTlVfSGFNV2hnQ1BrRmNIVUFXRWkwb1hSZHdNN0N1SFh2MVZvRlFXcXhiZTJNaG15YUdBMWtFQkVDRVk3UGVIdlllbGtuZUJoekw1aHBYclNhcGFrTFJmYy03U0Fjbkl4bHFWeHkxbENN?oc=5",
+      "region_ids": [
+        "nt_west"
+      ],
+      "regions": [
+        {
+          "id": "nt_west",
+          "label": "新界西"
+        }
+      ],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-5",
+      "date": "2026-10-22",
+      "time": "10:07",
+      "published_at": "2026-10-22T10:07:54+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "香港01",
+      "source_url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxPelQzdk9xQ3Q2Y3VQMHRTQjF4YlFQaEU0Z3U2VG8zSnpFQWgtaTlMWm9tV2FDOUoyRkxBUDFWRFV1OU9oMzl2MldSVkM0NWtpb2lfSHhpZ08ydW44YzJUSWQ4NUNsM1Y4ajhIVWdDSTI2S2I3Qm1icWNOXzg3c0R5eWdsaVdBeGw3Z2d4YlRMSjFmOUxnSDFoanEzNG5aQUZVOFlHVUlIVHN4Nzc4WjZ6NkpYN0szRXlKSXpNeFhFLUhja2xNWF95Mkk1UFFtd21ISl9JemhRSUMxVVp2YnJTLXhXYVhZaEJRTXlnakhqcXZBTnZaaWJFUnJ2SDdmTUM0VGdqbDkyQnl6NWVtYUxKSkM4ZnFmWXlDU3ZRRDdBMEF2MjI5UWNDNVNVbEt1N3RZaUNtN2RiSFFWeE11Y2xMYThSaTdjclUyU2xiaXNnXzBNY3NYQi0xN0tNeDc0dEwtdzExTldIcE8tUQ?oc=5",
+      "region_ids": [
+        "nt_west"
+      ],
+      "regions": [
+        {
+          "id": "nt_west",
+          "label": "新界西"
+        }
+      ],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    },
+    {
+      "id": "pub-3",
+      "date": "2026-10-22",
+      "time": "04:30",
+      "published_at": "2026-10-22T04:30:00+08:00",
+      "category": "生命危機相關公開報道",
+      "category_id": "life_crisis_public_news",
+      "category_label": "生命危機相關公開報道",
+      "title": "公開報道：一宗香港相關危機事件（詳見原文；本頁不轉述地點或方式）",
+      "summary": "本頁只提供來源連結，不轉述個案細節、地點或方式。內容以原文為準。",
+      "source_name": "明報新聞網",
+      "source_url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNLWJpX1EyRExsRFVIV0pzcVFMdUZzcUdZZjFuaWY2eGs5S3QxMVI2Y0htWVE1SGNIZHA5QzhmQTFjTldhaDBjb2xwRld1UWktY2diWXNaX0pPcTRranc0a2hkWFAyYzJ6dTRVUVlOX01LM1VDUlFxb216ZGJVM2tBc3kxR3ZzMGNBcWhRaEtlT1ZpcnZXaDR0VEZlMHI3am9INlBPb1hUVC1VUzdBRVRlX1pzdHFFbTJwaVBvb3F1Nlc4b2VtX09fYTJrb1JqWHF4RkpSNW5PdlF6TGdxeHVaVkRteEt6cVVVY0cyVVlKbXFlX0NyT2g3X2QtMEs0WVBKbmIwY2N0dEdCYm5oVG15LUg0a1NPd2Z6WkZNbF9MQlU?oc=5",
+      "region_ids": [],
+      "regions": [],
+      "is_territory_wide": false,
+      "updated_at": "2026-10-30T11:37:33+08:00"
+    }
+  ]
+}

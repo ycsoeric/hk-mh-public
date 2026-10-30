@@ -564,3 +564,241 @@ a.card:hover {
   height: auto;
   opacity: 0.85;
 }
+
+/* —— Public news feed list —— */
+.news-feed-meta {
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+  margin: 0 0 0.75rem;
+}
+
+.news-feed-status {
+  font-size: 0.95rem;
+  color: var(--ink-muted);
+  background: var(--bg-soft);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.15rem;
+  margin: 0 0 1.25rem;
+}
+
+.news-feed-list {
+  list-style: none;
+  margin: 0 0 1.75rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 100%;
+}
+
+.news-feed-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.95rem 1.15rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.news-feed-title {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+.news-feed-title-missing {
+  font-weight: 600;
+  color: var(--ink-muted);
+}
+
+.news-feed-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.75rem;
+}
+
+.news-feed-when {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
+.news-feed-cat {
+  margin: 0;
+}
+
+.news-cat-badge {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: var(--bg-soft);
+  color: var(--accent);
+  border: 1px solid var(--border);
+}
+
+.news-feed-source {
+  font-size: 0.95rem;
+  color: var(--ink-muted);
+}
+
+.news-source-link {
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.news-source-text {
+  color: var(--ink);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+
+.news-feed-notes {
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+  background: var(--bg-soft);
+  border-left: 4px solid var(--accent-soft);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 0.85rem 1.1rem;
+  margin: 0 0 1rem;
+}
+
+.news-feed-notes p {
+  margin: 0 0 0.5rem;
+}
+
+.news-feed-notes p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* —— News filters —— */
+.news-filters {
+  margin: 0 0 1.25rem;
+  padding: 1rem 1.15rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  max-width: 100%;
+}
+
+.news-filter-fieldset {
+  border: 0;
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+.news-filter-fieldset legend {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+  padding: 0;
+}
+
+.news-filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.news-filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg-soft);
+  font-size: 0.9rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.news-filter-chip:has(input:checked) {
+  border-color: var(--accent-soft);
+  background: #fff;
+  box-shadow: inset 0 0 0 1px var(--accent-soft);
+}
+
+.news-filter-chip input {
+  margin: 0;
+  accent-color: var(--accent);
+}
+
+.news-filter-hint {
+  margin: 0.55rem 0 0;
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+}
+
+.news-filter-date-mode {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+
+.news-filter-radio {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.news-filter-date-range {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin-top: 0.75rem;
+}
+
+.news-filter-date-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+}
+
+.news-filter-date-field input[type="date"] {
+  font: inherit;
+  color: var(--ink);
+  padding: 0.4rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  min-width: 10rem;
+}
+
+.news-filter-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.news-feed-regions {
+  font-size: 0.88rem;
+  color: var(--ink-muted);
+}

@@ -26,12 +26,12 @@
     }
   ],
   "public_stats": {
-    "shows_individual_items": false,
+    "shows_individual_items": true,
     "theme_category_count": 5,
-    "display_line": "資料說明上次核對：2026-10-30　·　主題類別 5　·　本頁不展示個別新聞或個案"
+    "display_line": "公開列表顯示日期、時間、類別與來源連結；不載個案細節或方式"
   },
-  "disclaimer": "主題類別只說明整理範圍的高階分類，並非臨床診斷，亦不是個案宗數。本公開頁不載個案、地點細節、方式或個別報道。",
-  "generated_at": "2026-10-30T10:43:21+08:00",
+  "disclaimer": "主題類別只說明整理範圍的高階分類，並非臨床診斷。本頁可列公開報道來源連結，但不載個案細節、方式或關注程度分級。",
+  "generated_at": "2026-10-30T11:22:00+08:00",
   "canonical": true,
   "source": "MH 公開數據"
 }
