@@ -1,0 +1,50 @@
+{
+  "section": "危機相關公開新聞整理",
+  "section_subtitle": "公開資訊來源之整理說明——本頁不展示個別報道或個案。",
+  "body_paragraphs": [
+    "本站相關工作會收集及整理香港公開報道中，與精神健康、情緒危機及求助相關的新聞資訊，方便服務同工掌握公開資訊動態。",
+    "整理結果只供內部參考，關注程度僅作資訊排序，並非臨床評估，亦不是個案系統。",
+    "本公開頁不展示個別新聞標題、內容摘要、地點或任何可識別資料。",
+    "若你或身邊的人需要支援，請使用本站「求助熱線」所列的公開服務；面對即時危險請致電 999。"
+  ],
+  "last_reviewed": "2026-10-30",
+  "timezone": "Asia/Hong_Kong",
+  "public_stats": {
+    "shows_individual_items": false,
+    "display_line": "資料說明上次核對：2026-10-30　·　本頁不展示個別新聞或個案",
+    "theme_category_count": 5
+  },
+  "disclaimer": "主題類別只說明整理範圍的高階分類，並非臨床診斷，亦不是個案宗數。本公開頁不載個案、地點細節、方式或個別報道。",
+  "forbidden_on_public_page": [
+    "individual news titles",
+    "summaries",
+    "districts or locations",
+    "source links to incident stories",
+    "concern_level breakdowns (high/watch/general)",
+    "methods or identifiable details"
+  ],
+  "generated_at": "2026-10-30T10:43:00+08:00",
+  "theme_category_count": 5,
+  "theme_categories": [
+    {
+      "id": "mental_health",
+      "label": "精神健康"
+    },
+    {
+      "id": "crisis_help",
+      "label": "危機及求助"
+    },
+    {
+      "id": "priority_groups",
+      "label": "關注群體"
+    },
+    {
+      "id": "risk_stress",
+      "label": "風險及壓力因素"
+    },
+    {
+      "id": "life_crisis_public_news",
+      "label": "生命危機相關公開報道"
+    }
+  ]
+}

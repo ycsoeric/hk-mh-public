@@ -1,0 +1,37 @@
+{
+  "section": "危機相關公開新聞整理",
+  "last_reviewed": "2026-10-30",
+  "timezone": "Asia/Hong_Kong",
+  "theme_category_count": 5,
+  "theme_categories": [
+    {
+      "id": "mental_health",
+      "label": "精神健康"
+    },
+    {
+      "id": "crisis_help",
+      "label": "危機及求助"
+    },
+    {
+      "id": "priority_groups",
+      "label": "關注群體"
+    },
+    {
+      "id": "risk_stress",
+      "label": "風險及壓力因素"
+    },
+    {
+      "id": "life_crisis_public_news",
+      "label": "生命危機相關公開報道"
+    }
+  ],
+  "public_stats": {
+    "shows_individual_items": false,
+    "theme_category_count": 5,
+    "display_line": "資料說明上次核對：2026-10-30　·　主題類別 5　·　本頁不展示個別新聞或個案"
+  },
+  "disclaimer": "主題類別只說明整理範圍的高階分類，並非臨床診斷，亦不是個案宗數。本公開頁不載個案、地點細節、方式或個別報道。",
+  "generated_at": "2026-10-30T10:43:21+08:00",
+  "canonical": true,
+  "source": "MH 公開數據"
+}

@@ -10,6 +10,7 @@
 |------|------|
 | `index.html` | 首頁 |
 | `hotlines.html` | 求助熱線一覽 |
+| `news-overview.html` | 危機相關公開新聞整理（高階說明） |
 | `about.html` | 關於本站 |
 | `disclaimer.html` | 免責聲明 |
 | `styles.css` | 共用樣式（流動版友善） |
