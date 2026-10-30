@@ -149,7 +149,7 @@
   (function () {
     var FEED_URL = "public-news-feed.json";
     var DATE_MIN = "2026-01-01";
-    /* 五大粗分區 DEFAULT；載入後以 feed.regions 為準（唔顯示九龍中） */
+    /* 五大粗分區 DEFAULT；載入後以 feed.regions 為準 */
     var DEFAULT_REGIONS = [
       { id: "hk_island_islands", label: "港島及離島" },
       { id: "kowloon_east", label: "九龍東" },
@@ -464,7 +464,7 @@
           }).filter(function (r) {
             return r.id && r.id !== "territory_wide" && !HIDDEN_REGION_IDS[r.id];
           });
-          /* 以 feed.regions 為準（已隱藏九龍中）；DEFAULT 補齊五大區 */
+          /* 以 feed.regions 為準；DEFAULT 補齊五大區 */
           var seen = {};
           regionsCatalog = [];
           for (var fi = 0; fi < fromFeed.length; fi++) {
